@@ -1,13 +1,11 @@
-import React, { createContext, useCallback, useContext, useMemo } from 'react';
+import React, { createContext, useContext, useMemo } from 'react';
 import { useUserProgress } from './UserProgressContext';
 import { useLessons } from './LessonContext';
 import { useDialect } from './DialectContext';
 
-// Today's review is derived state, not stored state. We re-compute it from
-// the current lesson + word progress. That way there's nothing to "refresh"
-// at midnight — the deck just naturally updates as the user works through
-// lessons and words.
-
+// Today's review is derived state. We re-compute it from the current lesson
+// + word progress. No midnight reset — the deck naturally updates as the
+// user works through lessons and words.
 const DailyReviewContext = createContext(null);
 
 export function DailyReviewProvider({ children }) {
@@ -17,12 +15,6 @@ export function DailyReviewProvider({ children }) {
 
   const activeLesson = currentLesson || nextSuggestedLesson;
 
-  // Derive today's activities. Both are always shown; each has its own
-  // completion state computed from underlying signal:
-  //   - flashcards: completed if no due cards remain
-  //   - guided conversation: completed if there's a convo for this level
-  //     AND user has worked through at least one (we keep that as a lightweight
-  //     flag inside lessonsCompleted array using a 'convo:<id>' prefix)
   const activities = useMemo(() => {
     const focalWordIds = activeLesson?.focalWordIds || [];
     const anyDue = focalWordIds.some((id) => {
@@ -32,10 +24,13 @@ export function DailyReviewProvider({ children }) {
       return new Date(p.nextReviewAt).getTime() <= Date.now();
     });
 
-    // Match a conversation at this level
-    const levelConvo = bundle.conversations.find((c) => c.level === (activeLesson?.level || progress.level));
-    const convoKey = levelConvo ? `convo:${levelConvo.id}` : null;
+    const phaseConvo = bundle.conversations.find((c) => c.phase === (activeLesson?.phase || progress.phase));
+    const convoKey = phaseConvo ? `convo:${phaseConvo.id}` : null;
     const convoDone = convoKey ? progress.lessonsCompleted.includes(convoKey) : true;
+
+    const phaseShadowing = (bundle.shadowing || []).filter((s) => s.phase === (activeLesson?.phase || progress.phase));
+    const shadowingKey = phaseShadowing.length ? `shadow:${activeLesson?.phase || progress.phase}` : null;
+    const shadowingDone = shadowingKey ? progress.lessonsCompleted.includes(shadowingKey) : true;
 
     return [
       {
@@ -49,27 +44,27 @@ export function DailyReviewProvider({ children }) {
         key: 'guidedConversation',
         type: 'guidedConversation',
         title: 'Guided conversation',
-        subtitle: levelConvo ? levelConvo.title : 'No conversation for this level yet',
-        completed: !levelConvo ? true : convoDone,
-        conversationId: levelConvo?.id || null,
+        subtitle: phaseConvo ? phaseConvo.title : 'No conversation at this phase yet',
+        completed: !phaseConvo ? true : convoDone,
+        conversationId: phaseConvo?.id || null,
+      },
+      {
+        key: 'shadowing',
+        type: 'shadowing',
+        title: 'Shadowing',
+        subtitle: phaseShadowing.length ? `${phaseShadowing.length} phrases to repeat` : 'No phrases at this phase yet',
+        completed: !phaseShadowing.length ? true : shadowingDone,
+        phase: activeLesson?.phase || progress.phase,
       },
     ];
-  }, [activeLesson, progress.wordProgress, progress.lessonsCompleted, progress.level, bundle.conversations]);
+  }, [activeLesson, progress.wordProgress, progress.lessonsCompleted, progress.phase, bundle.conversations, bundle.shadowing]);
 
   const progressPct = useMemo(() => {
     const done = activities.filter((a) => a.completed).length;
     return Math.round((done / activities.length) * 100);
   }, [activities]);
 
-  const value = useMemo(
-    () => ({
-      activeLesson,
-      activities,
-      progressPct,
-    }),
-    [activeLesson, activities, progressPct]
-  );
-
+  const value = useMemo(() => ({ activeLesson, activities, progressPct }), [activeLesson, activities, progressPct]);
   return <DailyReviewContext.Provider value={value}>{children}</DailyReviewContext.Provider>;
 }
 

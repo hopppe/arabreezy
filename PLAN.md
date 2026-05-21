@@ -1,123 +1,76 @@
 # Arabreezy — Arabic Learning App
 
-Adapted from the English learning app at `../Englishlearning`. This doc is the source of truth for what we're building, what we're dropping, and progress.
+Saudi-dialect-first Arabic learning app. Originally scaffolded from the English app at `../Englishlearning` (sometimes called anaFluent) and has since grown back to anaFluent-class scope — ten activities, server-side AI, Supabase-backed content.
 
 ---
 
 ## Product shape
 
-A lightweight Arabic learning app centered on **placement → lesson → daily review**.
+- **Onboarding** → 7-screen value-build funnel (welcome → goal → motivation → commitment → social proof → notifications → trial timeline), capped by the Pro paywall. Tuned against SOSA 2026 Education-category benchmarks; see CLAUDE.md.
+- **Placement** → user lands in a quick quiz that decides their starting phase (1–10).
+- **Lesson is the unit of progression.** A lesson stays in progress until finished. When all lessons at the current phase are complete, phase advances.
+- **Daily review** activities anchored on the current lesson's focal words. No midnight reset — `DailyReviewContext` is derived from `currentLesson + wordProgress` and updates naturally as the user progresses.
+- **Saudi-primary dialect**, with Levantine and Fusha planned as plug-in bundles (same word IDs across dialects).
+- **10 phases** centered on vocabulary difficulty (Phase 1 = Beginner → Phase 10 = Native register).
 
-- User lands in a **placement flow** that figures out their level (1–10).
-- They get assigned to a **lesson** at that level. The lesson is the unit of progression.
-- Lessons do **NOT refresh daily**. They refresh only when the current lesson is **finished**.
-- Each day, the user gets **daily review activities** anchored on the **current lesson's focal words**, plus sets of **new words** to learn.
-- Primary dialect: **Saudi**. Architecture supports adding **Levantine** and **Fusha (MSA)** later.
-- Backend is **local-only** for now (AsyncStorage + bundled JSON). A `/backend` folder holds what will eventually be the server-side data layer.
+### Activities (10 total)
 
-### Core activities (only these three)
-1. **Lessons** — structured units that teach a set of focal words + short grammar/dialogue.
-2. **Flashcards** — spaced-repetition review of learned words.
-3. **Guided Conversations** — scripted branching dialogues (no AI / no WebRTC / no voice).
-
-### Explicitly dropped (from the English app)
-- Idioms, Reading, Listening, Stories, Shadowing, Pronunciation, Grammar activities
-- AI realtime conversation, WebRTC, OpenAI SDK, voice recording
-- Supabase auth, login, signup, onboarding paywall flow
-- RevenueCat, AppsFlyer, subscriptions, paywall, referral
-- Streaks (will reconsider later), notifications, analytics
-- Light/dark theme toggle (single black/white theme with accent pops)
-- Multi-theme system
+1. **Lessons** — structured units; focal words + dialogue + check questions.
+2. **Flashcards** — Anki-style SRS over the words the user has been taught.
+3. **Guided Conversations** — scripted branching dialogues.
+4. **Shadowing** — listen-and-repeat short phrases.
+5. **Stories** — short Arabic paragraphs with comprehension MCQs.
+6. **Listening** — audio-first comprehension with main-idea + section questions.
+7. **Idioms** — Saudi proverbs with meaning + sentence MCQs.
+8. **Grammar Practice** — one-rule-at-a-time drills.
+9. **Pronunciation** — phoneme drills with record/playback + Whisper transcription scoring.
+10. **Chat** — text + voice tutor. Voice mode is real-time via OpenAI Realtime over WebRTC.
 
 ---
 
-## 10-level vocabulary curriculum
+## Three-tier architecture
 
-Levels are **centered on vocabulary difficulty**. Each level has:
-- A **vocab list** (focal words for the level)
-- **N lessons** that introduce those words in small sets
-- A **level-up check** that unlocks the next level
+```
+mobile app (Expo SDK 54, RN 0.81)
+   │
+   ├── Supabase (project sgvalritfnyiwxjwpqjj)     ← SOURCE OF TRUTH FOR CONTENT
+   │     ├── auth (email/password)
+   │     ├── content tables (words, lessons, ..., 10 tables, ~2.2k rows)
+   │     └── user_progress + activity_log
+   │
+   └── ai-backend (Express on :8787, in ./ai-backend/)
+         ├── verifies Supabase JWT
+         └── proxies OpenAI: /api/chat /api/tts /api/stt /api/realtime/session
+```
 
-Rough calibration (to refine with real content):
+**Where content lives:** all words, lessons, stories, idioms, grammar drills, etc. are rows in Supabase. The `src/data/dialects/<dialect>/*.js` bundle files are an offline fallback (used only when `EXPO_PUBLIC_USE_SUPABASE_CONTENT=false`) and are deliberately sparse stubs. Audits of content counts / quality must query Supabase, not the bundle files.
 
-| Level | Focus | Words added | CEFR-ish |
+The OpenAI key never enters the mobile bundle. All AI requests go through `src/config/aiBackend.js` → `EXPO_PUBLIC_AI_BACKEND_URL`. The mobile app is **no longer Expo-Go compatible** (`react-native-webrtc`, `expo-audio`, `expo-notifications` all need a dev build via EAS).
+
+---
+
+## Vocabulary curriculum (10 phases)
+
+Phases are centered on vocabulary difficulty. Each phase has a focal word list, a handful of lessons (~20 per phase), and an implicit level-up check (finishing all lessons at the phase).
+
+| Phase | Focus | Words at phase | CEFR-ish |
 |------|------|----|------|
-| 1 | Greetings, pronouns, yes/no, "I am" | ~30 | Pre-A1 |
-| 2 | Numbers, days, colors, "have/want" | ~40 | A1 |
-| 3 | Family, food basics, simple questions | ~50 | A1 |
-| 4 | Daily routines, places, directions | ~60 | A2 |
-| 5 | Shopping, money, bargaining phrases | ~70 | A2 |
-| 6 | Travel, transport, time expressions | ~80 | A2/B1 |
-| 7 | Work, studies, feelings | ~90 | B1 |
-| 8 | Opinions, comparisons, past tense vocab | ~100 | B1 |
-| 9 | News/media vocabulary, abstract nouns | ~110 | B1/B2 |
-| 10 | Idiomatic phrases, nuance, register | ~120 | B2 |
+| 1 | Greetings, pronouns, yes/no, "I am", numbers 1–10, Saudi essentials (yalla, khalas, habibi, inshallah, mashallah) | ~48 | Pre-A1 |
+| 2 | Numbers 11–100, days, colors, "have/want", coffee/tea/water, basic emotions | ~65 | A1 |
+| 3 | Family extended, food basics, body, clothing, simple past/present, verbs | ~75 | A1 |
+| 4 | Daily routines, rooms, places, directions, weather | ~91 | A2 |
+| 5 | Shopping, money, bargaining, descriptions, hotel basics | ~71 | A2 |
+| 6 | Travel, transport, time, appointments, sports | ~52 | A2/B1 |
+| 7 | Work, study, feelings, career | ~38 | B1 |
+| 8 | Opinions, comparisons, past tense vocab, analysis | ~31 | B1 |
+| 9 | News, media, government, economy, abstract nouns | ~27 | B1/B2 |
+| 10 | Idiomatic phrases, register, eloquence, rhetorical | ~26 | B2 |
 
----
+Word counts taper naturally — high-frequency core is concentrated low; specialized vocab thins toward the top. **The authoritative per-phase content spec is `docs/phase-difficulty-standards.md`** (vocab ceilings, grammar ceilings, tashkeel policy, activity-by-activity standards). Audit content against it before authoring.
 
-## Tailored progress tracking
+### Hard rule for lessons
 
-Per-student state lives in `src/data/userProgress.js` (via AsyncStorage). Shape:
-
-```js
-{
-  userId: 'local-user',           // single local user for now
-  dialect: 'saudi',                // 'saudi' | 'levantine' | 'fusha'
-  level: 3,                        // current level 1..10
-  currentLessonId: 'lvl3_lesson_2',// lesson in progress (doesn't reset daily)
-  lessonsCompleted: [...],
-  wordProgress: {
-    [wordId]: {
-      status: 'new' | 'learning' | 'review' | 'known',
-      easeFactor, interval, nextReviewAt, lapses, reviewsCount
-    }
-  },
-  dailyReview: {
-    date: '2026-04-19',
-    focalWordIds: [...],           // anchored on currentLesson
-    newWordSetIds: [...],          // sets of new words to introduce
-    activitiesCompleted: { flashcards: false, guidedConversation: false }
-  },
-  placement: {
-    completed: true,
-    score: 42,
-    placedAt: '2026-04-19',
-    placedLevel: 3
-  }
-}
-```
-
-Plans become tailored via two levers:
-1. **Which level the user is on** (set by placement, advanced by lesson completion).
-2. **Which focal words are due for review** (driven by the SRS scheduler reading `wordProgress`).
-
----
-
-## Dialect architecture
-
-Every string that has a dialect-specific form lives in a **dialect bundle**. Words, lesson dialogues, and guided-conversation scripts reference a word ID; the dialect bundle provides the surface forms.
-
-Data shape:
-```js
-// src/data/dialects/saudi/words.js
-export default {
-  word_hello: {
-    id: 'word_hello',
-    script: 'مرحبا',       // Arabic script
-    transliteration: 'marhaba',
-    english: 'hello',
-    audio: null,            // URL / local path, optional
-    notes: 'common Saudi greeting'
-  },
-  ...
-}
-```
-
-- `src/data/dialects/saudi/` — words, lessons, conversations (primary, shipping now)
-- `src/data/dialects/levantine/` — stub folder, same shape, can fill in later
-- `src/data/dialects/fusha/` — stub folder, same shape, can fill in later
-
-A `DialectContext` reads the user's `dialect` and serves the right bundle to lessons/flashcards/conversations. Switching dialect later becomes a settings toggle, no code changes required.
+Lesson `focal_word_ids` must reference only words at **phase ≤ lesson.phase**. Every lesson should have ≥ 6 focal words. Both constraints are enforced by hand today; one day move to a Postgres trigger.
 
 ---
 
@@ -126,54 +79,76 @@ A `DialectContext` reads the user's `dialect` and serves the right bundle to les
 ```
 App.js
  ├─ SafeAreaProvider / GestureHandlerRootView
- ├─ LanguageProvider        (UI language: en for now, ar later; RTL support)
- ├─ ThemeProvider           (single black/white theme)
- ├─ DialectProvider         (saudi | levantine | fusha)
- ├─ UserProgressProvider    (level, currentLesson, wordProgress, placement)
- ├─ LessonProvider          (current lesson state)
- ├─ FlashcardProvider       (SRS review queue)
- ├─ DailyReviewProvider     (daily activities anchored on current lesson)
+ ├─ ThemeProvider
+ ├─ LanguageProvider          (UI language: en default, ar RTL-ready)
+ ├─ AuthProvider              (Supabase session)
+ ├─ DialectProvider           (saudi | levantine | fusha)
+ ├─ UserProgressProvider      (phase, currentLesson, SRS state, streak — local + Supabase sync)
+ ├─ LessonProvider
+ ├─ FlashcardProvider         (deck derived from currentLesson + wordProgress)
+ ├─ DailyReviewProvider       (today's activities — DERIVED, no midnight job)
  └─ NavigationContainer
-     ├─ PlacementNavigator   (shown until placement.completed)
-     └─ TabNavigator
-         ├─ Home            (daily review hub)
-         ├─ Lessons         (browse + continue current lesson)
-         └─ Settings        (dialect toggle, reset, about)
+     ├─ AuthNavigator         (when Supabase configured and no session)
+     ├─ PlacementNavigator    (shown until placement.completed)
+     └─ TabNavigator          (Home · Activities · Lessons · Settings)
 ```
+
+User progress writes are debounced 800ms then upserted to Supabase `user_progress` (see `backend/userProgress.js`). Activity completions also insert into `activity_log` fire-and-forget. Streak math runs in `UserProgressContext.advanceStreak`.
 
 ---
 
-## Step-by-step build order
+## Where things live
 
-- [x] 1. Explore English app — done, see `docs/english-app-map.md`
-- [x] 2. Write this plan + folder map
-- [x] 3. Scaffold: `package.json`, `App.js`, `index.js`, `app.config.js`, `babel.config.js`, `.gitignore`
-- [x] 4. Black/white theme (`src/theme/`)
-- [x] 5. Language + Dialect contexts (`src/context/`)
-- [x] 6. UserProgress context + local persistence (`src/context/UserProgressContext.js`)
-- [x] 7. Local backend stub (`backend/` folder + `backend/README.md`)
-- [x] 8. Seed data: 10 levels × lessons × words for Saudi dialect (skeleton + small vocab to start)
-- [x] 9. Placement flow (`src/screens/placement/`)
-- [x] 10. Home / Daily Review screen (`src/screens/HomeScreen.js`)
-- [x] 11. Lesson screen (`src/activities/Lessons/`)
-- [x] 12. Flashcard activity (`src/activities/Flashcards/`)
-- [x] 13. Guided Conversation activity (`src/activities/GuidedConversations/`)
-- [x] 14. Navigation (`src/navigation/TabNavigator.js`, `PlacementNavigator.js`)
-- [x] 15. Settings (dialect switch, level reset)
+- `src/activities/*` — one folder per activity (10 of them).
+- `src/services/` — `audio.js` (TTS + cache + playback), `recording.js` (mic + Whisper), `realtime.js` (WebRTC + ephemeral key), `notifications.js` (daily reminders), `aiChat.js` (text chat).
+- `src/config/` — `supabase.js` (client), `aiBackend.js` (proxy wrapper with JWT-attached fetch).
+- `backend/` — façade (`localBackend.js` routes to `bundleBackend.js` or `supabaseBackend.js`) + `userProgress.js` for server sync.
+- `ai-backend/` — Express proxy. See its README for endpoints + deploy.
 
-### Next up (not done yet)
-- [ ] Install & boot once (`npm install`, `npx expo start`) to shake out runtime issues
-- [ ] Fill Levantine + Fusha dialect bundles when ready (same word ids as Saudi)
-- [ ] Add audio for focal words (drop files into `assets/audio/` and reference from `words.js`)
-- [ ] Write more lessons per level — current seed has 1–2 per level
-- [ ] Visual polish pass when you're ready to style it
+`docs/folder-map.md` is the full tour. `docs/decisions.md` is the why log.
 
-Update this list as we go. Checked = done and committed-in-spirit (no git yet).
+---
+
+## Status
+
+| Area | State |
+|------|-------|
+| Scaffold + all 10 activity screens | ✅ |
+| Supabase schema + seed (Saudi) | ✅ ~2,200 rows across 10 tables — **the source of truth, not the bundle files** |
+| Lesson focal-word expansion (6+ per lesson) | ✅ avg 8.0 per lesson |
+| Phase distribution evening-out | ✅ within ±3 of target 20 per phase per table |
+| ai-backend (chat / TTS / STT / realtime) | ✅ local dev (`npm run dev` on :8787) |
+| Server sync of `user_progress` + `activity_log` | ✅ debounced upsert |
+| Streaks + daily local notifications | ✅ |
+| EAS dev build config | ✅ scripts wired; not actually run yet |
+| Levantine + Fusha content | empty stubs |
+| ai-backend production deploy | not yet (railway.json + Dockerfile staged) |
+| Phase-appropriateness audit of dialogue text | not yet — only `focal_word_ids` is constrained |
+| Tests / CI | none |
+| Onboarding funnel + paywall (RevenueCat) | ✅ scaffolded · needs RC keys + storefront products |
+| Analytics, Google sign-in | intentionally not built |
+
+---
+
+## Deliberately not built
+
+These were major complexity drivers in the source English app and stay out unless we explicitly decide otherwise:
+
+- AppsFlyer / analytics
+- Google sign-in
+- Light / dark theme toggle, multi-theme system
+- Pre-generated audio asset bucket (TTS is on-demand via the proxy, cached to FS per-device)
 
 ---
 
 ## Progress log
 
-- **2026-04-19** — Plan written. Explored English app and identified minimum viable surface.
-- **2026-04-19** — Added 10-level structure + dialect architecture based on updates.
-- **2026-04-19** — Full scaffold complete: theme, all contexts, placement flow, home/lessons/settings screens, lesson player, flashcard activity with SRS, guided conversation activity, navigation. Saudi dialect bundle seeded with ~80 words across all 10 levels, 18 lessons, 2 guided conversations. Levantine + Fusha bundles stubbed (same shape, empty). Local backend façade in place. Untested — `npm install` + `expo start` is the next real step.
+- **2026-04-19** — Plan written. Explored English app and identified MVP surface.
+- **2026-04-19** — Full scaffold: theme, contexts, placement flow, home/lessons/settings, 4 activities (Lessons, Flashcards, GuidedConversation, Shadowing). Saudi bundle seeded with ~80 words, 18 lessons.
+- **2026-05-17** — Supabase auth + content path wired. Migration `0001_init_schema.sql` checked in. `EXPO_PUBLIC_USE_SUPABASE_CONTENT` flag added.
+- **2026-05-17** — New Supabase project `sgvalritfnyiwxjwpqjj` provisioned and wired.
+- **2026-05-18** — Scope expansion to anaFluent parity: 6 more activities ported (Stories, Listening, Idioms, Grammar Practice, Pronunciation, Chat + Voice Tutor). Unified audio service with on-demand TTS + cache. Streaks + daily reminders.
+- **2026-05-18** — OpenAI proxy pattern: `ai-backend/` Express service holds the key, mobile app talks to it via `EXPO_PUBLIC_AI_BACKEND_URL`. Whisper / TTS / chat / realtime ephemeral session all routed.
+- **2026-05-18** — Heavy content fill: Supabase rows for Saudi pushed past 200 in every activity table (~2,200 total).
+- **2026-05-18** — Phase rebalance + lesson focal-word expansion. Idioms/grammar/pronunciation/conversations distributions flattened; lessons average 8.0 words each.
+- **2026-05-18** — Mobile bundle compiles cleanly on iOS + Android. Dev server on :8082, ai-backend on :8787.

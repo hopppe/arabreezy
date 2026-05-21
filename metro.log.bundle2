@@ -1,0 +1,10 @@
+ ERROR  [Error: TransformError SyntaxError: /Users/ethanhoppe/Documents/Cursor_Code/arabreezy/src/i18n/en.js: Unexpected token, expected "," (240:1)
+
+[0m [90m 238 |[39m     version[33m:[39m [32m'Version'[39m[33m,[39m
+ [90m 239 |[39m   }[33m,[39m
+[31m[1m>[22m[39m[90m 240 |[39m }[33m;[39m
+ [90m     |[39m  [31m[1m^[22m[39m
+ [90m 241 |[39m[0m]
+ ERROR  [ReferenceError: Property 'LessonsStack' doesn't exist]
+iOS ./index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+iOS Bundled 183ms index.js (1 module)

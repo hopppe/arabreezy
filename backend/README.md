@@ -1,31 +1,80 @@
 # backend/
 
-Local-only data layer today. Real backend tomorrow.
+Mobile-side data layer. Screens and contexts talk to `localBackend.js` only — never to AsyncStorage, the Supabase client, or dialect bundles directly.
 
-## Why this exists
+## Layout
 
-Screens and contexts never talk to AsyncStorage or bundled JSON directly. They go through `localBackend.js`. When we flip to a real API, we change the insides of `localBackend.js` and nothing else.
+- `localBackend.js` — router. Picks the content source at module load based on
+  `EXPO_PUBLIC_USE_SUPABASE_CONTENT`. Its exported function names and
+  signatures are the stable public API.
+- `bundleBackend.js` — reads content from bundled JS dialect files under
+  `src/data/dialects/`. Dev default and fallback when Supabase is unconfigured.
+- `supabaseBackend.js` — reads content from Supabase. Mirrors `bundleBackend`'s
+  signatures so the router can pick either at runtime.
+- `userProgress.js` — separate concern: server sync of per-user state. Used by
+  `UserProgressContext`, not by the content router.
+- `schema.js` — JSDoc typedefs for the shapes the façade returns.
 
-## What's here
+## Public API — content readers
 
-- `localBackend.js` — the façade. Exports async functions with shapes that look like a real API:
-  - `getLessons({ dialect, level })`
-  - `getLesson({ dialect, lessonId })`
-  - `getWords({ dialect, wordIds })`
-  - `getAllWords({ dialect })`
-  - `getConversations({ dialect, level })`
-  - `getConversation({ dialect, conversationId })`
-  - `getPlacementQuestions()`
-  - `getLevels()`
-- `schema.js` — JSDoc typedefs for the data shapes.
+Async functions exported by `localBackend.js`:
 
-All functions return promises so a real HTTP swap won't change signatures.
+- `getLessons({ dialect, phase })`
+- `getLesson({ dialect, lessonId })`
+- `getWords({ dialect, wordIds })`
+- `getAllWords({ dialect })`
+- `getWord({ dialect, wordId })`
+- `getConversations({ dialect, phase })`
+- `getConversation({ dialect, conversationId })`
+- `getShadowingPhrases({ dialect, phase })`
+- `getStories({ dialect, phase })`
+- `getStory({ dialect, storyId })`
+- `getListeningExercises({ dialect, phase })`
+- `getListeningExercise({ dialect, listeningId })`
+- `getIdioms({ dialect, phase })`
+- `getPronunciationTargets({ dialect, phase })`
+- `getGrammarDrills({ dialect, phase })`
+- `getPrimer({ dialect })`
+- `getRoots({ dialect })`
+- `getPhases()`
+- `getPlacementQuestions()`
+- `getAvailableDialects()`
 
-## How to swap to a real backend later
+## Public API — user progress sync (`userProgress.js`)
 
-1. Keep the exported function names and shapes in `localBackend.js`.
-2. Replace internals with `fetch(...)` calls to your API.
-3. Move the bundled JSON into DB seeds so the server serves the same shapes.
-4. Move user progress (currently in `UserProgressContext` via AsyncStorage) behind new functions like `getProgress(userId)` / `saveProgress(userId, patch)`.
+- `fetchUserProgress(userId)` — returns a camelCase snapshot or null.
+- `pushUserProgress(userId, snapshot)` — upserts `public.user_progress`.
+- `logActivityRemote(userId, entry)` — fire-and-forget insert into `activity_log`.
 
-Do NOT spread AsyncStorage keys all over the app — that's what makes backend migrations painful.
+All three no-op gracefully when Supabase isn't configured or `userId` is missing — the app keeps working offline against AsyncStorage.
+
+## Switching content source to Supabase
+
+1. Schema is in place: `supabase/migrations/0001_init_schema.sql` is the
+   checked-in baseline. Subsequent additions live in the live DB (applied via
+   the Supabase MCP) — see `docs/decisions.md` for the "no migration files"
+   decision.
+2. Content is already seeded into project `sgvalritfnyiwxjwpqjj` (~2,200 rows
+   for Saudi across 10 content tables). For a fresh seed of new content, the
+   path is `node scripts/seedSupabase.mjs` (reads `.env.local` for the
+   service-role key) — though most authoring now happens directly via MCP.
+3. Set `EXPO_PUBLIC_USE_SUPABASE_CONTENT=true` in `.env`, set
+   `EXPO_PUBLIC_SUPABASE_URL` + `EXPO_PUBLIC_SUPABASE_ANON_KEY`, restart Metro.
+4. The router now reads through `supabaseBackend.js` — no screen changes
+   needed.
+
+## How user progress is reconciled
+
+`UserProgressContext` writes to AsyncStorage on every change (fast path) and
+debounces a 800ms Supabase upsert via `pushUserProgress`. On auth resolve,
+the context calls `fetchUserProgress`:
+
+- If the remote row is non-default (has lessons completed or placement done),
+  remote-wins → merged into local + persisted.
+- Otherwise local-wins → pushed up.
+
+This keeps the app fully usable offline while letting progress survive
+reinstalls and follow the user across devices.
+
+The `user_progress` table also has a signup trigger that auto-creates an
+empty row when a new user signs up.

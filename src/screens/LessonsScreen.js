@@ -1,16 +1,16 @@
 import React from 'react';
 import { View, TouchableOpacity } from 'react-native';
-import { ScreenContainer, Text, Card } from '../components/ui';
-import { LevelBadge } from '../components/LevelBadge';
+import { ScreenContainer, Text, Card, ActivityHeader } from '../components/ui';
+import { PhaseBadge } from '../components/PhaseBadge';
 import { theme } from '../theme';
 import { useUserProgress } from '../context/UserProgressContext';
 import { useLessons } from '../context/LessonContext';
-import { getLevel, LEVELS } from '../data/levels';
+import { getPhase, PHASES } from '../data/phases';
 
 export default function LessonsScreen({ navigation }) {
   const { progress } = useUserProgress();
-  const { levelLessons, startLesson } = useLessons();
-  const level = getLevel(progress.level);
+  const { phaseLessons, startLesson } = useLessons();
+  const phaseInfo = getPhase(progress.phase);
 
   const onPick = async (lesson) => {
     await startLesson(lesson.id);
@@ -18,24 +18,34 @@ export default function LessonsScreen({ navigation }) {
   };
 
   return (
-    <ScreenContainer>
-      <LevelBadge level={progress.level} />
-      <Text variant="display" weight="bold" style={{ marginTop: theme.spacing.sm }}>
-        {level.title}
-      </Text>
-      <Text variant="body" style={{ color: theme.colors.textMuted }}>
-        {level.cefr} · {level.wordsGoal} words target
-      </Text>
+    <ScreenContainer onClose={() => navigation.goBack()}>
+      <View style={{ marginBottom: theme.spacing.sm }}>
+        <PhaseBadge phase={progress.phase} />
+      </View>
+      <ActivityHeader
+        title={phaseInfo.title}
+        subtitle={`${phaseInfo.tagline} · ${phaseInfo.cefr} · ${phaseInfo.wordsGoal} words target`}
+      />
 
-      <View style={{ marginTop: theme.spacing.lg }}>
-        {levelLessons.map((lesson) => {
+      <View accessibilityRole="list" accessibilityLabel={`${phaseInfo.title} lessons`}>
+        {phaseLessons.map((lesson) => {
           const done = progress.lessonsCompleted.includes(lesson.id);
           const isCurrent = progress.currentLessonId === lesson.id;
+          const statusLabel = done
+            ? 'Completed'
+            : isCurrent
+              ? 'In progress'
+              : `${lesson.focalWordIds.length} words`;
           return (
             <TouchableOpacity
               key={lesson.id}
               activeOpacity={0.85}
               onPress={() => onPick(lesson)}
+              accessible
+              accessibilityRole="button"
+              accessibilityLabel={`${lesson.title}. ${statusLabel}`}
+              accessibilityHint={lesson.intro}
+              accessibilityState={{ selected: isCurrent }}
             >
               <Card
                 style={{
@@ -52,7 +62,10 @@ export default function LessonsScreen({ navigation }) {
                 <Text variant="small" style={{ color: theme.colors.textMuted, marginTop: 2 }}>
                   {lesson.intro}
                 </Text>
-                <Text variant="caption" style={{ marginTop: 8, color: done ? theme.colors.success : theme.colors.textFaint }}>
+                <Text
+                  variant="caption"
+                  style={{ marginTop: 8, color: done ? theme.colors.success : theme.colors.textFaint }}
+                >
                   {done ? '✓ Completed' : isCurrent ? 'In progress' : `${lesson.focalWordIds.length} words`}
                 </Text>
               </Card>
@@ -61,16 +74,21 @@ export default function LessonsScreen({ navigation }) {
         })}
       </View>
 
-      {/* All levels preview */}
-      <Text variant="subtitle" weight="bold" style={{ marginTop: theme.spacing.xl }}>
-        Levels
+      <Text variant="subtitle" weight="bold" accessibilityRole="header" style={{ marginTop: theme.spacing.xl }}>
+        Phases
       </Text>
-      <View style={{ marginTop: theme.spacing.md, flexDirection: 'row', flexWrap: 'wrap' }}>
-        {LEVELS.map((l) => {
-          const unlocked = l.level <= progress.level;
+      <View
+        accessibilityRole="list"
+        accessibilityLabel="All phases"
+        style={{ marginTop: theme.spacing.md, flexDirection: 'row', flexWrap: 'wrap' }}
+      >
+        {PHASES.map((p) => {
+          const unlocked = p.phase <= progress.phase;
           return (
             <View
-              key={l.level}
+              key={p.phase}
+              accessible
+              accessibilityLabel={`Phase ${p.phase}, ${unlocked ? 'unlocked' : 'locked'}`}
               style={{
                 paddingHorizontal: 12,
                 paddingVertical: 6,
@@ -83,9 +101,10 @@ export default function LessonsScreen({ navigation }) {
               <Text
                 variant="small"
                 weight="bold"
+                accessible={false}
                 style={{ color: unlocked ? theme.colors.white : theme.colors.textFaint }}
               >
-                {l.level}
+                {p.phase}
               </Text>
             </View>
           );

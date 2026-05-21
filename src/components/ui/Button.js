@@ -12,6 +12,9 @@ export function Button({
   loading = false,
   fullWidth = true,
   style,
+  accessibilityLabel,
+  accessibilityHint,
+  testID,
 }) {
   const palette = {
     primary: { bg: theme.colors.black, fg: theme.colors.white, border: 'transparent' },
@@ -19,11 +22,19 @@ export function Button({
     ghost:   { bg: 'transparent',       fg: theme.colors.black, border: theme.colors.black },
   }[variant] || { bg: theme.colors.black, fg: theme.colors.white, border: 'transparent' };
 
+  const isInactive = disabled || loading;
+
   return (
     <TouchableOpacity
       onPress={onPress}
-      disabled={disabled || loading}
+      disabled={isInactive}
       activeOpacity={0.85}
+      accessible
+      accessibilityRole="button"
+      accessibilityLabel={accessibilityLabel || title}
+      accessibilityHint={accessibilityHint}
+      accessibilityState={{ disabled: isInactive, busy: loading }}
+      testID={testID}
       style={[
         {
           backgroundColor: palette.bg,
@@ -36,14 +47,18 @@ export function Button({
           justifyContent: 'center',
           opacity: disabled ? 0.4 : 1,
           width: fullWidth ? '100%' : undefined,
+          minHeight: 48,
         },
         style,
       ]}
     >
       {loading ? (
-        <ActivityIndicator color={palette.fg} />
+        <ActivityIndicator
+          color={palette.fg}
+          accessibilityLabel="Loading"
+        />
       ) : (
-        <Text weight="bold" style={{ color: palette.fg }}>
+        <Text weight="bold" style={{ color: palette.fg }} accessible={false}>
           {title}
         </Text>
       )}

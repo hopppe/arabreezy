@@ -2,10 +2,14 @@ import React from 'react';
 import { View } from 'react-native';
 import { theme } from '../../theme';
 
-export function ProgressBar({ value = 0, height = 8 }) {
+export function ProgressBar({ value = 0, height = 8, label }) {
   const pct = Math.max(0, Math.min(100, value));
   return (
     <View
+      accessible
+      accessibilityRole="progressbar"
+      accessibilityLabel={label || 'Progress'}
+      accessibilityValue={{ min: 0, max: 100, now: Math.round(pct) }}
       style={{
         height,
         backgroundColor: theme.colors.gray200,
@@ -14,6 +18,7 @@ export function ProgressBar({ value = 0, height = 8 }) {
       }}
     >
       <View
+        importantForAccessibility="no"
         style={{
           width: `${pct}%`,
           height: '100%',

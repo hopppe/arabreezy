@@ -4,6 +4,7 @@ dist/
 .env
 .env.*
 !.env.example
+!.env.local.example
 npm-debug.*
 *.jks
 *.p8
@@ -13,3 +14,8 @@ npm-debug.*
 *.orig.*
 web-build/
 .DS_Store
+
+# Locally-generated image assets — uploaded to Supabase storage, not git.
+scripts/generated_images_fullsize/
+scripts/generated_images/
+scripts/generated_thumbnails/

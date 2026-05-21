@@ -1,0 +1,32 @@
+[
+  {
+    "word_id": "w_dhulm",
+    "english": "oppression / injustice",
+    "error": "openai 400: {\n  \"error\": {\n    \"message\": \"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID req_698b7987f25c4513bcfdb7a7e1eb2be9. safety_violations=[abuse].\",\n    \"type\": \"image_generation_user_error\",\n    \"param\": null,\n  "
+  },
+  {
+    "word_id": "w_g2_p1_128",
+    "english": "thirst",
+    "error": "openai 400: {\n  \"error\": {\n    \"message\": \"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID req_a6d9387652654f629407d0942bea840d. safety_violations=[self-harm].\",\n    \"type\": \"image_generation_user_error\",\n    \"param\": null"
+  },
+  {
+    "word_id": "w_g2_p3_055",
+    "english": "mandi (rice & meat)",
+    "error": "openai 400: {\n  \"error\": {\n    \"message\": \"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID req_387520b5ae0f447eabfdeb81aa89a69f. safety_violations=[sexual].\",\n    \"type\": \"image_generation_user_error\",\n    \"param\": null,\n "
+  },
+  {
+    "word_id": "w_g2_p8_062",
+    "english": "slower",
+    "error": "fetch failed"
+  },
+  {
+    "word_id": "w_g2_p8_063",
+    "english": "older (in age)",
+    "error": "fetch failed"
+  },
+  {
+    "word_id": "w_g2_p8_064",
+    "english": "younger",
+    "error": "fetch failed"
+  }
+]

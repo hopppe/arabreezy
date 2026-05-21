@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- Transparent background; Android composites onto adaptiveIcon.backgroundColor.
+       Glyph sized to fit within the ~660px safe circle Android crops from the center. -->
+  <text
+    x="512"
+    y="620"
+    font-family="Geeza Pro, Damascus, Al Bayan, Arial, sans-serif"
+    font-size="560"
+    font-weight="500"
+    text-anchor="middle"
+    fill="#FFFFFF"
+  >ع</text>
+</svg>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { View, TouchableOpacity } from 'react-native';
-import { ScreenContainer, Text, Card, Button, ProgressBar } from '../../components/ui';
+import { View, TouchableOpacity, Image } from 'react-native';
+import { ScreenContainer, Text, Card, Button, ActivityHeader } from '../../components/ui';
 import { ArabicText } from '../../components/ArabicText';
 import { theme } from '../../theme';
 import { useTranslation } from '../../context/LanguageContext';
@@ -21,22 +21,27 @@ export default function FlashcardScreen({ navigation }) {
 
   if (loading) {
     return (
-      <ScreenContainer>
-        <Text>{t('common.loading')}</Text>
+      <ScreenContainer onClose={() => navigation.goBack()}>
+        <Text accessibilityLiveRegion="polite">{t('common.loading')}</Text>
       </ScreenContainer>
     );
   }
 
   if (!deck.length) {
     return (
-      <ScreenContainer>
+      <ScreenContainer onClose={() => navigation.goBack()}>
         <View style={{ flex: 1, justifyContent: 'center' }}>
-          <Text variant="display" weight="bold">{t('flashcards.emptyTitle')}</Text>
+          <Text variant="display" weight="bold" accessibilityRole="header">{t('flashcards.emptyTitle')}</Text>
           <Text variant="body" style={{ color: theme.colors.textMuted, marginTop: theme.spacing.md }}>
             {t('flashcards.emptyBody')}
           </Text>
           <View style={{ marginTop: theme.spacing.xl }}>
-            <Button title={t('common.back')} variant="ghost" onPress={() => navigation.goBack()} />
+            <Button
+              title={t('common.back')}
+              variant="ghost"
+              onPress={() => navigation.goBack()}
+              accessibilityHint="Returns to the previous screen"
+            />
           </View>
         </View>
       </ScreenContainer>
@@ -47,14 +52,19 @@ export default function FlashcardScreen({ navigation }) {
   if (!card) {
     // finished
     return (
-      <ScreenContainer>
+      <ScreenContainer onClose={() => navigation.goBack()}>
         <View style={{ flex: 1, justifyContent: 'center' }}>
-          <Text variant="display" weight="bold">All done</Text>
+          <Text variant="display" weight="bold" accessibilityRole="header">All done</Text>
           <Text variant="body" style={{ color: theme.colors.textMuted, marginTop: theme.spacing.md }}>
             Session complete. Come back after more lessons for fresh cards.
           </Text>
           <View style={{ marginTop: theme.spacing.xl }}>
-            <Button title={t('common.done')} variant="accent" onPress={() => navigation.goBack()} />
+            <Button
+              title={t('common.done')}
+              variant="accent"
+              onPress={() => navigation.goBack()}
+              accessibilityHint="Closes the flashcard session"
+            />
           </View>
         </View>
       </ScreenContainer>
@@ -70,18 +80,27 @@ export default function FlashcardScreen({ navigation }) {
   };
 
   return (
-    <ScreenContainer scroll={false}>
-      <View style={{ marginBottom: theme.spacing.md }}>
-        <Text variant="caption" style={{ color: theme.colors.textMuted, marginBottom: 4 }}>
-          {idx + 1} / {deck.length}
-        </Text>
-        <ProgressBar value={pct} />
-      </View>
+    <ScreenContainer scroll={false} onClose={() => navigation.goBack()}>
+      <ActivityHeader
+        title={t('flashcards.title')}
+        current={idx + 1}
+        total={deck.length}
+        progress={pct}
+      />
 
       <TouchableOpacity
         activeOpacity={0.9}
         onPress={() => setFlipped((f) => !f)}
         style={{ flex: 1, justifyContent: 'center' }}
+        accessible
+        accessibilityRole="button"
+        accessibilityLabel={
+          flipped
+            ? `${card.english}. Transliteration ${card.transliteration}`
+            : `Arabic word. ${t('flashcards.tapToFlip')}`
+        }
+        accessibilityHint={flipped ? 'Tap to flip back to Arabic' : 'Tap to flip the card and reveal the translation'}
+        accessibilityState={{ expanded: flipped }}
       >
         <Card
           style={{
@@ -93,7 +112,17 @@ export default function FlashcardScreen({ navigation }) {
         >
           {!flipped ? (
             <>
-              <ArabicText size="display">{card.script}</ArabicText>
+              {card.imageUrl && (
+                <Image
+                  source={{ uri: card.imageUrl }}
+                  style={{ width: 160, height: 160, marginBottom: theme.spacing.md, borderRadius: theme.radius.md }}
+                  resizeMode="contain"
+                  accessibilityLabel={card.english ? `Illustration: ${card.english}` : 'Illustration'}
+                />
+              )}
+              <ArabicText size="display" accessibilityLabel={card.transliteration} readAs="label">
+                {card.script}
+              </ArabicText>
               <Text variant="small" style={{ color: theme.colors.textFaint, marginTop: theme.spacing.md }}>
                 {t('flashcards.tapToFlip')}
               </Text>
@@ -114,13 +143,22 @@ export default function FlashcardScreen({ navigation }) {
         </Card>
       </TouchableOpacity>
 
-      <View style={{ flexDirection: 'row', marginTop: theme.spacing.md }}>
+      <View
+        accessibilityRole="radiogroup"
+        accessibilityLabel="Rate how well you knew this card"
+        style={{ flexDirection: 'row', marginTop: theme.spacing.md }}
+      >
         {RATINGS.map((r) => (
           <TouchableOpacity
             key={r.key}
             disabled={!flipped}
             onPress={() => onRate(r.key)}
             activeOpacity={0.85}
+            accessible
+            accessibilityRole="button"
+            accessibilityLabel={t(r.labelKey)}
+            accessibilityHint={flipped ? `Records this card as "${t(r.labelKey)}"` : 'Flip the card before rating'}
+            accessibilityState={{ disabled: !flipped }}
             style={{
               flex: 1,
               marginHorizontal: 4,
@@ -129,6 +167,7 @@ export default function FlashcardScreen({ navigation }) {
               borderRadius: theme.radius.md,
               alignItems: 'center',
               opacity: flipped ? 1 : 0.5,
+              minHeight: 48,
             }}
           >
             <Text weight="bold" style={{ color: theme.colors.white }}>

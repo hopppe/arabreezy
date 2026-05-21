@@ -3,9 +3,12 @@ import { View } from 'react-native';
 import { theme } from '../theme';
 import { Text } from './ui/Text';
 
-export function LevelBadge({ level }) {
+export function PhaseBadge({ phase, label }) {
+  const display = label ? label : `Phase ${phase}`;
   return (
     <View
+      accessible
+      accessibilityLabel={display}
       style={{
         alignSelf: 'flex-start',
         backgroundColor: theme.colors.black,
@@ -14,11 +17,16 @@ export function LevelBadge({ level }) {
         borderRadius: theme.radius.pill,
       }}
     >
-      <Text variant="small" weight="bold" style={{ color: theme.colors.white }}>
-        Level {level}
+      <Text
+        variant="small"
+        weight="bold"
+        accessible={false}
+        style={{ color: theme.colors.white }}
+      >
+        {display}
       </Text>
     </View>
   );
 }
 
-export default LevelBadge;
+export default PhaseBadge;

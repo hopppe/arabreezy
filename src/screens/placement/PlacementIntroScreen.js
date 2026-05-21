@@ -12,7 +12,9 @@ export default function PlacementIntroScreen({ navigation }) {
   return (
     <ScreenContainer>
       <View style={{ flex: 1, justifyContent: 'center' }}>
-        <Text variant="display" weight="bold">{t('placement.welcomeTitle')}</Text>
+        <Text variant="display" weight="bold" accessibilityRole="header">
+          {t('placement.welcomeTitle')}
+        </Text>
         <Text variant="body" style={{ marginTop: theme.spacing.md, color: theme.colors.textMuted }}>
           {t('placement.welcomeBody')}
         </Text>
@@ -21,12 +23,14 @@ export default function PlacementIntroScreen({ navigation }) {
             title={t('placement.begin')}
             onPress={() => navigation.navigate('PlacementQuestion', { index: 0, answers: [] })}
             variant="accent"
+            accessibilityHint="Starts the adaptive placement test"
           />
           <View style={{ height: theme.spacing.md }} />
           <Button
             title={t('placement.skip')}
             variant="ghost"
-            onPress={() => completePlacement({ score: 0, placedLevel: 1 })}
+            onPress={() => completePlacement({ score: 0, placedPhase: 1 })}
+            accessibilityHint="Skips the placement test and starts you at Phase 1"
           />
         </View>
       </View>

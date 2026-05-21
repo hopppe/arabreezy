@@ -1,28 +1,42 @@
-import React, { useEffect, useState, useMemo } from 'react';
-import { View, TouchableOpacity } from 'react-native';
-import { ScreenContainer, Text, Card, Button, ProgressBar } from '../../components/ui';
+// LessonScreen — top-level lesson runner.
+//
+// Flow: intro → MemrisePhase (introduce + 3-level quizzes) → dialogue → done.
+// The Memrise loop subsumes the old "words" + "check" stages: each focal word
+// is taught through three escalating quiz types (recognize Arabic → recall
+// English → produce transliteration) before the lesson is considered absorbed.
+//
+// On completion we apply an SRS rating of 3 ("good") to every mastered word so
+// they land in the flashcard queue with a realistic interval instead of being
+// due immediately.
+
+import React, { useEffect, useState, useCallback } from 'react';
+import { View } from 'react-native';
+import { ScreenContainer, Text, Card, Button, ActivityHeader } from '../../components/ui';
 import { ArabicText } from '../../components/ArabicText';
 import { theme } from '../../theme';
 import { useTranslation } from '../../context/LanguageContext';
 import { useLessons } from '../../context/LessonContext';
 import { useDialect } from '../../context/DialectContext';
-import { getLesson } from '../../../backend/localBackend';
+import { useUserProgress } from '../../context/UserProgressContext';
+import { getLesson, getWords } from '../../../backend/localBackend';
+import { applyRating, INITIAL_PROGRESS } from '../Flashcards/scheduler';
+import { preloadLessonAssets } from '../../services/preload';
+import MemrisePhase from './components/MemrisePhase';
 
-const PHASES = ['intro', 'words', 'dialogue', 'check', 'done'];
+const STAGES = ['intro', 'memrise', 'dialogue', 'done'];
 
 export default function LessonScreen({ route, navigation }) {
   const { t } = useTranslation();
-  const { dialect, bundle } = useDialect();
+  const { dialect } = useDialect();
   const { finishCurrentLesson } = useLessons();
+  const { progress, updateWordProgress, logActivity } = useUserProgress();
   const lessonId = route.params?.lessonId;
 
   const [lesson, setLesson] = useState(null);
-  const [phaseIdx, setPhaseIdx] = useState(0);
-  const [wordIdx, setWordIdx] = useState(0);
+  const [words, setWords] = useState([]);
+  const [stageIdx, setStageIdx] = useState(0);
   const [dialogueIdx, setDialogueIdx] = useState(0);
-  const [checkIdx, setCheckIdx] = useState(0);
-  const [checkSel, setCheckSel] = useState(null);
-  const [checkResults, setCheckResults] = useState([]);
+  const [memriseProgress, setMemriseProgress] = useState(0);
 
   useEffect(() => {
     let cancelled = false;
@@ -34,70 +48,108 @@ export default function LessonScreen({ route, navigation }) {
     };
   }, [dialect, lessonId]);
 
-  const words = useMemo(
-    () => (lesson ? lesson.focalWordIds.map((id) => bundle.words[id]).filter(Boolean) : []),
-    [lesson, bundle]
+  useEffect(() => {
+    let cancelled = false;
+    if (!lesson?.focalWordIds?.length) {
+      setWords([]);
+      return () => {
+        cancelled = true;
+      };
+    }
+    getWords({ dialect, wordIds: lesson.focalWordIds }).then((res) => {
+      if (cancelled) return;
+      const arr = res ?? [];
+      setWords(arr);
+      // Warm image + audio caches so the Memrise loop renders instantly.
+      preloadLessonAssets(arr, { dialect });
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [dialect, lesson]);
+
+  const handleMemriseComplete = useCallback(
+    (masteredWordIds) => {
+      const now = new Date().toISOString();
+      masteredWordIds.forEach((wordId) => {
+        const prev = progress.wordProgress[wordId];
+        // Seed freshly-introduced words as 'learning' due now so they show up
+        // in today's flashcard deck. Pre-existing review words are promoted by
+        // a 'good' rating instead, preserving their SRS interval.
+        const next = prev?.status === 'review' || prev?.status === 'known'
+          ? applyRating(prev, 3)
+          : { ...INITIAL_PROGRESS, ...(prev || {}), status: 'learning', interval: 0, nextReviewAt: now, reviewsCount: (prev?.reviewsCount ?? 0) + 1 };
+        updateWordProgress(wordId, next);
+      });
+      setStageIdx((idx) => (lesson?.dialogue?.length ? idx + 1 : idx + 2));
+    },
+    [progress.wordProgress, updateWordProgress, lesson]
   );
 
   if (!lesson) {
     return (
-      <ScreenContainer>
-        <Text>{t('common.loading')}</Text>
+      <ScreenContainer onClose={() => navigation.goBack()}>
+        <Text accessibilityLiveRegion="polite">{t('common.loading')}</Text>
       </ScreenContainer>
     );
   }
 
-  const phase = PHASES[phaseIdx];
-  const pct = ((phaseIdx + 1) / PHASES.length) * 100;
+  const stage = STAGES[stageIdx];
+  const pct = ((stageIdx + 1) / STAGES.length) * 100;
 
   const renderIntro = () => (
     <View style={{ flex: 1 }}>
-      <Text variant="caption" style={{ color: theme.colors.textMuted }}>{t('lesson.intro')}</Text>
-      <Text variant="title" weight="bold" style={{ marginTop: 4 }}>{lesson.title}</Text>
-      <Text variant="body" style={{ marginTop: theme.spacing.md, color: theme.colors.textMuted }}>
+      <Text variant="caption" style={{ color: theme.colors.textMuted }}>
+        {t('lesson.intro')}
+      </Text>
+      <Text variant="title" weight="bold" accessibilityRole="header" style={{ marginTop: 4 }}>
+        {lesson.title}
+      </Text>
+      <Text
+        variant="body"
+        style={{ marginTop: theme.spacing.md, color: theme.colors.textMuted }}
+      >
         {lesson.intro}
       </Text>
-      <Text variant="small" style={{ marginTop: theme.spacing.lg, color: theme.colors.textFaint }}>
-        {lesson.focalWordIds.length} words · Level {lesson.level}
+      <Text
+        variant="small"
+        accessibilityLabel={`${words.length} words at Phase ${lesson.phase}`}
+        style={{ marginTop: theme.spacing.lg, color: theme.colors.textFaint }}
+      >
+        {words.length} words · Phase {lesson.phase}
       </Text>
     </View>
   );
 
-  const renderWords = () => {
-    const w = words[wordIdx];
-    if (!w) return null;
-    return (
-      <View style={{ flex: 1 }}>
-        <Text variant="caption" style={{ color: theme.colors.textMuted }}>
-          {t('lesson.words')} — {wordIdx + 1}/{words.length}
-        </Text>
-        <Card style={{ marginTop: theme.spacing.md }}>
-          <ArabicText size="display">{w.script}</ArabicText>
-          <Text variant="subtitle" style={{ marginTop: theme.spacing.sm, color: theme.colors.textMuted }}>
-            {w.transliteration}
-          </Text>
-          <Text variant="body" style={{ marginTop: 4 }}>{w.english}</Text>
-          {w.notes && (
-            <Text variant="small" style={{ marginTop: theme.spacing.sm, color: theme.colors.textFaint }}>
-              {w.notes}
-            </Text>
-          )}
-        </Card>
-      </View>
-    );
-  };
-
   const renderDialogue = () => {
-    const turn = lesson.dialogue[dialogueIdx];
-    if (!turn) return null;
-    const w = bundle.words[turn.wordRef];
-    const isA = turn.speaker === 'a';
+    const total = lesson.dialogue?.length ?? 0;
+    const turn = lesson.dialogue?.[dialogueIdx];
+    // Two shapes:
+    //   inline    — { script, english, transliteration?, speaker } (Supabase)
+    //   reference — { wordRef, speaker } (legacy bundled lessons)
+    const refWord = turn?.wordRef ? words.find((wd) => wd.id === turn.wordRef) : null;
+    const w = refWord
+      ? refWord
+      : turn?.script
+        ? { script: turn.script, english: turn.english, transliteration: turn.transliteration }
+        : null;
+    const isA = String(turn?.speaker ?? '').toLowerCase() !== 'b';
     return (
       <View style={{ flex: 1 }}>
-        <Text variant="caption" style={{ color: theme.colors.textMuted }}>
-          {t('lesson.dialogue')} — {dialogueIdx + 1}/{lesson.dialogue.length}
+        <Text
+          variant="caption"
+          accessibilityLabel={`Dialogue line ${dialogueIdx + 1} of ${Math.max(total, 1)}`}
+          style={{ color: theme.colors.textMuted }}
+        >
+          {t('lesson.dialogue')} — {dialogueIdx + 1}/{Math.max(total, 1)}
         </Text>
         <Card
+          accessible
+          accessibilityLabel={
+            w
+              ? `Speaker ${isA ? 'A' : 'B'} says ${w.english}, pronounced ${w.transliteration || ''}`
+              : `Speaker ${isA ? 'A' : 'B'}`
+          }
           style={{
             marginTop: theme.spacing.md,
             alignSelf: isA ? 'flex-start' : 'flex-end',
@@ -105,146 +157,114 @@ export default function LessonScreen({ route, navigation }) {
             backgroundColor: isA ? theme.colors.surface : theme.colors.accentSoft,
           }}
         >
-          {w && (
+          {w ? (
             <>
-              <ArabicText size="lg">{w.script}</ArabicText>
-              <Text variant="small" style={{ marginTop: 4, color: theme.colors.textMuted }}>
+              <ArabicText size="lg" accessibilityLabel={w.transliteration} readAs="label">
+                {w.script}
+              </ArabicText>
+              <Text
+                variant="small"
+                style={{ marginTop: 4, color: theme.colors.textMuted }}
+              >
                 {w.transliteration}
               </Text>
-              <Text variant="small" style={{ marginTop: 4 }}>{w.english}</Text>
+              <Text variant="small" style={{ marginTop: 4 }}>
+                {w.english}
+              </Text>
             </>
-          )}
-          {turn.note && (
-            <Text variant="caption" style={{ marginTop: theme.spacing.sm, color: theme.colors.textFaint }}>
-              {turn.note}
+          ) : (
+            <Text variant="body" style={{ color: theme.colors.textMuted }}>
+              {turn?.wordRef ?? '—'}
             </Text>
           )}
+          {turn?.note ? (
+            <Text
+              variant="caption"
+              style={{
+                marginTop: theme.spacing.sm,
+                color: theme.colors.textFaint,
+              }}
+            >
+              {turn.note}
+            </Text>
+          ) : null}
         </Card>
-      </View>
-    );
-  };
-
-  const renderCheck = () => {
-    const q = lesson.check[checkIdx];
-    if (!q) return null;
-    // Build 4 choices: correct + 3 distractors from other focal words
-    const distractors = words.filter((w) => w.id !== q.wordId).slice(0, 3);
-    const correct = bundle.words[q.wordId];
-    const choices = correct
-      ? [correct, ...distractors].sort(() => Math.random() - 0.5)
-      : distractors;
-    const resolved = checkResults[checkIdx];
-    return (
-      <View style={{ flex: 1 }}>
-        <Text variant="caption" style={{ color: theme.colors.textMuted }}>
-          {t('lesson.check')} — {checkIdx + 1}/{lesson.check.length}
-        </Text>
-        <Text variant="title" weight="bold" style={{ marginTop: theme.spacing.sm }}>
-          {q.prompt}
-        </Text>
-        <View style={{ marginTop: theme.spacing.lg }}>
-          {choices.map((c) => {
-            const isSelected = checkSel === c.id;
-            const isCorrect = c.id === q.wordId;
-            let borderColor = theme.colors.border;
-            if (resolved) {
-              if (isCorrect) borderColor = theme.colors.success;
-              else if (isSelected) borderColor = theme.colors.error;
-            } else if (isSelected) {
-              borderColor = theme.colors.accent;
-            }
-            return (
-              <TouchableOpacity
-                key={c.id}
-                disabled={!!resolved}
-                onPress={() => setCheckSel(c.id)}
-                activeOpacity={0.85}
-              >
-                <Card style={{ marginBottom: theme.spacing.sm, borderColor, borderWidth: 2 }}>
-                  <ArabicText size="md">{c.script}</ArabicText>
-                  <Text variant="small" style={{ marginTop: 4, color: theme.colors.textMuted }}>
-                    {c.transliteration}
-                  </Text>
-                </Card>
-              </TouchableOpacity>
-            );
-          })}
-        </View>
       </View>
     );
   };
 
   const renderDone = () => (
     <View style={{ flex: 1, justifyContent: 'center' }}>
-      <Text variant="display" weight="bold">{t('lesson.complete')}</Text>
-      <Text variant="body" style={{ marginTop: theme.spacing.md, color: theme.colors.textMuted }}>
-        You learned {words.length} new words. They're now in your flashcard review queue.
+      <Text variant="display" weight="bold" accessibilityRole="header">
+        {t('lesson.complete')}
+      </Text>
+      <Text
+        variant="body"
+        style={{ marginTop: theme.spacing.md, color: theme.colors.textMuted }}
+      >
+        You absorbed {words.length} new words through introduction, recognition,
+        recall, and production. They're now in your flashcard review queue.
       </Text>
     </View>
   );
 
   const onNext = async () => {
-    if (phase === 'intro') {
-      setPhaseIdx(1);
+    if (stage === 'intro') {
+      setStageIdx(1);
       return;
     }
-    if (phase === 'words') {
-      if (wordIdx + 1 < words.length) setWordIdx(wordIdx + 1);
-      else setPhaseIdx(2);
-      return;
-    }
-    if (phase === 'dialogue') {
-      if (dialogueIdx + 1 < lesson.dialogue.length) setDialogueIdx(dialogueIdx + 1);
-      else setPhaseIdx(3);
-      return;
-    }
-    if (phase === 'check') {
-      const q = lesson.check[checkIdx];
-      // Two-tap: first reveal, then advance
-      if (checkResults[checkIdx] == null) {
-        const correct = checkSel === q.wordId;
-        const nextResults = [...checkResults];
-        nextResults[checkIdx] = correct;
-        setCheckResults(nextResults);
-        return;
+    if (stage === 'dialogue') {
+      const total = lesson.dialogue?.length ?? 0;
+      if (dialogueIdx + 1 < total) {
+        setDialogueIdx(dialogueIdx + 1);
+      } else {
+        setStageIdx(stageIdx + 1);
       }
-      if (checkIdx + 1 < lesson.check.length) {
-        setCheckIdx(checkIdx + 1);
-        setCheckSel(null);
-        return;
-      }
-      setPhaseIdx(4);
       return;
     }
-    if (phase === 'done') {
+    if (stage === 'done') {
+      logActivity({
+        type: 'lesson',
+        contentId: lesson.id,
+        dialect,
+        phase: lesson.phase,
+      });
       await finishCurrentLesson();
       navigation.popToTop();
       navigation.navigate('HomeTab');
     }
   };
 
-  const nextDisabled =
-    phase === 'check' && checkSel == null && checkResults[checkIdx] == null;
+  if (stage === 'memrise') {
+    return (
+      <ScreenContainer scroll={false} onClose={() => navigation.goBack()}>
+        <ActivityHeader title={lesson.title} progress={memriseProgress * 100} />
+        <View style={{ flex: 1 }}>
+          <MemrisePhase
+            words={words}
+            onProgress={setMemriseProgress}
+            onComplete={handleMemriseComplete}
+          />
+        </View>
+      </ScreenContainer>
+    );
+  }
 
   return (
-    <ScreenContainer scroll={false}>
-      <View style={{ marginBottom: theme.spacing.md }}>
-        <ProgressBar value={pct} />
-      </View>
+    <ScreenContainer scroll={false} onClose={() => navigation.goBack()}>
+      <ActivityHeader title={lesson.title} progress={pct} />
 
       <View style={{ flex: 1 }}>
-        {phase === 'intro' && renderIntro()}
-        {phase === 'words' && renderWords()}
-        {phase === 'dialogue' && renderDialogue()}
-        {phase === 'check' && renderCheck()}
-        {phase === 'done' && renderDone()}
+        {stage === 'intro' && renderIntro()}
+        {stage === 'dialogue' && renderDialogue()}
+        {stage === 'done' && renderDone()}
       </View>
 
       <Button
-        title={phase === 'done' ? t('lesson.finishBtn') : t('lesson.continueBtn')}
+        title={stage === 'done' ? t('lesson.finishBtn') : t('lesson.continueBtn')}
         onPress={onNext}
-        variant={phase === 'done' ? 'accent' : 'primary'}
-        disabled={nextDisabled}
+        variant={stage === 'done' ? 'accent' : 'primary'}
+        accessibilityHint={stage === 'done' ? 'Finishes the lesson and returns home' : 'Continues to the next part of the lesson'}
       />
     </ScreenContainer>
   );

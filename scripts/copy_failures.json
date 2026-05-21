@@ -1,0 +1,240 @@
+[
+  {
+    "source": "after.png",
+    "target": "w_baʿd.png",
+    "word_id": "w_baʿd",
+    "dialect": "saudi",
+    "error": "Invalid key: w_baʿd.png"
+  },
+  {
+    "source": "he.png",
+    "target": "w_daʿa.png",
+    "word_id": "w_daʿa",
+    "dialect": "saudi",
+    "error": "Invalid key: w_daʿa.png"
+  },
+  {
+    "source": "weak.png",
+    "target": "w_daʿiif.png",
+    "word_id": "w_daʿiif",
+    "dialect": "saudi",
+    "error": "Invalid key: w_daʿiif.png"
+  },
+  {
+    "source": "call.png",
+    "target": "w_daʿwa.png",
+    "word_id": "w_daʿwa",
+    "dialect": "saudi",
+    "error": "Invalid key: w_daʿwa.png"
+  },
+  {
+    "source": "he.png",
+    "target": "w_faʿala.png",
+    "word_id": "w_faʿala",
+    "dialect": "saudi",
+    "error": "Invalid key: w_faʿala.png"
+  },
+  {
+    "source": "action.png",
+    "target": "w_fiʿl.png",
+    "word_id": "w_fiʿl",
+    "dialect": "saudi",
+    "error": "Invalid key: w_fiʿl.png"
+  },
+  {
+    "source": "they.png",
+    "target": "w_ijtamaʿa.png",
+    "word_id": "w_ijtamaʿa",
+    "dialect": "saudi",
+    "error": "Invalid key: w_ijtamaʿa.png"
+  },
+  {
+    "source": "woman.png",
+    "target": "w_imraʾa.png",
+    "word_id": "w_imraʾa",
+    "dialect": "saudi",
+    "error": "Invalid key: w_imraʾa.png"
+  },
+  {
+    "source": "he.png",
+    "target": "w_jaaʾa.png",
+    "word_id": "w_jaaʾa",
+    "dialect": "saudi",
+    "error": "Invalid key: w_jaaʾa.png"
+  },
+  {
+    "source": "he.png",
+    "target": "w_jamaʿa.png",
+    "word_id": "w_jamaʿa",
+    "dialect": "saudi",
+    "error": "Invalid key: w_jamaʿa.png"
+  },
+  {
+    "source": "he.png",
+    "target": "w_jaʿala.png",
+    "word_id": "w_jaʿala",
+    "dialect": "saudi",
+    "error": "Invalid key: w_jaʿala.png"
+  },
+  {
+    "source": "knowledge.png",
+    "target": "w_maʿrifa.png",
+    "word_id": "w_maʿrifa",
+    "dialect": "saudi",
+    "error": "Invalid key: w_maʿrifa.png"
+  },
+  {
+    "source": "he.png",
+    "target": "w_qaraʾa.png",
+    "word_id": "w_qaraʾa",
+    "dialect": "saudi",
+    "error": "Invalid key: w_qaraʾa.png"
+  },
+  {
+    "source": "he.png",
+    "target": "w_rajaʿa.png",
+    "word_id": "w_rajaʿa",
+    "dialect": "saudi",
+    "error": "Invalid key: w_rajaʿa.png"
+  },
+  {
+    "source": "he.png",
+    "target": "w_raʾa.png",
+    "word_id": "w_raʾa",
+    "dialect": "saudi",
+    "error": "Invalid key: w_raʾa.png"
+  },
+  {
+    "source": "sky.png",
+    "target": "w_samaaʾ.png",
+    "word_id": "w_samaaʾ",
+    "dialect": "saudi",
+    "error": "Invalid key: w_samaaʾ.png"
+  },
+  {
+    "source": "he.png",
+    "target": "w_samiʿa.png",
+    "word_id": "w_samiʿa",
+    "dialect": "saudi",
+    "error": "Invalid key: w_samiʿa.png"
+  },
+  {
+    "source": "bad.png",
+    "target": "w_sayyiʾ.png",
+    "word_id": "w_sayyiʾ",
+    "dialect": "saudi",
+    "error": "Invalid key: w_sayyiʾ.png"
+  },
+  {
+    "source": "he.png",
+    "target": "w_saʾala.png",
+    "word_id": "w_saʾala",
+    "dialect": "saudi",
+    "error": "Invalid key: w_saʾala.png"
+  },
+  {
+    "source": "he.png",
+    "target": "w_shaʿara.png",
+    "word_id": "w_shaʿara",
+    "dialect": "saudi",
+    "error": "Invalid key: w_shaʿara.png"
+  },
+  {
+    "source": "people.png",
+    "target": "w_shaʿb.png",
+    "word_id": "w_shaʿb",
+    "dialect": "saudi",
+    "error": "Invalid key: w_shaʿb.png"
+  },
+  {
+    "source": "question.png",
+    "target": "w_suʾaal.png",
+    "word_id": "w_suʾaal",
+    "dialect": "saudi",
+    "error": "Invalid key: w_suʾaal.png"
+  },
+  {
+    "source": "he.png",
+    "target": "w_tabiʿa.png",
+    "word_id": "w_tabiʿa",
+    "dialect": "saudi",
+    "error": "Invalid key: w_tabiʿa.png"
+  },
+  {
+    "source": "expression.png",
+    "target": "w_taʿbiir.png",
+    "word_id": "w_taʿbiir",
+    "dialect": "saudi",
+    "error": "Invalid key: w_taʿbiir.png"
+  },
+  {
+    "source": "just.png",
+    "target": "w_ʿaadil.png",
+    "word_id": "w_ʿaadil",
+    "dialect": "saudi",
+    "error": "Invalid key: w_ʿaadil.png"
+  },
+  {
+    "source": "worker.png",
+    "target": "w_ʿaamil.png",
+    "word_id": "w_ʿaamil",
+    "dialect": "saudi",
+    "error": "Invalid key: w_ʿaamil.png"
+  },
+  {
+    "source": "he.png",
+    "target": "w_ʿabada.png",
+    "word_id": "w_ʿabada",
+    "dialect": "saudi",
+    "error": "Invalid key: w_ʿabada.png"
+  },
+  {
+    "source": "he.png",
+    "target": "w_ʿabbara.png",
+    "word_id": "w_ʿabbara",
+    "dialect": "saudi",
+    "error": "Invalid key: w_ʿabbara.png"
+  },
+  {
+    "source": "work.png",
+    "target": "w_ʿamal.png",
+    "word_id": "w_ʿamal",
+    "dialect": "saudi",
+    "error": "Invalid key: w_ʿamal.png"
+  },
+  {
+    "source": "he.png",
+    "target": "w_ʿamila.png",
+    "word_id": "w_ʿamila",
+    "dialect": "saudi",
+    "error": "Invalid key: w_ʿamila.png"
+  },
+  {
+    "source": "mind.png",
+    "target": "w_ʿaql.png",
+    "word_id": "w_ʿaql",
+    "dialect": "saudi",
+    "error": "Invalid key: w_ʿaql.png"
+  },
+  {
+    "source": "he.png",
+    "target": "w_ʿarafa.png",
+    "word_id": "w_ʿarafa",
+    "dialect": "saudi",
+    "error": "Invalid key: w_ʿarafa.png"
+  },
+  {
+    "source": "eye.png",
+    "target": "w_ʿayn.png",
+    "word_id": "w_ʿayn",
+    "dialect": "saudi",
+    "error": "Invalid key: w_ʿayn.png"
+  },
+  {
+    "source": "age.png",
+    "target": "w_ʿumr.png",
+    "word_id": "w_ʿumr",
+    "dialect": "saudi",
+    "error": "Invalid key: w_ʿumr.png"
+  }
+]

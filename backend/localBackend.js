@@ -1,69 +1,33 @@
-// Local backend façade. Screens & contexts import from here instead of
-// touching bundled JSON or AsyncStorage directly. When we move to a real API,
-// we only rewrite the internals of these functions.
+// Backend facade. Screens & contexts import from here and don't care where the
+// data comes from. Routes to the Supabase-backed implementation when
+// EXPO_PUBLIC_USE_SUPABASE_CONTENT=true and the client is configured,
+// otherwise falls through to the bundled JS dialect data.
 
-import saudi from '../src/data/dialects/saudi';
-import levantine from '../src/data/dialects/levantine';
-import fusha from '../src/data/dialects/fusha';
-import { LEVELS } from '../src/data/levels';
-import { PLACEMENT_QUESTIONS } from '../src/data/placement';
+import { useSupabaseContent } from '../src/config/supabase';
+import * as bundle from './bundleBackend';
+import * as remote from './supabaseBackend';
 
-const BUNDLES = { saudi, levantine, fusha };
+const source = useSupabaseContent ? remote : bundle;
 
-function bundleFor(dialect) {
-  return BUNDLES[dialect] || BUNDLES.saudi;
-}
-
-// --- Lessons -------------------------------------------------------------
-
-export async function getLessons({ dialect = 'saudi', level } = {}) {
-  const all = bundleFor(dialect).lessons;
-  return level == null ? all : all.filter((l) => l.level === level);
-}
-
-export async function getLesson({ dialect = 'saudi', lessonId }) {
-  return bundleFor(dialect).lessons.find((l) => l.id === lessonId) || null;
-}
-
-// --- Words ---------------------------------------------------------------
-
-export async function getWords({ dialect = 'saudi', wordIds }) {
-  const dict = bundleFor(dialect).words;
-  if (!Array.isArray(wordIds)) return [];
-  return wordIds.map((id) => dict[id]).filter(Boolean);
-}
-
-export async function getAllWords({ dialect = 'saudi' } = {}) {
-  return Object.values(bundleFor(dialect).words);
-}
-
-export async function getWord({ dialect = 'saudi', wordId }) {
-  return bundleFor(dialect).words[wordId] || null;
-}
-
-// --- Conversations -------------------------------------------------------
-
-export async function getConversations({ dialect = 'saudi', level } = {}) {
-  const all = bundleFor(dialect).conversations;
-  return level == null ? all : all.filter((c) => c.level === level);
-}
-
-export async function getConversation({ dialect = 'saudi', conversationId }) {
-  return bundleFor(dialect).conversations.find((c) => c.id === conversationId) || null;
-}
-
-// --- Level & placement metadata -----------------------------------------
-
-export async function getLevels() {
-  return LEVELS;
-}
-
-export async function getPlacementQuestions() {
-  return PLACEMENT_QUESTIONS;
-}
-
-// --- Discovery helpers ---------------------------------------------------
-
-export async function getAvailableDialects() {
-  return Object.keys(BUNDLES);
-}
+export const getLessons = source.getLessons;
+export const getLesson = source.getLesson;
+export const getWords = source.getWords;
+export const getAllWords = source.getAllWords;
+export const getWord = source.getWord;
+export const getConversations = source.getConversations;
+export const getConversation = source.getConversation;
+export const getShadowingPhrases = source.getShadowingPhrases;
+export const getStories = source.getStories;
+export const getStory = source.getStory;
+export const getListeningExercises = source.getListeningExercises;
+export const getListeningExercise = source.getListeningExercise;
+export const getIdioms = source.getIdioms;
+export const getPronunciationTargets = source.getPronunciationTargets;
+export const getGrammarDrills = source.getGrammarDrills;
+export const getPrimer = source.getPrimer;
+export const getRoots = source.getRoots;
+export const getRoot = source.getRoot;
+export const getRootFamily = source.getRootFamily;
+export const getPhases = source.getPhases;
+export const getPlacementQuestions = source.getPlacementQuestions;
+export const getAvailableDialects = source.getAvailableDialects;

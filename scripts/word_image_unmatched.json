@@ -1,0 +1,3552 @@
+[
+  {
+    "word_id": "w_abaya",
+    "english": "abaya (women's robe)",
+    "phase": 3
+  },
+  {
+    "word_id": "w_abdoun",
+    "english": "\"dude\" (Saudi slang)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_afraid",
+    "english": "afraid (Saudi)",
+    "phase": 5
+  },
+  {
+    "word_id": "w_alliteration",
+    "english": "alliteration / wordplay",
+    "phase": 10
+  },
+  {
+    "word_id": "w_also",
+    "english": "also",
+    "phase": 4
+  },
+  {
+    "word_id": "w_and",
+    "english": "and",
+    "phase": 1
+  },
+  {
+    "word_id": "w_app",
+    "english": "application / app",
+    "phase": 6
+  },
+  {
+    "word_id": "w_atm",
+    "english": "ATM",
+    "phase": 5
+  },
+  {
+    "word_id": "w_baaʿiʿ",
+    "english": "seller",
+    "phase": 5
+  },
+  {
+    "word_id": "w_because",
+    "english": "because",
+    "phase": 8
+  },
+  {
+    "word_id": "w_bidaaya",
+    "english": "beginning",
+    "phase": 6
+  },
+  {
+    "word_id": "w_bored",
+    "english": "bored",
+    "phase": 7
+  },
+  {
+    "word_id": "w_breakfast",
+    "english": "breakfast",
+    "phase": 3
+  },
+  {
+    "word_id": "w_busy",
+    "english": "busy",
+    "phase": 7
+  },
+  {
+    "word_id": "w_but",
+    "english": "but (Saudi)",
+    "phase": 2
+  },
+  {
+    "word_id": "w_compared_to",
+    "english": "compared to",
+    "phase": 8
+  },
+  {
+    "word_id": "w_dars",
+    "english": "lesson",
+    "phase": 3
+  },
+  {
+    "word_id": "w_daughter",
+    "english": "daughter",
+    "phase": 3
+  },
+  {
+    "word_id": "w_day_fri",
+    "english": "Friday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_day_mon",
+    "english": "Monday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_day_sun",
+    "english": "Sunday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_decision",
+    "english": "decision",
+    "phase": 7
+  },
+  {
+    "word_id": "w_demographic",
+    "english": "demographic",
+    "phase": 9
+  },
+  {
+    "word_id": "w_dhulm",
+    "english": "oppression / injustice",
+    "phase": 9
+  },
+  {
+    "word_id": "w_difficult",
+    "english": "difficult",
+    "phase": 3
+  },
+  {
+    "word_id": "w_dinner",
+    "english": "dinner",
+    "phase": 3
+  },
+  {
+    "word_id": "w_donkey",
+    "english": "donkey",
+    "phase": 4
+  },
+  {
+    "word_id": "w_dukhuul",
+    "english": "entry",
+    "phase": 4
+  },
+  {
+    "word_id": "w_early",
+    "english": "early (Saudi)",
+    "phase": 6
+  },
+  {
+    "word_id": "w_easy",
+    "english": "easy",
+    "phase": 3
+  },
+  {
+    "word_id": "w_eloquence",
+    "english": "eloquence",
+    "phase": 10
+  },
+  {
+    "word_id": "w_eloquent",
+    "english": "eloquent",
+    "phase": 10
+  },
+  {
+    "word_id": "w_fahm",
+    "english": "understanding",
+    "phase": 8
+  },
+  {
+    "word_id": "w_farq",
+    "english": "difference",
+    "phase": 8
+  },
+  {
+    "word_id": "w_fast",
+    "english": "fast",
+    "phase": 4
+  },
+  {
+    "word_id": "w_freedom",
+    "english": "freedom",
+    "phase": 9
+  },
+  {
+    "word_id": "w_friday",
+    "english": "Friday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_fruit",
+    "english": "fruit",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p1_008",
+    "english": "god willing (saudi)",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_014",
+    "english": "how's it going (saudi)",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_015",
+    "english": "how's it going (f, saudi)",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_017",
+    "english": "ok",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_039",
+    "english": "that (m)",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_040",
+    "english": "that (f)",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_041",
+    "english": "these (saudi)",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_042",
+    "english": "those (saudi)",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_052",
+    "english": "there",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_057",
+    "english": "later",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_061",
+    "english": "often",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_062",
+    "english": "early (msa)",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_089",
+    "english": "dad (casual)",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_090",
+    "english": "mom (casual)",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_102",
+    "english": "kids",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_109",
+    "english": "chest",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_115",
+    "english": "toe",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_116",
+    "english": "tongue",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_117",
+    "english": "lip",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_118",
+    "english": "skin",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_119",
+    "english": "bone",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_127",
+    "english": "hunger",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_128",
+    "english": "thirst",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_132",
+    "english": "delicious",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_133",
+    "english": "sweet",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_134",
+    "english": "sour",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_136",
+    "english": "and",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_137",
+    "english": "but",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_138",
+    "english": "or (alt)",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_139",
+    "english": "so",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_140",
+    "english": "if",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_141",
+    "english": "if (saudi)",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_142",
+    "english": "then",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_152",
+    "english": "toward",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_170",
+    "english": "i'm coming",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_171",
+    "english": "i'm going",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_179",
+    "english": "who is this (m)",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_196",
+    "english": "any",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_206",
+    "english": "alone",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_207",
+    "english": "together",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p1_214",
+    "english": "the kid",
+    "phase": 1
+  },
+  {
+    "word_id": "w_g2_p10_001",
+    "english": "inshallah (filler P10)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_002",
+    "english": "mashallah (filler)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_003",
+    "english": "yaʿni (you know)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_004",
+    "english": "wallah (i swear)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_005",
+    "english": "khalaaṣ (P10)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_006",
+    "english": "tayyib (ok)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_007",
+    "english": "kaafi (enough)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_008",
+    "english": "tamaam (perfect)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_009",
+    "english": "mumtaaz (excellent)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_010",
+    "english": "maashi l-haal (so-so)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_011",
+    "english": "sayyi jiddan",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_012",
+    "english": "ʿabduh (Saudi dude)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_013",
+    "english": "ʿazzeezi (my dear m)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_014",
+    "english": "ʿazzeezati (my dear f)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_015",
+    "english": "habiibi (dear m)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_016",
+    "english": "habiibti (dear f)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_017",
+    "english": "ya akhi (bro)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_018",
+    "english": "ya bint (girl, slang)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_019",
+    "english": "ya rajjaal (man, saudi)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_020",
+    "english": "ya hala (welcome)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_021",
+    "english": "ya hala wallah",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_022",
+    "english": "marhabtain (double hi)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_023",
+    "english": "ahlan wa sahlan",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_024",
+    "english": "sharaftana",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_025",
+    "english": "tikrum (gladly)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_026",
+    "english": "tikrum ʿainak",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_031",
+    "english": "may god make you successful",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_035",
+    "english": "tislam (informal)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_036",
+    "english": "yiʿaafiik (kind blessing)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_047",
+    "english": "let me through",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_049",
+    "english": "i've got it (handled)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_050",
+    "english": "with my honor",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_052",
+    "english": "swear",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_056",
+    "english": "i'm kidding",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_057",
+    "english": "joke (n)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_058",
+    "english": "you're joking? (saudi)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_059",
+    "english": "wow (admiration)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_061",
+    "english": "for real?",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_063",
+    "english": "unbelievable",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_065",
+    "english": "oh my god (saudi)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_069",
+    "english": "speaking of which",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_072",
+    "english": "sort of (saudi)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_074",
+    "english": "as if",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_075",
+    "english": "as if (P10 saudi)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_086",
+    "english": "let me tell you something",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_089",
+    "english": "don't tell anyone",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_092",
+    "english": "this is private",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_093",
+    "english": "personal",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_103",
+    "english": "you're crazy (joking)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_104",
+    "english": "this is amazing (slang)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_106",
+    "english": "epic (saudi slang)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_111",
+    "english": "the vibe is great",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_118",
+    "english": "i'm free tonight",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_119",
+    "english": "i'm busy (saudi)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_136",
+    "english": "i'm down (agree)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_138",
+    "english": "let's do it",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_141",
+    "english": "100% true",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_148",
+    "english": "frankly (P10)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_150",
+    "english": "in a nutshell",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_152",
+    "english": "got it",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_153",
+    "english": "understood",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_154",
+    "english": "noted",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_161",
+    "english": "with your permission (P10)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_170",
+    "english": "ramadan kareem",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_172",
+    "english": "eid mubarak",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_175",
+    "english": "mabruuk al-shahr",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_178",
+    "english": "may god accept your hajj",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_181",
+    "english": "iftar (meal)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_182",
+    "english": "suhoor",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_183",
+    "english": "fasting",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_184",
+    "english": "i'm fasting",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_187",
+    "english": "may god bring you together",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_188",
+    "english": "mabruuk al-mawluud",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_196",
+    "english": "feast",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_199",
+    "english": "custom",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_200",
+    "english": "majlis (sitting room)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_201",
+    "english": "ʿazima (invitation)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_202",
+    "english": "you're invited",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_204",
+    "english": "to honor (host)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_205",
+    "english": "hospitality",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_206",
+    "english": "host (n)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_207",
+    "english": "guest",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_208",
+    "english": "the bedouin",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_209",
+    "english": "tribal (cultural adj)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_210",
+    "english": "tribe",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_211",
+    "english": "famous (m)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_212",
+    "english": "celebrity",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_214",
+    "english": "camping",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_215",
+    "english": "let's go camping",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_216",
+    "english": "campfire",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_217",
+    "english": "tent",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_220",
+    "english": "falcon",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_222",
+    "english": "poem",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_223",
+    "english": "poet",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_231",
+    "english": "i'm a fan",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_233",
+    "english": "ugh (annoyance)",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_234",
+    "english": "phew",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_235",
+    "english": "oh / oof",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_236",
+    "english": "great heavens",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_237",
+    "english": "wow indeed",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_241",
+    "english": "patience",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_243",
+    "english": "patience is virtue",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_244",
+    "english": "easier said than done",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_247",
+    "english": "saudi proverb 1",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_248",
+    "english": "saudi proverb 2",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_250",
+    "english": "saudi proverb 3",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_255",
+    "english": "saudi proverb 4",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_257",
+    "english": "by coincidence",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_260",
+    "english": "i'm shocked",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_264",
+    "english": "fast-paced",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_284",
+    "english": "speaking of",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_291",
+    "english": "fyi",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p10_298",
+    "english": "anytime",
+    "phase": 10
+  },
+  {
+    "word_id": "w_g2_p2_015",
+    "english": "fourteen",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_016",
+    "english": "fifteen",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_017",
+    "english": "sixteen",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_018",
+    "english": "seventeen",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_019",
+    "english": "eighteen",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_020",
+    "english": "nineteen",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_039",
+    "english": "third (m)",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_040",
+    "english": "fourth (m)",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_041",
+    "english": "fifth (m)",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_044",
+    "english": "quarter",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_045",
+    "english": "third (fraction)",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_064",
+    "english": "grey (m)",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_065",
+    "english": "gold (color)",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_066",
+    "english": "silver (color)",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_069",
+    "english": "Sunday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_070",
+    "english": "Monday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_071",
+    "english": "Tuesday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_072",
+    "english": "Wednesday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_073",
+    "english": "Thursday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_074",
+    "english": "Friday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_075",
+    "english": "Saturday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_076",
+    "english": "weekend (saudi)",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_085",
+    "english": "January",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_086",
+    "english": "February",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_087",
+    "english": "March",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_088",
+    "english": "April",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_089",
+    "english": "May",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_090",
+    "english": "June",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_091",
+    "english": "July",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_092",
+    "english": "August",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_093",
+    "english": "September",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_094",
+    "english": "October",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_095",
+    "english": "November",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_096",
+    "english": "December",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_105",
+    "english": "midnight",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_106",
+    "english": "noon",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_140",
+    "english": "soda",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_154",
+    "english": "fruit",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_155",
+    "english": "vegetables",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_165",
+    "english": "salad",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_167",
+    "english": "sweets",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_174",
+    "english": "breakfast",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_175",
+    "english": "lunch",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_176",
+    "english": "dinner",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_177",
+    "english": "snack",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_192",
+    "english": "fast (m)",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_201",
+    "english": "easy (m)",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_202",
+    "english": "difficult (m)",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p2_211",
+    "english": "wrong (m)",
+    "phase": 2
+  },
+  {
+    "word_id": "w_g2_p3_009",
+    "english": "son",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_011",
+    "english": "daughter",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_015",
+    "english": "buddy (m, saudi)",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_022",
+    "english": "household / household members",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_030",
+    "english": "elder (m)",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_035",
+    "english": "who (saudi)",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_041",
+    "english": "who is this? (saudi)",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_053",
+    "english": "i'm vegetarian (m)",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_054",
+    "english": "kabsa (saudi rice)",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_055",
+    "english": "mandi (rice & meat)",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_056",
+    "english": "shawarma",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_057",
+    "english": "falafel",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_058",
+    "english": "hummus",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_060",
+    "english": "saffron (saudi)",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_061",
+    "english": "cardamom (saudi)",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_063",
+    "english": "honey",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_065",
+    "english": "ginger",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_067",
+    "english": "watermelon",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_076",
+    "english": "salty",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_077",
+    "english": "bitter",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_078",
+    "english": "fresh",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_079",
+    "english": "ripe",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_080",
+    "english": "raw",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_081",
+    "english": "cooked",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_082",
+    "english": "grilled",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_083",
+    "english": "fried",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_084",
+    "english": "boiled",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_085",
+    "english": "baked",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_089",
+    "english": "fridge",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_095",
+    "english": "couch",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_104",
+    "english": "ceiling",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_107",
+    "english": "key (saudi)",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_110",
+    "english": "soap",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_112",
+    "english": "toothbrush",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_113",
+    "english": "toothpaste",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_147",
+    "english": "feminine (adj)",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p3_148",
+    "english": "masculine (adj)",
+    "phase": 3
+  },
+  {
+    "word_id": "w_g2_p4_013",
+    "english": "clinic",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_017",
+    "english": "mosque (saudi)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_018",
+    "english": "the holy mosque",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_019",
+    "english": "prayer",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_020",
+    "english": "imam",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_022",
+    "english": "café",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_029",
+    "english": "embassy",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_048",
+    "english": "roundabout (saudi)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_055",
+    "english": "later (saudi)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_056",
+    "english": "early (saudi)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_057",
+    "english": "late (saudi)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_060",
+    "english": "tonight (saudi)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_077",
+    "english": "around",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_078",
+    "english": "ahead",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_084",
+    "english": "in / at (saudi)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_085",
+    "english": "from",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_086",
+    "english": "to (direction)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_088",
+    "english": "with",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_089",
+    "english": "without",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_090",
+    "english": "across from",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_093",
+    "english": "next (after)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_094",
+    "english": "i'm going to (saudi)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_095",
+    "english": "i'm coming (saudi)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_108",
+    "english": "i'm from (saudi)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_112",
+    "english": "traveler",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_113",
+    "english": "Saudi Arabia (saudi)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_114",
+    "english": "Riyadh",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_115",
+    "english": "Jeddah",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_116",
+    "english": "Mecca (saudi)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_117",
+    "english": "Medina",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_118",
+    "english": "Dammam",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_119",
+    "english": "Saudi (adj)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_120",
+    "english": "Saudi (f)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_121",
+    "english": "Arab (adj, m)",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_126",
+    "english": "do you speak english",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_131",
+    "english": "translate",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_134",
+    "english": "map",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_138",
+    "english": "entrance",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_141",
+    "english": "stairs",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_151",
+    "english": "i'm sure",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_152",
+    "english": "maybe",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p4_159",
+    "english": "quarter to",
+    "phase": 4
+  },
+  {
+    "word_id": "w_g2_p5_006",
+    "english": "Saudi riyal",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_007",
+    "english": "riyals",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_008",
+    "english": "halala (sub-unit)",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_009",
+    "english": "dollar",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_031",
+    "english": "i'll think about it",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_034",
+    "english": "i'll come back later",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_035",
+    "english": "i'm just looking",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_051",
+    "english": "smaller",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_052",
+    "english": "bigger",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_053",
+    "english": "cheaper",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_064",
+    "english": "color (n)",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_066",
+    "english": "brand",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_069",
+    "english": "made in (saudi)",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_070",
+    "english": "made in Saudi",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_071",
+    "english": "imported",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_079",
+    "english": "abaya (saudi)",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_080",
+    "english": "thobe (saudi)",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_081",
+    "english": "ghutra (saudi)",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_082",
+    "english": "shemagh (saudi)",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_083",
+    "english": "agal (saudi)",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_084",
+    "english": "hijab",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_087",
+    "english": "bag",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_088",
+    "english": "wallet",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_091",
+    "english": "sunglasses",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_093",
+    "english": "necklace",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_094",
+    "english": "bracelet",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_095",
+    "english": "earrings",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_096",
+    "english": "cotton",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_097",
+    "english": "wool",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_098",
+    "english": "silk",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_099",
+    "english": "leather",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_100",
+    "english": "plastic",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_101",
+    "english": "gold (metal)",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_102",
+    "english": "silver (metal)",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_103",
+    "english": "wood",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_104",
+    "english": "metal",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_138",
+    "english": "ATM",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_145",
+    "english": "VAT (tax)",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_146",
+    "english": "including VAT",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_149",
+    "english": "delivery (saudi)",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_150",
+    "english": "courier (saudi)",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_151",
+    "english": "shipment / package",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_160",
+    "english": "kilo",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_161",
+    "english": "gram",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_162",
+    "english": "liter",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_163",
+    "english": "meter",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_164",
+    "english": "centimeter",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p5_167",
+    "english": "a quarter kilo",
+    "phase": 5
+  },
+  {
+    "word_id": "w_g2_p6_002",
+    "english": "airline (saudi)",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_003",
+    "english": "Saudia airline",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_009",
+    "english": "iqama (residence)",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_011",
+    "english": "carry-on (saudi)",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_012",
+    "english": "checked bag",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_013",
+    "english": "check-in (verb)",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_023",
+    "english": "cancellation",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_027",
+    "english": "aisle seat",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_034",
+    "english": "metro (saudi)",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_038",
+    "english": "uber / careem",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_041",
+    "english": "motorbike",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_045",
+    "english": "ticket (saudi)",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_046",
+    "english": "tickets (plural)",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_047",
+    "english": "one-way ticket",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_048",
+    "english": "round-trip ticket",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_053",
+    "english": "to downtown",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_063",
+    "english": "fast (saudi)",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_071",
+    "english": "u-turn",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_073",
+    "english": "gasoline (saudi)",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_075",
+    "english": "tire",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_093",
+    "english": "breakfast included",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_096",
+    "english": "the AC isn't working",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_112",
+    "english": "decade",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_113",
+    "english": "century",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_126",
+    "english": "later (P6)",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_134",
+    "english": "noon prayer",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_136",
+    "english": "sunset prayer",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_138",
+    "english": "ramadan",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_139",
+    "english": "eid al-fitr",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_140",
+    "english": "eid al-adha",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_150",
+    "english": "sandstorm",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_169",
+    "english": "wifi",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p6_179",
+    "english": "i'm lost",
+    "phase": 6
+  },
+  {
+    "word_id": "w_g2_p7_006",
+    "english": "depressed (m)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_007",
+    "english": "depressed (f)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_013",
+    "english": "furious",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_014",
+    "english": "bored (m)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_015",
+    "english": "bored (f)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_042",
+    "english": "feeling (n)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_043",
+    "english": "mood",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_072",
+    "english": "bonus",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_076",
+    "english": "resignation",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_077",
+    "english": "fired (let go)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_084",
+    "english": "accountant (m)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_085",
+    "english": "programmer (m)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_086",
+    "english": "designer (m)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_087",
+    "english": "businessman",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_088",
+    "english": "businesswoman",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_089",
+    "english": "freelancer",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_112",
+    "english": "overtime",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_115",
+    "english": "weekend off",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_117",
+    "english": "a lot (saudi)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_149",
+    "english": "honestly",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_150",
+    "english": "frankly",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_155",
+    "english": "specifically",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_159",
+    "english": "i'm done (saudi)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_179",
+    "english": "reading (hobby)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_180",
+    "english": "writing (hobby)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_181",
+    "english": "drawing",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_188",
+    "english": "movies",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_190",
+    "english": "photography",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_191",
+    "english": "cooking (hobby)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_197",
+    "english": "married (m)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_198",
+    "english": "married (f)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_201",
+    "english": "divorced (m)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_202",
+    "english": "engaged (m)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_203",
+    "english": "engaged (f)",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_206",
+    "english": "birthday",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_208",
+    "english": "congratulations",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_209",
+    "english": "may god bless",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_217",
+    "english": "with your permission",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p7_218",
+    "english": "I'll get going",
+    "phase": 7
+  },
+  {
+    "word_id": "w_g2_p8_007",
+    "english": "i'm thinking about",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_022",
+    "english": "i'd rather",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_030",
+    "english": "i'm convinced",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_031",
+    "english": "i'm not convinced",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_032",
+    "english": "i'm against",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_033",
+    "english": "i'm for / with",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_044",
+    "english": "the least",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_051",
+    "english": "unlike",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_053",
+    "english": "on the contrary",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_054",
+    "english": "compared to",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_055",
+    "english": "comparison",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_057",
+    "english": "disadvantage",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_058",
+    "english": "pros and cons",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_059",
+    "english": "easier",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_060",
+    "english": "harder",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_061",
+    "english": "faster",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_062",
+    "english": "slower",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_063",
+    "english": "older (in age)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_064",
+    "english": "younger",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_065",
+    "english": "newer",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_066",
+    "english": "longer",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_067",
+    "english": "shorter",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_068",
+    "english": "stronger",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_069",
+    "english": "weaker",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_070",
+    "english": "richer",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_071",
+    "english": "smarter",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_072",
+    "english": "kinder",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_073",
+    "english": "prettier",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_080",
+    "english": "because",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_081",
+    "english": "because of",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_091",
+    "english": "but (msa)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_093",
+    "english": "in spite of that",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_094",
+    "english": "anyway (P8)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_096",
+    "english": "secondly",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_097",
+    "english": "thirdly",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_098",
+    "english": "finally",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_101",
+    "english": "in addition",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_104",
+    "english": "also (additional)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_106",
+    "english": "either / or",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_109",
+    "english": "but also",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_111",
+    "english": "as soon as",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_112",
+    "english": "as long as",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_114",
+    "english": "if (P8)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_119",
+    "english": "so that",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_121",
+    "english": "instead of",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_122",
+    "english": "rather than",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_132",
+    "english": "perhaps",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_133",
+    "english": "supposedly",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_138",
+    "english": "partly",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_139",
+    "english": "the truth (n)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_140",
+    "english": "truthful (m)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_142",
+    "english": "dishonest (m)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_147",
+    "english": "irresponsible",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_150",
+    "english": "respectful (m)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_151",
+    "english": "disrespectful (m)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_155",
+    "english": "stingy (m)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_159",
+    "english": "stupid (m, mild)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_160",
+    "english": "creative (m)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_161",
+    "english": "diligent (m)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_169",
+    "english": "topic",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_182",
+    "english": "experience (life)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_183",
+    "english": "experience (resume)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_184",
+    "english": "expert (m)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_185",
+    "english": "beginner (m)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_191",
+    "english": "growth",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_197",
+    "english": "i'll succeed inshallah",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_199",
+    "english": "leader (m)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_202",
+    "english": "follower (m)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_203",
+    "english": "important",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_207",
+    "english": "unnecessary",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_208",
+    "english": "useful",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_209",
+    "english": "useless",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_210",
+    "english": "available",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_213",
+    "english": "impossible",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_220",
+    "english": "the important thing is",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_227",
+    "english": "detail",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_228",
+    "english": "details",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_229",
+    "english": "in detail",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_230",
+    "english": "briefly",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_237",
+    "english": "meaning",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_242",
+    "english": "namely / i.e.",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_248",
+    "english": "priority",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p8_251",
+    "english": "i'm not sure (m)",
+    "phase": 8
+  },
+  {
+    "word_id": "w_g2_p9_003",
+    "english": "minister (m)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_004",
+    "english": "minister (f)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_005",
+    "english": "ministry",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_006",
+    "english": "king",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_007",
+    "english": "crown prince",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_011",
+    "english": "parliament",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_012",
+    "english": "shura council",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_013",
+    "english": "council",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_015",
+    "english": "politics",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_016",
+    "english": "politician (m)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_021",
+    "english": "party (political)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_036",
+    "english": "innocent",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_039",
+    "english": "criminal (n)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_041",
+    "english": "injustice",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_046",
+    "english": "freedom",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_051",
+    "english": "discrimination",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_056",
+    "english": "citizenship",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_058",
+    "english": "expat",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_059",
+    "english": "social",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_063",
+    "english": "traditional",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_064",
+    "english": "heritage",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_065",
+    "english": "civilization",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_066",
+    "english": "religion",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_067",
+    "english": "religious",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_068",
+    "english": "islam",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_069",
+    "english": "islamic",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_070",
+    "english": "muslim (m)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_071",
+    "english": "muslim (f)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_072",
+    "english": "the Quran",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_073",
+    "english": "the sunnah",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_074",
+    "english": "hadith",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_076",
+    "english": "historical",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_079",
+    "english": "contemporary",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_080",
+    "english": "century (P9)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_083",
+    "english": "newspaper",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_084",
+    "english": "newspapers",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_085",
+    "english": "magazine",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_087",
+    "english": "journalist (m)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_099",
+    "english": "documentary",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_103",
+    "english": "economic",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_107",
+    "english": "industry",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_109",
+    "english": "investor",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_110",
+    "english": "growth (economic)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_114",
+    "english": "employment",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_115",
+    "english": "poverty",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_117",
+    "english": "rich (m)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_118",
+    "english": "poor (m)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_120",
+    "english": "Saudi Aramco",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_123",
+    "english": "sustainability",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_124",
+    "english": "innovation",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_127",
+    "english": "scientific",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_130",
+    "english": "researcher (m)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_143",
+    "english": "pandemic",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_144",
+    "english": "epidemic",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_145",
+    "english": "vaccine",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_150",
+    "english": "the giga-project",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_151",
+    "english": "Neom",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_152",
+    "english": "tourism",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_154",
+    "english": "Hajj",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_155",
+    "english": "Umrah",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_156",
+    "english": "pilgrim",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_168",
+    "english": "official (adj)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_169",
+    "english": "unofficial",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_173",
+    "english": "is found (passive)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_174",
+    "english": "is considered (passive)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_175",
+    "english": "is published (passive)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_176",
+    "english": "is translated (passive)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_177",
+    "english": "is built (passive)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_178",
+    "english": "is written (passive)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_179",
+    "english": "who (relative, m)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_180",
+    "english": "who (relative, f)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_181",
+    "english": "who (relative, m pl)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_182",
+    "english": "who (relative, f pl)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_183",
+    "english": "which (relative, m)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_184",
+    "english": "which thing",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_186",
+    "english": "as long as (MSA)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_187",
+    "english": "whenever",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_188",
+    "english": "wherever",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_189",
+    "english": "whoever",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_190",
+    "english": "whatever",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_211",
+    "english": "the military",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_212",
+    "english": "soldier",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_214",
+    "english": "peace",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_215",
+    "english": "ceasefire",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_219",
+    "english": "alliance",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_220",
+    "english": "ally (n)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_221",
+    "english": "enemy",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_228",
+    "english": "the gulf",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_229",
+    "english": "gulf cooperation council",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_231",
+    "english": "diplomacy",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_232",
+    "english": "diplomat",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_233",
+    "english": "ambassador",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_234",
+    "english": "embassy (P9)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_237",
+    "english": "signing ceremony",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_238",
+    "english": "summit (conference)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_239",
+    "english": "conference",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_240",
+    "english": "convention",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_245",
+    "english": "spokesman",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_248",
+    "english": "analyst",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_251",
+    "english": "critic",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_262",
+    "english": "to participate",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_263",
+    "english": "participation",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_264",
+    "english": "to represent",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_265",
+    "english": "representative",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_268",
+    "english": "transparency",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_269",
+    "english": "corruption",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_278",
+    "english": "influencer",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_280",
+    "english": "trending",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_282",
+    "english": "follower (social)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_286",
+    "english": "fact-check",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_287",
+    "english": "verified",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_288",
+    "english": "rumor",
+    "phase": 9
+  },
+  {
+    "word_id": "w_g2_p9_290",
+    "english": "unverified",
+    "phase": 9
+  },
+  {
+    "word_id": "w_ghutra",
+    "english": "ghutra (head cloth)",
+    "phase": 3
+  },
+  {
+    "word_id": "w_great",
+    "english": "excellent",
+    "phase": 10
+  },
+  {
+    "word_id": "w_habiib",
+    "english": "beloved",
+    "phase": 4
+  },
+  {
+    "word_id": "w_hi_saudi",
+    "english": "hi (casual)",
+    "phase": 1
+  },
+  {
+    "word_id": "w_hikma",
+    "english": "wisdom",
+    "phase": 9
+  },
+  {
+    "word_id": "w_humility",
+    "english": "humility",
+    "phase": 10
+  },
+  {
+    "word_id": "w_illness",
+    "english": "illness",
+    "phase": 6
+  },
+  {
+    "word_id": "w_implication",
+    "english": "implication",
+    "phase": 10
+  },
+  {
+    "word_id": "w_important",
+    "english": "important",
+    "phase": 4
+  },
+  {
+    "word_id": "w_in_essence",
+    "english": "in essence",
+    "phase": 10
+  },
+  {
+    "word_id": "w_innovation",
+    "english": "innovation",
+    "phase": 9
+  },
+  {
+    "word_id": "w_inshallah",
+    "english": "God willing / maybe",
+    "phase": 10
+  },
+  {
+    "word_id": "w_irony",
+    "english": "irony",
+    "phase": 10
+  },
+  {
+    "word_id": "w_istimaaʿ",
+    "english": "listening",
+    "phase": 6
+  },
+  {
+    "word_id": "w_journalist",
+    "english": "journalist",
+    "phase": 6
+  },
+  {
+    "word_id": "w_kaafir",
+    "english": "unbeliever",
+    "phase": 7
+  },
+  {
+    "word_id": "w_kaatib",
+    "english": "writer",
+    "phase": 5
+  },
+  {
+    "word_id": "w_kilometer",
+    "english": "kilometer",
+    "phase": 4
+  },
+  {
+    "word_id": "w_late",
+    "english": "late",
+    "phase": 6
+  },
+  {
+    "word_id": "w_lunch",
+    "english": "lunch",
+    "phase": 3
+  },
+  {
+    "word_id": "w_maghfira",
+    "english": "forgiveness",
+    "phase": 8
+  },
+  {
+    "word_id": "w_may_god",
+    "english": "God give you wellness",
+    "phase": 3
+  },
+  {
+    "word_id": "w_maʿmal",
+    "english": "workplace / factory",
+    "phase": 5
+  },
+  {
+    "word_id": "w_metaphor",
+    "english": "metaphor",
+    "phase": 10
+  },
+  {
+    "word_id": "w_meter",
+    "english": "meter",
+    "phase": 4
+  },
+  {
+    "word_id": "w_minister",
+    "english": "minister (gov)",
+    "phase": 9
+  },
+  {
+    "word_id": "w_monday",
+    "english": "Monday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_mosque",
+    "english": "mosque",
+    "phase": 4
+  },
+  {
+    "word_id": "w_muhimm",
+    "english": "important",
+    "phase": 8
+  },
+  {
+    "word_id": "w_musaafir",
+    "english": "traveler",
+    "phase": 6
+  },
+  {
+    "word_id": "w_newspaper",
+    "english": "newspaper",
+    "phase": 9
+  },
+  {
+    "word_id": "w_nihaaya",
+    "english": "ending",
+    "phase": 6
+  },
+  {
+    "word_id": "w_or",
+    "english": "or",
+    "phase": 2
+  },
+  {
+    "word_id": "w_paradox",
+    "english": "paradox",
+    "phase": 10
+  },
+  {
+    "word_id": "w_partnership",
+    "english": "partnership",
+    "phase": 9
+  },
+  {
+    "word_id": "w_perhaps",
+    "english": "maybe",
+    "phase": 8
+  },
+  {
+    "word_id": "w_pilot",
+    "english": "pilot",
+    "phase": 5
+  },
+  {
+    "word_id": "w_qiraaʾa",
+    "english": "reading",
+    "phase": 6
+  },
+  {
+    "word_id": "w_raakib",
+    "english": "rider / passenger",
+    "phase": 6
+  },
+  {
+    "word_id": "w_rasuul",
+    "english": "messenger",
+    "phase": 5
+  },
+  {
+    "word_id": "w_reform",
+    "english": "reform",
+    "phase": 9
+  },
+  {
+    "word_id": "w_resilience",
+    "english": "resilience",
+    "phase": 10
+  },
+  {
+    "word_id": "w_riyal",
+    "english": "riyal (SAR)",
+    "phase": 5
+  },
+  {
+    "word_id": "w_salaam",
+    "english": "peace (greeting)",
+    "phase": 1
+  },
+  {
+    "word_id": "w_sariiʿ",
+    "english": "fast",
+    "phase": 5
+  },
+  {
+    "word_id": "w_saturday",
+    "english": "Saturday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_shadiid",
+    "english": "intense / severe",
+    "phase": 8
+  },
+  {
+    "word_id": "w_shuʿuur",
+    "english": "feeling",
+    "phase": 7
+  },
+  {
+    "word_id": "w_signature",
+    "english": "signature",
+    "phase": 6
+  },
+  {
+    "word_id": "w_siyaasa",
+    "english": "politics",
+    "phase": 9
+  },
+  {
+    "word_id": "w_son",
+    "english": "son",
+    "phase": 3
+  },
+  {
+    "word_id": "w_soso",
+    "english": "so-so / doing ok",
+    "phase": 10
+  },
+  {
+    "word_id": "w_strictly_speaking",
+    "english": "strictly speaking",
+    "phase": 10
+  },
+  {
+    "word_id": "w_summit",
+    "english": "summit",
+    "phase": 9
+  },
+  {
+    "word_id": "w_sunday",
+    "english": "Sunday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_tafkiir",
+    "english": "thinking",
+    "phase": 7
+  },
+  {
+    "word_id": "w_tayyib",
+    "english": "ok / alright",
+    "phase": 10
+  },
+  {
+    "word_id": "w_thobe",
+    "english": "thobe (men's robe)",
+    "phase": 3
+  },
+  {
+    "word_id": "w_thursday",
+    "english": "Thursday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_ticket",
+    "english": "ticket",
+    "phase": 6
+  },
+  {
+    "word_id": "w_tooth",
+    "english": "tooth",
+    "phase": 4
+  },
+  {
+    "word_id": "w_truth",
+    "english": "truth",
+    "phase": 7
+  },
+  {
+    "word_id": "w_tuesday",
+    "english": "Tuesday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_vegetable",
+    "english": "vegetables",
+    "phase": 3
+  },
+  {
+    "word_id": "w_video",
+    "english": "video",
+    "phase": 4
+  },
+  {
+    "word_id": "w_watan",
+    "english": "homeland",
+    "phase": 9
+  },
+  {
+    "word_id": "w_wednesday",
+    "english": "Wednesday",
+    "phase": 2
+  },
+  {
+    "word_id": "w_who",
+    "english": "who",
+    "phase": 1
+  },
+  {
+    "word_id": "w_wifi",
+    "english": "WiFi",
+    "phase": 5
+  },
+  {
+    "word_id": "w_winner",
+    "english": "winner",
+    "phase": 6
+  },
+  {
+    "word_id": "w_with",
+    "english": "with",
+    "phase": 2
+  },
+  {
+    "word_id": "w_wrong",
+    "english": "wrong (Saudi)",
+    "phase": 2
+  },
+  {
+    "word_id": "w_ʿaalim",
+    "english": "scholar",
+    "phase": 5
+  },
+  {
+    "word_id": "w_ʿibaada",
+    "english": "worship",
+    "phase": 5
+  }
+]

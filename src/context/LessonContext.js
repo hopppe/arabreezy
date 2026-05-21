@@ -10,17 +10,17 @@ export function LessonProvider({ children }) {
   const { progress, setCurrentLesson, completeLesson } = useUserProgress();
 
   const [currentLesson, setCurrentLessonState] = useState(null);
-  const [levelLessons, setLevelLessons] = useState([]);
+  const [phaseLessons, setPhaseLessons] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Load lessons for the user's current level + resolve current-lesson object
+  // Load lessons for user's current phase + resolve current-lesson object
   useEffect(() => {
     let cancelled = false;
     setLoading(true);
     (async () => {
-      const forLevel = await getLessons({ dialect, level: progress.level });
+      const forPhase = await getLessons({ dialect, phase: progress.phase });
       if (cancelled) return;
-      setLevelLessons(forLevel);
+      setPhaseLessons(forPhase);
 
       const targetId = progress.currentLessonId;
       if (targetId) {
@@ -34,7 +34,7 @@ export function LessonProvider({ children }) {
     return () => {
       cancelled = true;
     };
-  }, [dialect, progress.level, progress.currentLessonId]);
+  }, [dialect, progress.phase, progress.currentLessonId]);
 
   const startLesson = useCallback(
     async (lessonId) => {
@@ -48,30 +48,30 @@ export function LessonProvider({ children }) {
 
   const finishCurrentLesson = useCallback(async () => {
     if (!currentLesson) return;
-    // Advance level if this is the last lesson of the level
-    const remaining = levelLessons.filter(
+    // Advance phase if this is the last lesson of the phase
+    const remaining = phaseLessons.filter(
       (l) => l.id !== currentLesson.id && !progress.lessonsCompleted.includes(l.id)
     );
-    const advanceLevel = remaining.length === 0;
-    await completeLesson(currentLesson.id, { advanceLevel });
+    const advancePhase = remaining.length === 0;
+    await completeLesson(currentLesson.id, { advancePhase });
     setCurrentLessonState(null);
-  }, [currentLesson, levelLessons, progress.lessonsCompleted, completeLesson]);
+  }, [currentLesson, phaseLessons, progress.lessonsCompleted, completeLesson]);
 
-  // Next uncompleted lesson at this level (used by home to suggest what to start)
+  // Next uncompleted lesson at this phase (home uses it to suggest what to start)
   const nextSuggestedLesson = useMemo(() => {
-    return levelLessons.find((l) => !progress.lessonsCompleted.includes(l.id)) || null;
-  }, [levelLessons, progress.lessonsCompleted]);
+    return phaseLessons.find((l) => !progress.lessonsCompleted.includes(l.id)) || null;
+  }, [phaseLessons, progress.lessonsCompleted]);
 
   const value = useMemo(
     () => ({
       currentLesson,
-      levelLessons,
+      phaseLessons,
       loading,
       nextSuggestedLesson,
       startLesson,
       finishCurrentLesson,
     }),
-    [currentLesson, levelLessons, loading, nextSuggestedLesson, startLesson, finishCurrentLesson]
+    [currentLesson, phaseLessons, loading, nextSuggestedLesson, startLesson, finishCurrentLesson]
   );
 
   return <LessonContext.Provider value={value}>{children}</LessonContext.Provider>;

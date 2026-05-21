@@ -1,7 +1,6 @@
 // Stub bundle for Levantine dialect. Same shape as saudi/. Fill in later.
-// When populated, set rtl: true and provide words/lessons/conversations with
-// the SAME ids used in the saudi bundle — that way lesson progress, placement
-// results, and flashcard SRS state transfer when the user switches dialect.
+// When populated, reuse the same word ids from the saudi bundle so progress
+// and SRS state carry across dialect switches.
 export default {
   id: 'levantine',
   name: 'Levantine',
@@ -9,4 +8,12 @@ export default {
   words: {},
   lessons: [],
   conversations: [],
+  shadowing: [],
+  primer: [],
+  roots: {},
+  stories: [],
+  listening: [],
+  idioms: [],
+  pronunciation: [],
+  grammar: [],
 };

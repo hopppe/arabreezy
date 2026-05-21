@@ -1,0 +1,5439 @@
+[
+  {
+    "title_english": "The Yellow Sun",
+    "title_arabic": "الشمس الصفراء",
+    "content_english": [
+      "The sun is yellow.",
+      "It is hot.",
+      "It shines bright.",
+      "I see it every day.",
+      "It makes me happy."
+    ],
+    "content_arabic": [
+      "الشمس صفراء.",
+      "إنها حارة.",
+      "تشع بضوء ساطع.",
+      "أراها كل يوم.",
+      "تجعلني سعيداً."
+    ],
+    "phase": 1,
+    "topic": "nature",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "أحمر",
+          "أزرق",
+          "أصفر",
+          "أخضر"
+        ],
+        "question": "ما لون الشمس؟",
+        "explanation": "القصة تقول الشمس صفراء.",
+        "correct_answer": 2
+      },
+      {
+        "options": [
+          "باردة",
+          "حارة",
+          "دافئة",
+          "معتدلة"
+        ],
+        "question": "كيف تشعر الشمس؟",
+        "explanation": "القصة تقول أنها حارة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "حزين",
+          "سعيد",
+          "غاضب",
+          "متعب"
+        ],
+        "question": "كيف تجعل الشمس الشخص يشعر؟",
+        "explanation": "القصة تقول أنها تجعلني سعيداً.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:05:09.104105+00:00",
+    "id": 17,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_17_the_yellow_sun.mp3",
+    "icon": "🌿",
+    "word_mappings": {
+      "i": "أنا",
+      "is": "يكون",
+      "it": "هو / هي",
+      "me": "ـني / لي",
+      "day": "يوم",
+      "hot": "حارّ",
+      "see": "يرى",
+      "sun": "شمس",
+      "the": "الـ",
+      "every": "كلّ",
+      "happy": "سعيد",
+      "makes": "يجعل / يصنع",
+      "bright": "ساطع / لامع",
+      "shines": "يُشرق",
+      "yellow": "أصفر"
+    },
+    "reading_level": 68
+  },
+  {
+    "title_english": "The Green Tree",
+    "title_arabic": "الشجرة الخضراء",
+    "content_english": [
+      "There is a tree.",
+      "The tree is green.",
+      "Birds live there.",
+      "I sit under it.",
+      "It gives shade."
+    ],
+    "content_arabic": [
+      "هناك شجرة.",
+      "الشجرة خضراء.",
+      "الطيور تعيش هناك.",
+      "أجلس تحتها.",
+      "تعطي الظل."
+    ],
+    "phase": 1,
+    "topic": "nature",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "قطط",
+          "كلاب",
+          "طيور",
+          "أسماك"
+        ],
+        "question": "ماذا يعيش في الشجرة؟",
+        "explanation": "القصة تقول الطيور تعيش هناك.",
+        "correct_answer": 2
+      },
+      {
+        "options": [
+          "بني",
+          "أخضر",
+          "أصفر",
+          "أحمر"
+        ],
+        "question": "ما لون الشجرة؟",
+        "explanation": "القصة تقول الشجرة خضراء.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "طعام",
+          "ظل",
+          "ماء",
+          "زهور"
+        ],
+        "question": "ماذا تعطي الشجرة؟",
+        "explanation": "القصة تقول أنها تعطي ظلاً.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:04:52.96851+00:00",
+    "id": 15,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_15_the_green_tree.mp3",
+    "icon": "🌿",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "is": "يكون",
+      "it": "هو / هي",
+      "sit": "يجلس",
+      "the": "الـ",
+      "live": "يعيش",
+      "tree": "شجرة",
+      "birds": "طيور",
+      "gives": "يُعطي",
+      "green": "أخضر",
+      "shade": "ظلّ",
+      "there": "هناك",
+      "under": "تحت"
+    },
+    "reading_level": 65
+  },
+  {
+    "title_english": "The Sweet Honey",
+    "title_arabic": "العسل الحلو",
+    "content_english": [
+      "Bees make honey.",
+      "Honey is sweet.",
+      "It is golden.",
+      "I eat it on bread.",
+      "Honey tastes good."
+    ],
+    "content_arabic": [
+      "النحل يصنع العسل.",
+      "العسل حلو.",
+      "إنه ذهبي.",
+      "آكله على الخبز.",
+      "العسل طعمه جيد."
+    ],
+    "phase": 1,
+    "topic": "food",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "الطيور",
+          "النحل",
+          "القطط",
+          "الكلاب"
+        ],
+        "question": "من يصنع العسل؟",
+        "explanation": "القصة تقول النحل يصنع العسل.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "حامض",
+          "حلو",
+          "مر",
+          "مالح"
+        ],
+        "question": "ما طعم العسل؟",
+        "explanation": "القصة تقول العسل حلو.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "على الخبز",
+          "على الأرز",
+          "على اللحم",
+          "على الخضار"
+        ],
+        "question": "أين يأكل الشخص العسل؟",
+        "explanation": "القصة تقول آكله على الخبز.",
+        "correct_answer": 0
+      }
+    ],
+    "created_at": "2025-09-16T22:06:30.943418+00:00",
+    "id": 40,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_40_the_sweet_honey.mp3",
+    "icon": "🍽️",
+    "word_mappings": {
+      "i": "أنا",
+      "is": "يكون",
+      "it": "هو / هي",
+      "on": "على",
+      "eat": "يأكل",
+      "bees": "نحل",
+      "good": "جيّد",
+      "make": "يصنع",
+      "bread": "خبز",
+      "honey": "عسل",
+      "sweet": "حلو",
+      "golden": "ذهبي",
+      "tastes": "مذاقه"
+    },
+    "reading_level": 130
+  },
+  {
+    "title_english": "The Sweet Apple",
+    "title_arabic": "التفاحة الحلوة",
+    "content_english": [
+      "I eat an apple.",
+      "It is red.",
+      "It tastes sweet.",
+      "It is healthy.",
+      "I like apples."
+    ],
+    "content_arabic": [
+      "آكل تفاحة.",
+      "إنها حمراء.",
+      "طعمها حلو.",
+      "إنها صحية.",
+      "أحب التفاح."
+    ],
+    "phase": 1,
+    "topic": "food",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "حامض",
+          "مر",
+          "حلو",
+          "مالح"
+        ],
+        "question": "ما طعم التفاحة؟",
+        "explanation": "القصة تقول طعمها حلو.",
+        "correct_answer": 2
+      },
+      {
+        "options": [
+          "أخضر",
+          "أحمر",
+          "أصفر",
+          "أزرق"
+        ],
+        "question": "ما لون التفاحة؟",
+        "explanation": "القصة تقول أنها حمراء.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "لا",
+          "نعم",
+          "ربما",
+          "غير معروف"
+        ],
+        "question": "هل التفاحة صحية؟",
+        "explanation": "القصة تقول أنها صحية.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:05:25.973922+00:00",
+    "id": 25,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_25_the_sweet_apple.mp3",
+    "icon": "🍽️",
+    "word_mappings": {
+      "i": "أنا",
+      "an": "(أداة نكرة)",
+      "is": "يكون",
+      "it": "هو / هي",
+      "eat": "يأكل",
+      "red": "أحمر",
+      "like": "يُحبّ",
+      "apple": "تفاحة",
+      "sweet": "حلو",
+      "apples": "تفاح",
+      "tastes": "مذاقه",
+      "healthy": "صحّي"
+    },
+    "reading_level": 90
+  },
+  {
+    "title_english": "My Birthday Cake",
+    "title_arabic": "كعكة عيد ميلادي",
+    "content_english": [
+      "Today is my birthday.",
+      "I have a cake.",
+      "It has candles.",
+      "I make a wish.",
+      "Birthdays are special."
+    ],
+    "content_arabic": [
+      "اليوم عيد ميلادي.",
+      "لدي كعكة.",
+      "فيها شموع.",
+      "أتمنى أمنية.",
+      "أعياد الميلاد مميزة."
+    ],
+    "phase": 1,
+    "topic": "celebration",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "زهور",
+          "شموع",
+          "ألعاب",
+          "كتب"
+        ],
+        "question": "ماذا على الكعكة؟",
+        "explanation": "القصة تقول عليها شموع.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "ينام",
+          "يتمنى أمنية",
+          "يجري",
+          "يغني"
+        ],
+        "question": "ماذا يفعل الشخص؟",
+        "explanation": "القصة تقول أتمنى أمنية.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "عيد الميلاد المجيد",
+          "عيد ميلاد",
+          "رأس السنة",
+          "عطلة"
+        ],
+        "question": "ما المناسبة الخاصة؟",
+        "explanation": "القصة تقول اليوم عيد ميلادي.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:06:30.943418+00:00",
+    "id": 37,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_37_my_birthday_cake.mp3",
+    "icon": "🎉",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "is": "يكون",
+      "it": "هو / هي",
+      "my": "ـي",
+      "are": "يكون / تكون",
+      "has": "لديه",
+      "cake": "كعكة",
+      "have": "لديّ",
+      "make": "يصنع",
+      "wish": "أمنية",
+      "today": "اليوم",
+      "candles": "شموع",
+      "special": "مُميَّز",
+      "birthday": "عيد ميلاد",
+      "birthdays": "أعياد ميلاد"
+    },
+    "reading_level": 120
+  },
+  {
+    "title_english": "The Bright Star",
+    "title_arabic": "النجمة الساطعة",
+    "content_english": [
+      "I see a star.",
+      "It is bright.",
+      "Stars are in the sky.",
+      "I see them at night.",
+      "Stars are beautiful."
+    ],
+    "content_arabic": [
+      "أرى نجمة.",
+      "إنها ساطعة.",
+      "النجوم في السماء.",
+      "أراها في الليل.",
+      "النجوم جميلة."
+    ],
+    "phase": 1,
+    "topic": "nature",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "الصباح",
+          "بعد الظهر",
+          "الليل",
+          "الظهيرة"
+        ],
+        "question": "متى يمكن رؤية النجوم؟",
+        "explanation": "القصة تقول أراها في الليل.",
+        "correct_answer": 2
+      },
+      {
+        "options": [
+          "خافت",
+          "ساطع",
+          "مظلم",
+          "صغير"
+        ],
+        "question": "كيف يوصف النجم؟",
+        "explanation": "القصة تقول أنه ساطع.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "على الأرض",
+          "في السماء",
+          "في الماء",
+          "تحت الأرض"
+        ],
+        "question": "أين النجوم؟",
+        "explanation": "القصة تقول النجوم في السماء.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:06:09.313869+00:00",
+    "id": 36,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_36_the_bright_star.mp3",
+    "icon": "🌿",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "at": "في / عند",
+      "in": "في",
+      "is": "يكون",
+      "it": "هو / هي",
+      "are": "يكون / تكون",
+      "see": "يرى",
+      "sky": "سماء",
+      "the": "الـ",
+      "star": "نجمة",
+      "them": "ـهم",
+      "night": "ليل",
+      "stars": "نجوم",
+      "bright": "ساطع / لامع",
+      "beautiful": "جميل"
+    },
+    "reading_level": 115
+  },
+  {
+    "title_english": "The Small Mouse",
+    "title_arabic": "الفأر الصغير",
+    "content_english": [
+      "There is a mouse.",
+      "It is small.",
+      "It runs fast.",
+      "It likes cheese.",
+      "Mice are quick."
+    ],
+    "content_arabic": [
+      "هناك فأر.",
+      "إنه صغير.",
+      "يجري بسرعة.",
+      "يحب الجبن.",
+      "الفئران سريعة."
+    ],
+    "phase": 1,
+    "topic": "animals",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "خبز",
+          "جبن",
+          "لحم",
+          "سمك"
+        ],
+        "question": "ماذا يحب الفأر؟",
+        "explanation": "القصة تقول أنه يحب الجبن.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "كبير",
+          "صغير",
+          "طويل",
+          "سمين"
+        ],
+        "question": "كيف يوصف الفأر؟",
+        "explanation": "القصة تقول أنه صغير.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "ببطء",
+          "بسرعة",
+          "لا يتحرك",
+          "يطير"
+        ],
+        "question": "كيف يتحرك الفأر؟",
+        "explanation": "القصة تقول أنه يجري بسرعة.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:05:49.024813+00:00",
+    "id": 31,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_31_the_small_mouse.mp3",
+    "icon": "🦁",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "is": "يكون",
+      "it": "هو / هي",
+      "are": "يكون / تكون",
+      "fast": "سريع",
+      "mice": "فئران",
+      "runs": "يركض",
+      "likes": "يُحبّ",
+      "mouse": "فأر",
+      "quick": "سريع",
+      "small": "صغير",
+      "there": "هناك",
+      "cheese": "جبن"
+    },
+    "reading_level": 92
+  },
+  {
+    "title_english": "The Cold Ice",
+    "title_arabic": "الثلج البارد",
+    "content_english": [
+      "Ice is cold.",
+      "It is white.",
+      "It melts fast.",
+      "I put it in water.",
+      "It makes water cold."
+    ],
+    "content_arabic": [
+      "الثلج بارد.",
+      "إنه أبيض.",
+      "يذوب بسرعة.",
+      "أضعه في الماء.",
+      "يجعل الماء بارداً."
+    ],
+    "phase": 1,
+    "topic": "science",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "يتجمد",
+          "يذوب",
+          "ينمو",
+          "يطير"
+        ],
+        "question": "ماذا يحدث للثلج؟",
+        "explanation": "القصة تقول أنه يذوب بسرعة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "أزرق",
+          "أبيض",
+          "أصفر",
+          "أخضر"
+        ],
+        "question": "ما لون الثلج؟",
+        "explanation": "القصة تقول أنه أبيض.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "يجعله ساخناً",
+          "يجعله بارداً",
+          "يجعله حلواً",
+          "يجعله مالحاً"
+        ],
+        "question": "ماذا يفعل الثلج للماء؟",
+        "explanation": "القصة تقول أنه يجعل الماء بارداً.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:05:25.973922+00:00",
+    "id": 23,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_23_the_cold_ice.mp3",
+    "icon": "🔬",
+    "word_mappings": {
+      "i": "أنا",
+      "in": "في",
+      "is": "يكون",
+      "it": "هو / هي",
+      "ice": "ثلج",
+      "put": "يضع",
+      "cold": "بارد",
+      "fast": "سريع",
+      "makes": "يجعل / يصنع",
+      "melts": "يذوب",
+      "water": "ماء",
+      "white": "أبيض"
+    },
+    "reading_level": 88
+  },
+  {
+    "title_english": "The Warm Fire",
+    "title_arabic": "النار الدافئة",
+    "content_english": [
+      "Fire is hot.",
+      "It is orange.",
+      "It gives warmth.",
+      "I sit near it.",
+      "Fire is useful."
+    ],
+    "content_arabic": [
+      "النار حارة.",
+      "إنها برتقالية.",
+      "تعطي الدفء.",
+      "أجلس بجانبها.",
+      "النار مفيدة."
+    ],
+    "phase": 1,
+    "topic": "nature",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "برودة",
+          "دفء",
+          "طعام",
+          "ماء"
+        ],
+        "question": "ماذا تعطي النار؟",
+        "explanation": "القصة تقول أنها تعطي دفئاً.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "أزرق",
+          "برتقالي",
+          "أخضر",
+          "بنفسجي"
+        ],
+        "question": "ما لون النار؟",
+        "explanation": "القصة تقول أنها برتقالية.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "باردة",
+          "حارة",
+          "دافئة",
+          "معتدلة"
+        ],
+        "question": "كيف توصف النار؟",
+        "explanation": "القصة تقول النار حارة.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:06:09.313869+00:00",
+    "id": 32,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_32_the_warm_fire.mp3",
+    "icon": "🌿",
+    "word_mappings": {
+      "i": "أنا",
+      "is": "يكون",
+      "it": "هو / هي",
+      "hot": "حارّ",
+      "sit": "يجلس",
+      "fire": "نار",
+      "near": "بالقرب من",
+      "gives": "يُعطي",
+      "orange": "برتقالي",
+      "useful": "مُفيد",
+      "warmth": "دفء"
+    },
+    "reading_level": 102
+  },
+  {
+    "title_english": "My Water Bottle",
+    "title_arabic": "زجاجة الماء",
+    "content_english": [
+      "I have water.",
+      "It is in a bottle.",
+      "Water is clear.",
+      "I drink when thirsty.",
+      "Water is important."
+    ],
+    "content_arabic": [
+      "لدي ماء.",
+      "إنه في زجاجة.",
+      "الماء شفاف.",
+      "أشرب عندما أعطش.",
+      "الماء مهم."
+    ],
+    "phase": 1,
+    "topic": "health",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "عندما يجوع",
+          "عندما يعطش",
+          "عندما يتعب",
+          "عندما يسعد"
+        ],
+        "question": "متى يشرب الشخص الماء؟",
+        "explanation": "القصة تقول أشرب عندما أعطش.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "في كوب",
+          "في زجاجة",
+          "في كأس",
+          "في وعاء"
+        ],
+        "question": "أين الماء؟",
+        "explanation": "القصة تقول أنه في زجاجة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "غائم",
+          "صافٍ",
+          "متسخ",
+          "أصفر"
+        ],
+        "question": "كيف يوصف الماء؟",
+        "explanation": "القصة تقول الماء صافٍ.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:05:49.024813+00:00",
+    "id": 28,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_28_my_water_bottle.mp3",
+    "icon": "❤️",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "in": "في",
+      "is": "يكون",
+      "it": "هو / هي",
+      "have": "لديّ",
+      "when": "عندما",
+      "clear": "واضح / صافٍ",
+      "drink": "يشرب",
+      "water": "ماء",
+      "bottle": "زجاجة",
+      "thirsty": "عطشان",
+      "important": "مُهمّ"
+    },
+    "reading_level": 100
+  },
+  {
+    "title_english": "The Funny Clown",
+    "title_arabic": "المهرج المضحك",
+    "content_english": [
+      "I see a clown.",
+      "He is funny.",
+      "He has a red nose.",
+      "He makes me laugh.",
+      "Clowns are fun."
+    ],
+    "content_arabic": [
+      "أرى مهرجاً.",
+      "إنه مضحك.",
+      "له أنف أحمر.",
+      "يضحكني.",
+      "المهرجون ممتعون."
+    ],
+    "phase": 1,
+    "topic": "entertainment",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "أزرق",
+          "أخضر",
+          "أحمر",
+          "أصفر"
+        ],
+        "question": "ما لون أنف المهرج؟",
+        "explanation": "القصة تقول لديه أنف أحمر.",
+        "correct_answer": 2
+      },
+      {
+        "options": [
+          "يبكي",
+          "يضحك",
+          "ينام",
+          "يجري"
+        ],
+        "question": "كيف يجعل المهرج الشخص يشعر؟",
+        "explanation": "القصة تقول أنه يجعلني أضحك.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "مخيفون",
+          "مملون",
+          "ممتعون",
+          "غاضبون"
+        ],
+        "question": "كيف يوصف المهرجون؟",
+        "explanation": "القصة تقول المهرجون ممتعون.",
+        "correct_answer": 2
+      }
+    ],
+    "created_at": "2025-09-16T22:05:49.024813+00:00",
+    "id": 29,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_29_the_funny_clown.mp3",
+    "icon": "🎬",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "he": "هو",
+      "is": "يكون",
+      "me": "ـني / لي",
+      "are": "يكون / تكون",
+      "fun": "مُمتع",
+      "has": "لديه",
+      "red": "أحمر",
+      "see": "يرى",
+      "nose": "أنف",
+      "clown": "مهرّج",
+      "funny": "مُضحك",
+      "laugh": "يضحك",
+      "makes": "يجعل / يصنع",
+      "clowns": "مهرّجون"
+    },
+    "reading_level": 108
+  },
+  {
+    "title_english": "My Pencil",
+    "title_arabic": "قلمي",
+    "content_english": [
+      "I use a pencil.",
+      "It is yellow.",
+      "I write with it.",
+      "I draw pictures.",
+      "Writing is good."
+    ],
+    "content_arabic": [
+      "أستخدم قلماً.",
+      "إنه أصفر.",
+      "أكتب به.",
+      "أرسم صوراً.",
+      "الكتابة جيدة."
+    ],
+    "phase": 1,
+    "topic": "education",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "يأكل",
+          "يكتب",
+          "ينام",
+          "يجري"
+        ],
+        "question": "ماذا يفعل الشخص بالقلم الرصاص؟",
+        "explanation": "القصة تقول أكتب به.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "أحمر",
+          "أصفر",
+          "أزرق",
+          "أخضر"
+        ],
+        "question": "ما لون القلم الرصاص؟",
+        "explanation": "القصة تقول أنه أصفر.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "يغني",
+          "يرسم صوراً",
+          "يطبخ",
+          "ينام"
+        ],
+        "question": "ماذا يستطيع الشخص أن يفعل أيضاً بالقلم؟",
+        "explanation": "القصة تقول أرسم صوراً.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:05:49.024813+00:00",
+    "id": 30,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_30_my_pencil.mp3",
+    "icon": "📚",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "is": "يكون",
+      "it": "هو / هي",
+      "use": "يستخدم",
+      "draw": "يرسم",
+      "good": "جيّد",
+      "with": "مع",
+      "write": "يكتب",
+      "pencil": "قلم رصاص",
+      "yellow": "أصفر",
+      "writing": "الكتابة",
+      "pictures": "صور"
+    },
+    "reading_level": 84
+  },
+  {
+    "title_english": "My Cat",
+    "title_arabic": "قطتي",
+    "content_english": [
+      "I have a cat.",
+      "My cat is black.",
+      "She likes to sleep.",
+      "She eats fish.",
+      "I love my cat."
+    ],
+    "content_arabic": [
+      "لدي قطة.",
+      "قطتي سوداء.",
+      "تحب أن تنام.",
+      "تأكل السمك.",
+      "أحب قطتي."
+    ],
+    "phase": 1,
+    "topic": "pets",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "أسود",
+          "أبيض",
+          "بني",
+          "رمادي"
+        ],
+        "question": "ما لون القطة؟",
+        "explanation": "القصة تقول قطتي سوداء.",
+        "correct_answer": 0
+      },
+      {
+        "options": [
+          "دجاج",
+          "سمك",
+          "حليب",
+          "خبز"
+        ],
+        "question": "ماذا تأكل القطة؟",
+        "explanation": "القصة تذكر أنها تأكل السمك.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "تجري",
+          "تنام",
+          "تقفز",
+          "تسبح"
+        ],
+        "question": "ماذا تحب القطة أن تفعل؟",
+        "explanation": "القصة تقول أنها تحب النوم.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-08-14T12:16:46.492887+00:00",
+    "id": 1,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_1_my_cat.mp3",
+    "icon": "🐾",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "is": "يكون",
+      "my": "ـي",
+      "to": "إلى / لِـ",
+      "cat": "قطة",
+      "she": "هي",
+      "eats": "يأكل",
+      "fish": "سمك",
+      "have": "لديّ",
+      "love": "يُحبّ",
+      "black": "أسود",
+      "likes": "يُحبّ",
+      "sleep": "ينام"
+    },
+    "reading_level": 45
+  },
+  {
+    "title_english": "The Red Ball",
+    "title_arabic": "الكرة الحمراء",
+    "content_english": [
+      "Tom has a red ball.",
+      "The ball is big.",
+      "He plays with the ball.",
+      "The ball is fun.",
+      "Tom is happy."
+    ],
+    "content_arabic": [
+      "لدى توم كرة حمراء.",
+      "الكرة كبيرة.",
+      "يلعب بالكرة.",
+      "الكرة ممتعة.",
+      "توم سعيد."
+    ],
+    "phase": 1,
+    "topic": "toys",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "أزرق",
+          "أحمر",
+          "أخضر",
+          "أصفر"
+        ],
+        "question": "ما لون كرة توم؟",
+        "explanation": "القصة تقول أن توم لديه كرة حمراء.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "حزين",
+          "غاضب",
+          "سعيد",
+          "متعب"
+        ],
+        "question": "كيف يشعر توم عند اللعب بالكرة؟",
+        "explanation": "القصة تنتهي بأن توم سعيد.",
+        "correct_answer": 2
+      },
+      {
+        "options": [
+          "صغيرة",
+          "كبيرة",
+          "صغيرة جداً",
+          "متوسطة"
+        ],
+        "question": "ما حجم الكرة؟",
+        "explanation": "القصة تقول الكرة كبيرة.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-08-14T12:16:56.871698+00:00",
+    "id": 2,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_2_the_red_ball.mp3",
+    "icon": "🧸",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "he": "هو",
+      "is": "يكون",
+      "big": "كبير",
+      "fun": "مُمتع",
+      "has": "لديه",
+      "red": "أحمر",
+      "the": "الـ",
+      "tom": "توم",
+      "ball": "كرة",
+      "with": "مع",
+      "happy": "سعيد",
+      "plays": "يلعب"
+    },
+    "reading_level": 51
+  },
+  {
+    "title_english": "The White Milk",
+    "title_arabic": "الحليب الأبيض",
+    "content_english": [
+      "I drink milk.",
+      "Milk is white.",
+      "It is good for me.",
+      "I drink it every day.",
+      "My mom gives it to me."
+    ],
+    "content_arabic": [
+      "أشرب الحليب.",
+      "الحليب أبيض.",
+      "إنه مفيد لي.",
+      "أشربه كل يوم.",
+      "أمي تعطيني إياه."
+    ],
+    "phase": 1,
+    "topic": "food",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "أبي",
+          "أمي",
+          "المعلم",
+          "صديق"
+        ],
+        "question": "من يعطي الحليب؟",
+        "explanation": "القصة تقول أمي تعطيني إياه.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "أصفر",
+          "أبيض",
+          "بني",
+          "وردي"
+        ],
+        "question": "ما لون الحليب؟",
+        "explanation": "القصة تقول الحليب أبيض.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "أبداً",
+          "كل يوم",
+          "أحياناً",
+          "مرة في الأسبوع"
+        ],
+        "question": "كم مرة يشرب الشخص الحليب؟",
+        "explanation": "القصة تقول أشربه كل يوم.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:05:09.104105+00:00",
+    "id": 19,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_19_the_white_milk.mp3",
+    "icon": "🍽️",
+    "word_mappings": {
+      "i": "أنا",
+      "is": "يكون",
+      "it": "هو / هي",
+      "me": "ـني / لي",
+      "my": "ـي",
+      "to": "إلى / لِـ",
+      "day": "يوم",
+      "for": "لِـ",
+      "mom": "أمّي",
+      "good": "جيّد",
+      "milk": "حليب",
+      "drink": "يشرب",
+      "every": "كلّ",
+      "gives": "يُعطي",
+      "white": "أبيض"
+    },
+    "reading_level": 75
+  },
+  {
+    "title_english": "My School",
+    "title_arabic": "مدرستي",
+    "content_english": [
+      "I go to school.",
+      "My school is nice.",
+      "I learn there.",
+      "I have friends.",
+      "I like school."
+    ],
+    "content_arabic": [
+      "أذهب إلى المدرسة.",
+      "مدرستي جميلة.",
+      "أتعلم هناك.",
+      "لدي أصدقاء.",
+      "أحب المدرسة."
+    ],
+    "phase": 1,
+    "topic": "education",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "ينام",
+          "يتعلم",
+          "يأكل",
+          "يلعب"
+        ],
+        "question": "ماذا يفعل الشخص في المدرسة؟",
+        "explanation": "القصة تقول أنا أتعلم هناك.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "كبيرة",
+          "جميلة",
+          "قديمة",
+          "صغيرة"
+        ],
+        "question": "كيف توصف المدرسة؟",
+        "explanation": "القصة تقول مدرستي جميلة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "لا أصدقاء",
+          "نعم لدي أصدقاء",
+          "صديق واحد فقط",
+          "أعداء كثيرون"
+        ],
+        "question": "هل لدى الشخص أصدقاء في المدرسة؟",
+        "explanation": "القصة تقول لدي أصدقاء.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:04:52.96851+00:00",
+    "id": 16,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_16_my_school.mp3",
+    "icon": "📚",
+    "word_mappings": {
+      "i": "أنا",
+      "go": "يذهب",
+      "is": "يكون",
+      "my": "ـي",
+      "to": "إلى / لِـ",
+      "have": "لديّ",
+      "like": "يُحبّ",
+      "nice": "لطيف",
+      "learn": "يتعلّم",
+      "there": "هناك",
+      "school": "مدرسة",
+      "friends": "أصدقاء"
+    },
+    "reading_level": 62
+  },
+  {
+    "title_english": "The Loud Bell",
+    "title_arabic": "الجرس الصاخب",
+    "content_english": [
+      "I hear a bell.",
+      "It is loud.",
+      "It rings every hour.",
+      "The sound is clear.",
+      "Bells make noise."
+    ],
+    "content_arabic": [
+      "أسمع جرساً.",
+      "إنه صاخب.",
+      "يرن كل ساعة.",
+      "الصوت واضح.",
+      "الأجراس تصدر ضوضاء."
+    ],
+    "phase": 1,
+    "topic": "sounds",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "كل دقيقة",
+          "كل ساعة",
+          "كل يوم",
+          "كل أسبوع"
+        ],
+        "question": "كم مرة يرن الجرس؟",
+        "explanation": "القصة تقول يرن كل ساعة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "هادئ",
+          "عالٍ",
+          "ناعم",
+          "صامت"
+        ],
+        "question": "كيف يوصف الجرس؟",
+        "explanation": "القصة تقول أنه عالٍ.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "غير واضح",
+          "واضح",
+          "مكتوم",
+          "خافت"
+        ],
+        "question": "كيف يوصف الصوت؟",
+        "explanation": "القصة تقول الصوت واضح.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:06:30.943418+00:00",
+    "id": 38,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_38_the_loud_bell.mp3",
+    "icon": "🔊",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "is": "يكون",
+      "it": "هو / هي",
+      "the": "الـ",
+      "bell": "جرس",
+      "hear": "يسمع",
+      "hour": "ساعة",
+      "loud": "عالي الصوت",
+      "make": "يصنع",
+      "bells": "أجراس",
+      "clear": "واضح / صافٍ",
+      "every": "كلّ",
+      "noise": "ضوضاء",
+      "rings": "يرنّ",
+      "sound": "صوت"
+    },
+    "reading_level": 118
+  },
+  {
+    "title_english": "My Dog",
+    "title_arabic": "كلبي",
+    "content_english": [
+      "I have a dog.",
+      "My dog is brown.",
+      "He likes to run.",
+      "He plays with me.",
+      "I love my dog."
+    ],
+    "content_arabic": [
+      "لدي كلب.",
+      "كلبي بني.",
+      "يحب أن يجري.",
+      "يلعب معي.",
+      "أحب كلبي."
+    ],
+    "phase": 1,
+    "topic": "pets",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "بني",
+          "أسود",
+          "أبيض",
+          "رمادي"
+        ],
+        "question": "ما لون الكلب؟",
+        "explanation": "القصة تقول كلبي بني.",
+        "correct_answer": 0
+      },
+      {
+        "options": [
+          "ينام",
+          "يجري",
+          "يسبح",
+          "يقفز"
+        ],
+        "question": "ماذا يحب الكلب أن يفعل؟",
+        "explanation": "القصة تقول أنه يحب الجري.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "القطة",
+          "أنا",
+          "كلاب أخرى",
+          "لا أحد"
+        ],
+        "question": "مع من يلعب الكلب؟",
+        "explanation": "القصة تقول أنه يلعب معي.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:04:52.96851+00:00",
+    "id": 12,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_12_my_dog.mp3",
+    "icon": "🐾",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "he": "هو",
+      "is": "يكون",
+      "me": "ـني / لي",
+      "my": "ـي",
+      "to": "إلى / لِـ",
+      "dog": "كلب",
+      "run": "يركض",
+      "have": "لديّ",
+      "love": "يُحبّ",
+      "with": "مع",
+      "brown": "بُنّي",
+      "likes": "يُحبّ",
+      "plays": "يلعب"
+    },
+    "reading_level": 48
+  },
+  {
+    "title_english": "My Book",
+    "title_arabic": "كتابي",
+    "content_english": [
+      "I have a book.",
+      "It has pictures.",
+      "I read it.",
+      "It tells stories.",
+      "Books are fun."
+    ],
+    "content_arabic": [
+      "لدي كتاب.",
+      "فيه صور.",
+      "أقرأه.",
+      "يحكي قصصاً.",
+      "الكتب ممتعة."
+    ],
+    "phase": 1,
+    "topic": "education",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "صور",
+          "موسيقى",
+          "طعام",
+          "ألعاب"
+        ],
+        "question": "ماذا يوجد في الكتاب؟",
+        "explanation": "القصة تقول فيه صور.",
+        "correct_answer": 0
+      },
+      {
+        "options": [
+          "يرميه",
+          "يقرأه",
+          "يخفيه",
+          "يكسره"
+        ],
+        "question": "ماذا يفعل الشخص بالكتاب؟",
+        "explanation": "القصة تقول أنا أقرأه.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "مملة",
+          "ممتعة",
+          "صعبة",
+          "ثقيلة"
+        ],
+        "question": "كيف توصف الكتب؟",
+        "explanation": "القصة تقول الكتب ممتعة.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:05:09.104105+00:00",
+    "id": 18,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_18_my_book.mp3",
+    "icon": "📚",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "it": "هو / هي",
+      "are": "يكون / تكون",
+      "fun": "مُمتع",
+      "has": "لديه",
+      "book": "كتاب",
+      "have": "لديّ",
+      "read": "يقرأ",
+      "books": "كتب",
+      "tells": "يروي",
+      "stories": "قصص",
+      "pictures": "صور"
+    },
+    "reading_level": 72
+  },
+  {
+    "title_english": "My Friend",
+    "title_arabic": "صديقي",
+    "content_english": [
+      "I have a friend.",
+      "His name is Tom.",
+      "We play together.",
+      "He is nice.",
+      "I like my friend."
+    ],
+    "content_arabic": [
+      "لدي صديق.",
+      "اسمه توم.",
+      "نلعب معاً.",
+      "إنه لطيف.",
+      "أحب صديقي."
+    ],
+    "phase": 1,
+    "topic": "friendship",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "سام",
+          "توم",
+          "بوب",
+          "جيم"
+        ],
+        "question": "ما اسم الصديق؟",
+        "explanation": "القصة تقول اسمه توم.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "يدرسان",
+          "يلعبان",
+          "ينامان",
+          "يأكلان"
+        ],
+        "question": "ماذا يفعلان معاً؟",
+        "explanation": "القصة تقول نلعب معاً.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "سيء",
+          "لطيف",
+          "غاضب",
+          "حزين"
+        ],
+        "question": "كيف يوصف الصديق؟",
+        "explanation": "القصة تقول أنه لطيف.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:05:25.973922+00:00",
+    "id": 22,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_22_my_friend.mp3",
+    "icon": "👫",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "he": "هو",
+      "is": "يكون",
+      "my": "ـي",
+      "we": "نحن",
+      "his": "لَهُ",
+      "tom": "توم",
+      "have": "لديّ",
+      "like": "يُحبّ",
+      "name": "اسم",
+      "nice": "لطيف",
+      "play": "يلعب",
+      "friend": "صديق",
+      "together": "معاً"
+    },
+    "reading_level": 82
+  },
+  {
+    "title_english": "The Fast Train",
+    "title_arabic": "القطار السريع",
+    "content_english": [
+      "I see a train.",
+      "It is very fast.",
+      "It has many cars.",
+      "People ride in it.",
+      "Trains are long."
+    ],
+    "content_arabic": [
+      "أرى قطاراً.",
+      "إنه سريع جداً.",
+      "له عربات كثيرة.",
+      "الناس يركبون فيه.",
+      "القطارات طويلة."
+    ],
+    "phase": 1,
+    "topic": "transportation",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "بطيء",
+          "سريع",
+          "صغير",
+          "هادئ"
+        ],
+        "question": "كيف يوصف القطار؟",
+        "explanation": "القصة تقول أنه سريع جداً.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "عربة واحدة",
+          "عربات كثيرة",
+          "لا عربات",
+          "عربتان"
+        ],
+        "question": "ماذا لدى القطار؟",
+        "explanation": "القصة تقول لديه عربات كثيرة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "حيوانات",
+          "ناس",
+          "لا أحد",
+          "طيور"
+        ],
+        "question": "من يركب في القطار؟",
+        "explanation": "القصة تقول الناس يركبون فيه.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:06:09.313869+00:00",
+    "id": 34,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_34_the_fast_train.mp3",
+    "icon": "🚗",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "in": "في",
+      "is": "يكون",
+      "it": "هو / هي",
+      "are": "يكون / تكون",
+      "has": "لديه",
+      "see": "يرى",
+      "cars": "عربات",
+      "fast": "سريع",
+      "long": "طويل",
+      "many": "كثير",
+      "ride": "يركب",
+      "very": "جداً",
+      "train": "قطار",
+      "people": "ناس",
+      "trains": "قطارات"
+    },
+    "reading_level": 110
+  },
+  {
+    "title_english": "My Heavy Bag",
+    "title_arabic": "حقيبتي الثقيلة",
+    "content_english": [
+      "I carry a bag.",
+      "It is heavy.",
+      "My books are inside.",
+      "I take it to school.",
+      "Bags are useful."
+    ],
+    "content_arabic": [
+      "أحمل حقيبة.",
+      "إنها ثقيلة.",
+      "كتبي بداخلها.",
+      "آخذها إلى المدرسة.",
+      "الحقائب مفيدة."
+    ],
+    "phase": 1,
+    "topic": "school",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "ألعاب",
+          "طعام",
+          "كتب",
+          "ملابس"
+        ],
+        "question": "ماذا بداخل الحقيبة؟",
+        "explanation": "القصة تقول كتبي بداخلها.",
+        "correct_answer": 2
+      },
+      {
+        "options": [
+          "خفيفة",
+          "ثقيلة",
+          "صغيرة",
+          "فارغة"
+        ],
+        "question": "كيف توصف الحقيبة؟",
+        "explanation": "القصة تقول أنها ثقيلة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "إلى الحديقة",
+          "إلى المدرسة",
+          "إلى البيت",
+          "إلى المتجر"
+        ],
+        "question": "إلى أين يأخذ الشخص الحقيبة؟",
+        "explanation": "القصة تقول آخذها إلى المدرسة.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:06:30.943418+00:00",
+    "id": 39,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_39_my_heavy_bag.mp3",
+    "icon": "🏫",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "is": "يكون",
+      "it": "هو / هي",
+      "my": "ـي",
+      "to": "إلى / لِـ",
+      "are": "يكون / تكون",
+      "bag": "حقيبة",
+      "bags": "حقائب",
+      "take": "يأخذ",
+      "books": "كتب",
+      "carry": "يحمل",
+      "heavy": "ثقيل",
+      "inside": "في الداخل",
+      "school": "مدرسة",
+      "useful": "مُفيد"
+    },
+    "reading_level": 125
+  },
+  {
+    "title_english": "The Big Window",
+    "title_arabic": "النافذة الكبيرة",
+    "content_english": [
+      "There is a window.",
+      "It is big.",
+      "I look outside.",
+      "I see the sky.",
+      "Light comes in."
+    ],
+    "content_arabic": [
+      "هناك نافذة.",
+      "إنها كبيرة.",
+      "أنظر للخارج.",
+      "أرى السماء.",
+      "الضوء يدخل."
+    ],
+    "phase": 1,
+    "topic": "home",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "ماء",
+          "ضوء",
+          "طعام",
+          "كتب"
+        ],
+        "question": "ماذا يدخل من النافذة؟",
+        "explanation": "القصة تقول الضوء يدخل.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "صغيرة",
+          "كبيرة",
+          "مكسورة",
+          "متسخة"
+        ],
+        "question": "كيف توصف النافذة؟",
+        "explanation": "القصة تقول أنها كبيرة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "الأرض",
+          "السماء",
+          "البحر",
+          "الغابة"
+        ],
+        "question": "ماذا يرى الشخص من النافذة؟",
+        "explanation": "القصة تقول أرى السماء.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:05:49.024813+00:00",
+    "id": 27,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_27_the_big_window.mp3",
+    "icon": "🏠",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "in": "في",
+      "is": "يكون",
+      "it": "هو / هي",
+      "big": "كبير",
+      "see": "يرى",
+      "sky": "سماء",
+      "the": "الـ",
+      "look": "ينظر",
+      "comes": "يأتي",
+      "light": "ضوء",
+      "there": "هناك",
+      "window": "نافذة",
+      "outside": "في الخارج"
+    },
+    "reading_level": 97
+  },
+  {
+    "title_english": "My Clean Hands",
+    "title_arabic": "يداي النظيفتان",
+    "content_english": [
+      "I wash my hands.",
+      "They are clean.",
+      "I use soap.",
+      "Clean hands are good.",
+      "I wash every day."
+    ],
+    "content_arabic": [
+      "أغسل يدي.",
+      "إنهما نظيفتان.",
+      "أستخدم الصابون.",
+      "الأيدي النظيفة جيدة.",
+      "أغسل كل يوم."
+    ],
+    "phase": 1,
+    "topic": "health",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "ماء فقط",
+          "صابون",
+          "رمل",
+          "زيت"
+        ],
+        "question": "ماذا يستخدم الشخص للغسل؟",
+        "explanation": "القصة تقول أستخدم الصابون.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "متسختان",
+          "نظيفتان",
+          "مبللتان",
+          "جافتان"
+        ],
+        "question": "كيف اليدان بعد الغسل؟",
+        "explanation": "القصة تقول أنهما نظيفتان.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "أبداً",
+          "كل يوم",
+          "مرة في الأسبوع",
+          "مرة في الشهر"
+        ],
+        "question": "كم مرة يغسل الشخص يديه؟",
+        "explanation": "القصة تقول أغسل كل يوم.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:06:09.313869+00:00",
+    "id": 33,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_33_my_clean_hands.mp3",
+    "icon": "❤️",
+    "word_mappings": {
+      "i": "أنا",
+      "my": "ـي",
+      "are": "يكون / تكون",
+      "day": "يوم",
+      "use": "يستخدم",
+      "good": "جيّد",
+      "soap": "صابون",
+      "they": "هم",
+      "wash": "يغسل",
+      "clean": "نظيف",
+      "every": "كلّ",
+      "hands": "أيدي"
+    },
+    "reading_level": 105
+  },
+  {
+    "title_english": "The Blue Car",
+    "title_arabic": "السيارة الزرقاء",
+    "content_english": [
+      "I see a car.",
+      "The car is blue.",
+      "It is fast.",
+      "My dad drives it.",
+      "We go to school."
+    ],
+    "content_arabic": [
+      "أرى سيارة.",
+      "السيارة زرقاء.",
+      "إنها سريعة.",
+      "أبي يقودها.",
+      "نذهب إلى المدرسة."
+    ],
+    "phase": 1,
+    "topic": "transportation",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "أمي",
+          "أبي",
+          "أخي",
+          "أختي"
+        ],
+        "question": "من يقود السيارة؟",
+        "explanation": "القصة تقول أبي يقودها.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "أحمر",
+          "أزرق",
+          "أخضر",
+          "أصفر"
+        ],
+        "question": "ما لون السيارة؟",
+        "explanation": "القصة تقول السيارة زرقاء.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "إلى الحديقة",
+          "إلى المدرسة",
+          "إلى المتجر",
+          "إلى البيت"
+        ],
+        "question": "إلى أين يذهبون؟",
+        "explanation": "القصة تقول نذهب إلى المدرسة.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:04:52.96851+00:00",
+    "id": 13,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_13_the_blue_car.mp3",
+    "icon": "🚗",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "go": "يذهب",
+      "is": "يكون",
+      "it": "هو / هي",
+      "my": "ـي",
+      "to": "إلى / لِـ",
+      "we": "نحن",
+      "car": "سيارة",
+      "dad": "أبي",
+      "see": "يرى",
+      "the": "الـ",
+      "blue": "أزرق",
+      "fast": "سريع",
+      "drives": "يقود",
+      "school": "مدرسة"
+    },
+    "reading_level": 58
+  },
+  {
+    "title_english": "My House",
+    "title_arabic": "بيتي",
+    "content_english": [
+      "This is my house.",
+      "It is big.",
+      "I live here.",
+      "My family is here.",
+      "I like my house."
+    ],
+    "content_arabic": [
+      "هذا بيتي.",
+      "إنه كبير.",
+      "أعيش هنا.",
+      "عائلتي هنا.",
+      "أحب بيتي."
+    ],
+    "phase": 1,
+    "topic": "home",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "صغير",
+          "كبير",
+          "قديم",
+          "جديد"
+        ],
+        "question": "كيف يوصف البيت؟",
+        "explanation": "القصة تقول أنه كبير.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "أنا فقط",
+          "عائلتي",
+          "أصدقائي",
+          "لا أحد"
+        ],
+        "question": "من في البيت؟",
+        "explanation": "القصة تقول عائلتي هنا.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "لا يحبه",
+          "يحبه",
+          "خائف منه",
+          "يشعر بالملل"
+        ],
+        "question": "كيف يشعر الشخص تجاه البيت؟",
+        "explanation": "القصة تقول أنا أحب بيتي.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:04:52.96851+00:00",
+    "id": 14,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_14_my_house.mp3",
+    "icon": "🏠",
+    "word_mappings": {
+      "i": "أنا",
+      "is": "يكون",
+      "it": "هو / هي",
+      "my": "ـي",
+      "big": "كبير",
+      "here": "هنا",
+      "like": "يُحبّ",
+      "live": "يعيش",
+      "this": "هذا",
+      "house": "منزل",
+      "family": "عائلة"
+    },
+    "reading_level": 55
+  },
+  {
+    "title_english": "My Soft Pillow",
+    "title_arabic": "وسادتي الناعمة",
+    "content_english": [
+      "I have a pillow.",
+      "It is soft.",
+      "I put my head on it.",
+      "It helps me sleep.",
+      "Pillows are comfy."
+    ],
+    "content_arabic": [
+      "لدي وسادة.",
+      "إنها ناعمة.",
+      "أضع رأسي عليها.",
+      "تساعدني على النوم.",
+      "الوسائد مريحة."
+    ],
+    "phase": 1,
+    "topic": "home",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "اليدين",
+          "القدمين",
+          "الرأس",
+          "الكتب"
+        ],
+        "question": "ماذا يضع الشخص على الوسادة؟",
+        "explanation": "القصة تقول أضع رأسي عليها.",
+        "correct_answer": 2
+      },
+      {
+        "options": [
+          "صلبة",
+          "ناعمة",
+          "كبيرة",
+          "صغيرة"
+        ],
+        "question": "كيف توصف الوسادة؟",
+        "explanation": "القصة تقول أنها ناعمة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "الأكل",
+          "النوم",
+          "الجري",
+          "القراءة"
+        ],
+        "question": "بماذا تساعد الوسادة؟",
+        "explanation": "القصة تقول أنها تساعدني على النوم.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:06:09.313869+00:00",
+    "id": 35,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_35_my_soft_pillow.mp3",
+    "icon": "🏠",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "is": "يكون",
+      "it": "هو / هي",
+      "me": "ـني / لي",
+      "my": "ـي",
+      "on": "على",
+      "are": "يكون / تكون",
+      "put": "يضع",
+      "have": "لديّ",
+      "head": "رأس",
+      "soft": "ناعم",
+      "comfy": "مريح",
+      "helps": "يُساعد",
+      "sleep": "ينام",
+      "pillow": "وسادة",
+      "pillows": "وسائد"
+    },
+    "reading_level": 112
+  },
+  {
+    "title_english": "The Round Ball",
+    "title_arabic": "الكرة المستديرة",
+    "content_english": [
+      "I have a ball.",
+      "It is round.",
+      "I kick it.",
+      "It bounces high.",
+      "Playing is fun."
+    ],
+    "content_arabic": [
+      "لدي كرة.",
+      "إنها مستديرة.",
+      "أركلها.",
+      "ترتد عالياً.",
+      "اللعب ممتع."
+    ],
+    "phase": 1,
+    "topic": "toys",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "مربعة",
+          "مثلثة",
+          "مستديرة",
+          "مستطيلة"
+        ],
+        "question": "ما شكل الكرة؟",
+        "explanation": "القصة تقول أنها مستديرة.",
+        "correct_answer": 2
+      },
+      {
+        "options": [
+          "يرميها",
+          "يركلها",
+          "يأكلها",
+          "يخفيها"
+        ],
+        "question": "ماذا يفعل الشخص بالكرة؟",
+        "explanation": "القصة تقول أنا أركلها.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "تبقى ثابتة",
+          "تقفز عالياً",
+          "تطير بعيداً",
+          "تنكسر"
+        ],
+        "question": "ماذا تفعل الكرة؟",
+        "explanation": "القصة تقول أنها تقفز عالياً.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:05:09.104105+00:00",
+    "id": 21,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_21_the_round_ball.mp3",
+    "icon": "🧸",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "is": "يكون",
+      "it": "هو / هي",
+      "fun": "مُمتع",
+      "ball": "كرة",
+      "have": "لديّ",
+      "high": "عالياً",
+      "kick": "يركل",
+      "round": "مُستدير",
+      "bounces": "يرتدّ",
+      "playing": "اللعب"
+    },
+    "reading_level": 80
+  },
+  {
+    "title_english": "My Shoes",
+    "title_arabic": "حذائي",
+    "content_english": [
+      "I wear shoes.",
+      "They are black.",
+      "They keep my feet warm.",
+      "I walk in them.",
+      "They are comfortable."
+    ],
+    "content_arabic": [
+      "أرتدي حذاء.",
+      "إنه أسود.",
+      "يبقي قدمي دافئتين.",
+      "أمشي فيه.",
+      "إنه مريح."
+    ],
+    "phase": 1,
+    "topic": "clothing",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "أبيض",
+          "بني",
+          "أسود",
+          "أحمر"
+        ],
+        "question": "ما لون الحذاء؟",
+        "explanation": "القصة تقول أنهما أسودان.",
+        "correct_answer": 2
+      },
+      {
+        "options": [
+          "اليدين",
+          "القدمين",
+          "الرأس",
+          "الجسم"
+        ],
+        "question": "ماذا يبقي الحذاء دافئاً؟",
+        "explanation": "القصة تقول أنهما يبقيان قدمي دافئتين.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "غير مريح",
+          "كبير جداً",
+          "صغير جداً",
+          "مريح"
+        ],
+        "question": "كيف يوصف الحذاء؟",
+        "explanation": "القصة تقول أنهما مريحان.",
+        "correct_answer": 3
+      }
+    ],
+    "created_at": "2025-09-16T22:05:25.973922+00:00",
+    "id": 26,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_26_my_shoes.mp3",
+    "icon": "👗",
+    "word_mappings": {
+      "i": "أنا",
+      "in": "في",
+      "my": "ـي",
+      "are": "يكون / تكون",
+      "feet": "قدمَيْن",
+      "keep": "يُبقي",
+      "them": "ـهم",
+      "they": "هم",
+      "walk": "يمشي",
+      "warm": "دافئ",
+      "wear": "يلبس",
+      "black": "أسود",
+      "shoes": "أحذية",
+      "comfortable": "مريح"
+    },
+    "reading_level": 86
+  },
+  {
+    "title_english": "My Bed",
+    "title_arabic": "سريري",
+    "content_english": [
+      "This is my bed.",
+      "It is soft.",
+      "I sleep here.",
+      "I dream at night.",
+      "I rest well."
+    ],
+    "content_arabic": [
+      "هذا سريري.",
+      "إنه ناعم.",
+      "أنام هنا.",
+      "أحلم في الليل.",
+      "أستريح جيداً."
+    ],
+    "phase": 1,
+    "topic": "home",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "يأكل",
+          "ينام",
+          "يدرس",
+          "يلعب"
+        ],
+        "question": "ماذا يفعل الشخص في السرير؟",
+        "explanation": "القصة تقول أنا أنام هنا.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "صلب",
+          "ناعم",
+          "كبير",
+          "صغير"
+        ],
+        "question": "كيف يوصف السرير؟",
+        "explanation": "القصة تقول أنه ناعم.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "في الصباح",
+          "في الليل",
+          "بعد الظهر",
+          "أبداً"
+        ],
+        "question": "متى يحلم الشخص؟",
+        "explanation": "القصة تقول أحلم في الليل.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:05:09.104105+00:00",
+    "id": 20,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_20_my_bed.mp3",
+    "icon": "🏠",
+    "word_mappings": {
+      "i": "أنا",
+      "at": "في / عند",
+      "is": "يكون",
+      "it": "هو / هي",
+      "my": "ـي",
+      "bed": "سرير",
+      "here": "هنا",
+      "rest": "يرتاح",
+      "soft": "ناعم",
+      "this": "هذا",
+      "well": "جيّداً",
+      "dream": "يحلم",
+      "night": "ليل",
+      "sleep": "ينام"
+    },
+    "reading_level": 78
+  },
+  {
+    "title_english": "My Toy Robot",
+    "title_arabic": "روبوتي اللعبة",
+    "content_english": [
+      "I have a robot.",
+      "It is my toy.",
+      "It can walk.",
+      "It makes sounds.",
+      "I play with it."
+    ],
+    "content_arabic": [
+      "لدي روبوت.",
+      "إنه لعبتي.",
+      "يستطيع المشي.",
+      "يصدر أصواتاً.",
+      "ألعب معه."
+    ],
+    "phase": 1,
+    "topic": "toys",
+    "estimated_duration": 4,
+    "comprehension_questions": [
+      {
+        "options": [
+          "يطير",
+          "يسبح",
+          "يمشي",
+          "يرقص"
+        ],
+        "question": "ماذا يستطيع الروبوت أن يفعل؟",
+        "explanation": "القصة تقول أنه يستطيع المشي.",
+        "correct_answer": 2
+      },
+      {
+        "options": [
+          "حيوان أليف",
+          "لعبة",
+          "طعام",
+          "كتاب"
+        ],
+        "question": "ما هو الروبوت؟",
+        "explanation": "القصة تقول أنه لعبتي.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "ينام",
+          "يصدر أصواتاً",
+          "يأكل",
+          "يقرأ"
+        ],
+        "question": "ماذا يفعل الروبوت أيضاً؟",
+        "explanation": "القصة تقول أنه يصدر أصواتاً.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:05:25.973922+00:00",
+    "id": 24,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_24_my_toy_robot.mp3",
+    "icon": "🧸",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "is": "يكون",
+      "it": "هو / هي",
+      "my": "ـي",
+      "can": "يستطيع",
+      "toy": "لعبة",
+      "have": "لديّ",
+      "play": "يلعب",
+      "walk": "يمشي",
+      "with": "مع",
+      "makes": "يجعل / يصنع",
+      "robot": "روبوت",
+      "sounds": "أصوات"
+    },
+    "reading_level": 95
+  },
+  {
+    "title_english": "The Broken Bicycle",
+    "title_arabic": "الدراجة المكسورة",
+    "content_english": [
+      "My bicycle broke while I was riding to school.",
+      "I had to walk the rest of the way.",
+      "My father helped me fix it that evening.",
+      "We cleaned all the parts.",
+      "He showed me how to fix the brakes too.",
+      "Now I know how to take care of my bike."
+    ],
+    "content_arabic": [
+      "انكسرت سلسلة دراجتي بينما كنت أقود إلى المدرسة.",
+      "اضطررت للمشي باقي الطريق.",
+      "ساعدني أبي في إصلاحها تلك المساء.",
+      "نظفنا وزيتنا جميع الأجزاء بعناية.",
+      "علمني أيضاً كيفية ضبط الفرامل.",
+      "الآن أعرف كيفية صيانة دراجتي بشكل صحيح."
+    ],
+    "phase": 2,
+    "topic": "mechanics",
+    "estimated_duration": 5,
+    "comprehension_questions": [
+      {
+        "options": [
+          "العجلة",
+          "السلسلة",
+          "المقعد",
+          "الدواسة"
+        ],
+        "question": "ماذا انكسر في الدراجة؟",
+        "explanation": "القصة تقول انقطعت سلسلة دراجتي وأنا ذاهب إلى المدرسة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "الأم",
+          "الأب",
+          "الأخ",
+          "صديق"
+        ],
+        "question": "من ساعد في إصلاح الدراجة؟",
+        "explanation": "القصة تقول أبي ساعدني في إصلاحها في المساء.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "كيف يركب",
+          "كيف يضبط الفرامل",
+          "كيف يدهن",
+          "كيف يبيعها"
+        ],
+        "question": "ماذا تعلم الشخص أيضاً؟",
+        "explanation": "القصة تقول علمني كيف أضبط الفرامل أيضاً.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:08:09.696148+00:00",
+    "id": 52,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_52_the_broken_bicycle.mp3",
+    "icon": "⚙️",
+    "word_mappings": {
+      "i": "أنا",
+      "he": "هو",
+      "it": "هو / هي",
+      "me": "ـني / لي",
+      "my": "ـي",
+      "of": "من / لِـ",
+      "to": "إلى / لِـ",
+      "we": "نحن",
+      "all": "كلّ / جميع",
+      "and": "و",
+      "fix": "يُصلح",
+      "had": "كان لديه",
+      "how": "كيف",
+      "now": "الآن",
+      "the": "الـ",
+      "too": "أيضاً",
+      "was": "كان",
+      "way": "طريق",
+      "bike": "دراجة",
+      "care": "عناية / رعاية",
+      "know": "يعرف",
+      "rest": "باقي",
+      "take": "يأخذ",
+      "that": "ذلك / التي",
+      "walk": "يمشي",
+      "broke": "انكسر",
+      "parts": "أجزاء",
+      "while": "بينما",
+      "brakes": "فرامل",
+      "father": "أب",
+      "helped": "ساعد",
+      "riding": "ركوب",
+      "school": "مدرسة",
+      "showed": "أرى / عرض",
+      "bicycle": "دراجة",
+      "cleaned": "نظّف",
+      "evening": "مساء"
+    },
+    "reading_level": 212
+  },
+  {
+    "title_english": "The Garden Project",
+    "title_arabic": "مشروع الحديقة",
+    "content_english": [
+      "Our teacher gave us a garden project.",
+      "We planted tomato seeds in small pots.",
+      "Every day we gave them water.",
+      "After two weeks, small green plants came up.",
+      "We used rulers to see how tall they grew.",
+      "By the end of the month, we had nice plants."
+    ],
+    "content_arabic": [
+      "كلفنا معلمنا بمشروع بستنة.",
+      "زرعنا بذور الطماطم في أصص صغيرة.",
+      "كل يوم سقيناها بحذر.",
+      "بعد أسبوعين، ظهرت براعم خضراء صغيرة.",
+      "قسنا نموها بالمساطر.",
+      "بحلول نهاية الشهر، كان لدينا نباتات صحية."
+    ],
+    "phase": 2,
+    "topic": "science",
+    "estimated_duration": 5,
+    "comprehension_questions": [
+      {
+        "options": [
+          "بذور زهور",
+          "بذور طماطم",
+          "بذور عشب",
+          "بذور شجر"
+        ],
+        "question": "ماذا زرعوا؟",
+        "explanation": "القصة تقول زرعنا بذور طماطم في أوعية صغيرة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "بعد أسبوع",
+          "بعد أسبوعين",
+          "بعد شهر",
+          "فوراً"
+        ],
+        "question": "متى ظهرت البراعم الخضراء؟",
+        "explanation": "القصة تقول بعد أسبوعين ظهرت براعم خضراء صغيرة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "شريط لاصق",
+          "مساطر",
+          "أيديهم",
+          "عصي"
+        ],
+        "question": "ماذا استخدموا لقياس النمو؟",
+        "explanation": "القصة تقول قسنا نموها بالمساطر.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:07:34.324997+00:00",
+    "id": 49,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_49_the_garden_project.mp3",
+    "icon": "🔬",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "by": "بجانب / بواسطة",
+      "in": "في",
+      "of": "من / لِـ",
+      "to": "إلى / لِـ",
+      "up": "فوق / أعلى",
+      "us": "ـنا",
+      "we": "نحن",
+      "day": "يوم",
+      "end": "نهاية",
+      "had": "كان لديه",
+      "how": "كيف",
+      "our": "ـنا",
+      "see": "يرى",
+      "the": "الـ",
+      "two": "اثنان",
+      "came": "جاء",
+      "gave": "أعطى",
+      "grew": "نما",
+      "nice": "لطيف / جميل",
+      "pots": "أوعية",
+      "tall": "طويل",
+      "them": "ـهم",
+      "they": "هم",
+      "used": "استخدم",
+      "after": "بعد",
+      "every": "كلّ",
+      "green": "أخضر",
+      "month": "شهر",
+      "seeds": "بذور",
+      "small": "صغير",
+      "water": "ماء",
+      "weeks": "أسابيع",
+      "garden": "حديقة",
+      "plants": "نباتات",
+      "rulers": "مساطر",
+      "tomato": "طماطم",
+      "planted": "زرع",
+      "project": "مشروع",
+      "teacher": "معلّم / معلّمة"
+    },
+    "reading_level": 202
+  },
+  {
+    "title_english": "The Lost Kitten",
+    "title_arabic": "القطة الضائعة",
+    "content_english": [
+      "Last week I found a kitten.",
+      "She was hiding under a car.",
+      "The kitten looked scared and hungry.",
+      "I gave her some milk and food.",
+      "She purred softly when I petted her.",
+      "We found her owner the next day."
+    ],
+    "content_arabic": [
+      "الأسبوع الماضي وجدت قطة صغيرة.",
+      "كانت تختبئ تحت سيارة.",
+      "بدت القطة خائفة وجائعة.",
+      "أعطيتها بعض الحليب والطعام.",
+      "خرخرت بهدوء عندما ربتت عليها.",
+      "وجدنا صاحبها في اليوم التالي."
+    ],
+    "phase": 2,
+    "topic": "animals",
+    "estimated_duration": 5,
+    "comprehension_questions": [
+      {
+        "options": [
+          "تحت شجرة",
+          "تحت سيارة",
+          "في صندوق",
+          "على السطح"
+        ],
+        "question": "أين كانت القطة مختبئة؟",
+        "explanation": "القصة تقول أنها كانت مختبئة تحت سيارة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "لعبة",
+          "حليب وطعام",
+          "بطانية",
+          "دواء"
+        ],
+        "question": "ماذا أعطى الشخص للقطة؟",
+        "explanation": "القصة تقول أعطيتها بعض الحليب والطعام.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "في نفس اليوم",
+          "في اليوم التالي",
+          "بعد أسبوع",
+          "أبداً"
+        ],
+        "question": "متى وجدوا صاحب القطة؟",
+        "explanation": "القصة تقول وجدنا صاحبتها في اليوم التالي.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:07:06.110897+00:00",
+    "id": 43,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_43_the_lost_kitten.mp3",
+    "icon": "🐱",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "we": "نحن",
+      "and": "و",
+      "car": "سيارة",
+      "day": "يوم",
+      "her": "ـها / لها",
+      "she": "هي",
+      "the": "الـ",
+      "was": "كان",
+      "food": "طعام",
+      "gave": "أعطى",
+      "last": "الماضي / آخر",
+      "milk": "حليب",
+      "next": "التالي / القادم",
+      "some": "بعض",
+      "week": "أسبوع",
+      "when": "عندما",
+      "found": "وجد",
+      "owner": "صاحب / مالك",
+      "under": "تحت",
+      "hiding": "يختبئ",
+      "hungry": "جائع",
+      "kitten": "قطّة صغيرة",
+      "looked": "نظر / بدا",
+      "petted": "داعب",
+      "purred": "خرخر",
+      "scared": "خائف",
+      "softly": "بهدوء"
+    },
+    "reading_level": 158
+  },
+  {
+    "title_english": "My First Cooking Experience",
+    "title_arabic": "تجربتي الأولى في الطبخ",
+    "content_english": [
+      "Last month I cooked dinner for the first time.",
+      "I made pasta with tomato sauce.",
+      "First, I boiled water in a big pot.",
+      "Then I put the pasta in the water.",
+      "The sauce smelled very good.",
+      "My family liked the food very much."
+    ],
+    "content_arabic": [
+      "الشهر الماضي قررت أن أطبخ العشاء.",
+      "اخترت أن أصنع المعكرونة بصلصة الطماطم.",
+      "أولاً، غليت الماء في إناء كبير.",
+      "ثم أضفت المعكرونة بحذر.",
+      "كانت رائحة الصلصة لذيذة أثناء الطبخ.",
+      "استمتعت عائلتي بالوجبة كثيراً."
+    ],
+    "phase": 2,
+    "topic": "cooking",
+    "estimated_duration": 5,
+    "comprehension_questions": [
+      {
+        "options": [
+          "أرز",
+          "معكرونة",
+          "شوربة",
+          "خبز"
+        ],
+        "question": "ماذا طبخ الشخص؟",
+        "explanation": "القصة تقول اخترت أن أصنع معكرونة بصلصة الطماطم.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "أضاف الصلصة",
+          "غلى الماء",
+          "قطع الخضار",
+          "رتب الطاولة"
+        ],
+        "question": "ماذا فعلوا أولاً؟",
+        "explanation": "القصة تقول أولاً غليت الماء في قدر كبير.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "لم يعجبهم",
+          "استمتعوا به",
+          "تجاهلوه",
+          "اشتكوا"
+        ],
+        "question": "كيف شعرت العائلة تجاه الطعام؟",
+        "explanation": "القصة تقول عائلتي استمتعت بالوجبة كثيراً.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:07:06.110897+00:00",
+    "id": 44,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_44_my_first_cooking_experience.mp3",
+    "icon": "👨‍🍳",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "in": "في",
+      "my": "ـي",
+      "big": "كبير",
+      "for": "لِـ",
+      "pot": "قِدر",
+      "put": "يضع / وضع",
+      "the": "الـ",
+      "food": "طعام",
+      "good": "جيّد",
+      "last": "الماضي / آخر",
+      "made": "صنع",
+      "much": "كثيراً",
+      "then": "ثمّ",
+      "time": "وقت / مرّة",
+      "very": "جداً",
+      "with": "مع",
+      "first": "أوّل",
+      "liked": "أحبّ",
+      "month": "شهر",
+      "pasta": "معكرونة",
+      "sauce": "صلصة",
+      "water": "ماء",
+      "boiled": "غلى",
+      "cooked": "طبخ",
+      "dinner": "عشاء",
+      "family": "عائلة",
+      "tomato": "طماطم",
+      "smelled": "شمّ رائحته"
+    },
+    "reading_level": 250
+  },
+  {
+    "title_english": "A Day at the Park",
+    "title_arabic": "يوم في الحديقة",
+    "content_english": [
+      "Sarah walked to the park on a sunny morning.",
+      "She saw children playing on the swings.",
+      "A friendly dog ran up to her.",
+      "She sat on a bench and watched the birds.",
+      "The park had many flowers and tall trees.",
+      "Sarah felt happy in the park."
+    ],
+    "content_arabic": [
+      "مشت سارة إلى الحديقة في صباح مشمس.",
+      "رأت أطفالاً يلعبون على الأرجوحة والزحليقة.",
+      "جرى إليها كلب ودود وهز ذيله.",
+      "جلست على مقعد وشاهدت الطيور تطير.",
+      "كانت الحديقة مليئة بالزهور الجميلة والأشجار العالية.",
+      "شعرت سارة بالسعادة والهدوء في البيئة الطبيعية."
+    ],
+    "phase": 2,
+    "topic": "daily life",
+    "estimated_duration": 5,
+    "comprehension_questions": [
+      {
+        "options": [
+          "إلى المتجر",
+          "إلى الحديقة",
+          "إلى المدرسة",
+          "إلى العمل"
+        ],
+        "question": "إلى أين ذهبت سارة؟",
+        "explanation": "القصة تبدأ بأن سارة مشت إلى الحديقة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "نبح بصوت عالٍ",
+          "هرب بعيداً",
+          "هز ذيله",
+          "نام تحت شجرة"
+        ],
+        "question": "ماذا فعل الكلب الودود عندما رأى سارة؟",
+        "explanation": "القصة تقول أن كلباً ودوداً جرى نحوها وهز ذيله.",
+        "correct_answer": 2
+      },
+      {
+        "options": [
+          "غاضبة ومنزعجة",
+          "سعيدة ومرتاحة",
+          "خائفة وقلقة",
+          "متعبة ونعسانة"
+        ],
+        "question": "كيف شعرت سارة في الحديقة؟",
+        "explanation": "القصة تقول أن سارة شعرت بالسعادة والراحة في الطبيعة.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-08-14T12:17:34.273074+00:00",
+    "id": 3,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_3_a_day_at_the_park.mp3",
+    "icon": "☀️",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "in": "في",
+      "on": "على",
+      "to": "إلى / لِـ",
+      "up": "فوق / أعلى",
+      "and": "و",
+      "dog": "كلب",
+      "had": "كان لديه",
+      "her": "ـها / لها",
+      "ran": "ركض",
+      "sat": "جلس",
+      "saw": "رأى",
+      "she": "هي",
+      "the": "الـ",
+      "felt": "شعر",
+      "many": "كثير",
+      "park": "حديقة عامّة",
+      "tall": "طويل",
+      "bench": "مقعد",
+      "birds": "طيور",
+      "happy": "سعيد",
+      "sarah": "سارة",
+      "sunny": "مشمس",
+      "trees": "أشجار",
+      "swings": "أراجيح",
+      "walked": "مشى",
+      "flowers": "أزهار",
+      "morning": "صباح",
+      "playing": "يلعب",
+      "watched": "شاهد",
+      "children": "أطفال",
+      "friendly": "ودود"
+    },
+    "reading_level": 138
+  },
+  {
+    "title_english": "The School Play",
+    "title_arabic": "مسرحية المدرسة",
+    "content_english": [
+      "Our class did a play last Friday.",
+      "I played a brave knight.",
+      "We practiced for three weeks.",
+      "I wore a shiny silver helmet.",
+      "Many parents came to watch.",
+      "Everyone clapped at the end."
+    ],
+    "content_arabic": [
+      "صفنا قدم مسرحية الجمعة الماضية.",
+      "لعبت دور فارس شجاع.",
+      "تدربنا لثلاثة أسابيع قبل العرض.",
+      "كان زيي يحتوي على خوذة فضية لامعة.",
+      "جاء آباء كثيرون لمشاهدتنا نؤدي.",
+      "صفق الجميع بصوت عالٍ في النهاية."
+    ],
+    "phase": 2,
+    "topic": "performance",
+    "estimated_duration": 5,
+    "comprehension_questions": [
+      {
+        "options": [
+          "أمير",
+          "فارس",
+          "ملك",
+          "ساحر"
+        ],
+        "question": "ما الدور الذي لعبه الشخص؟",
+        "explanation": "القصة تقول لعبت دور الفارس الشجاع.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "أسبوع واحد",
+          "أسبوعان",
+          "ثلاثة أسابيع",
+          "شهر واحد"
+        ],
+        "question": "كم من الوقت تدربوا؟",
+        "explanation": "القصة تقول تدربنا لمدة ثلاثة أسابيع قبل العرض.",
+        "correct_answer": 2
+      },
+      {
+        "options": [
+          "الناس غادروا",
+          "الجميع صفق",
+          "الأضواء انطفأت",
+          "أحدهم بكى"
+        ],
+        "question": "ماذا حدث في نهاية المسرحية؟",
+        "explanation": "القصة تقول الجميع صفق بصوت عالٍ في النهاية.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:07:06.110897+00:00",
+    "id": 45,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_45_the_school_play.mp3",
+    "icon": "🎭",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "at": "في / عند",
+      "to": "إلى / لِـ",
+      "we": "نحن",
+      "did": "فعل",
+      "end": "نهاية",
+      "for": "لِـ",
+      "our": "ـنا",
+      "the": "الـ",
+      "came": "جاء",
+      "last": "الماضي / آخر",
+      "many": "كثير",
+      "play": "مسرحية",
+      "wore": "لبس / ارتدى",
+      "brave": "شجاع",
+      "class": "صفّ / فصل",
+      "shiny": "لامع",
+      "three": "ثلاثة",
+      "watch": "يشاهد",
+      "weeks": "أسابيع",
+      "friday": "الجمعة",
+      "helmet": "خوذة",
+      "knight": "فارس",
+      "played": "لعب / عزف",
+      "silver": "فضّي",
+      "clapped": "صفّق",
+      "parents": "والدان",
+      "everyone": "الجميع",
+      "practiced": "تدرّب"
+    },
+    "reading_level": 165
+  },
+  {
+    "title_english": "The Swimming Lesson",
+    "title_arabic": "درس السباحة",
+    "content_english": [
+      "I had my first swimming lesson last summer.",
+      "My teacher was very kind and helped me.",
+      "At first, I was scared of the deep water.",
+      "She showed me how to float on my back.",
+      "Then I learned to move my arms and legs.",
+      "At the end, I could swim across the pool."
+    ],
+    "content_arabic": [
+      "أخذت درس السباحة الأول الصيف الماضي.",
+      "كان المدرب صبوراً ومشجعاً.",
+      "في البداية، كنت متوتراً من المياه العميقة.",
+      "علمني كيف أطفو على ظهري.",
+      "تدريجياً، تعلمت تحريك ذراعي وساقي.",
+      "بحلول نهاية الدرس، استطعت السباحة عبر المسبح."
+    ],
+    "phase": 2,
+    "topic": "sports",
+    "estimated_duration": 5,
+    "comprehension_questions": [
+      {
+        "options": [
+          "كيف يغوص",
+          "كيف يطفو",
+          "كيف يقفز",
+          "كيف يجري"
+        ],
+        "question": "ماذا علمت المدربة أولاً؟",
+        "explanation": "القصة تقول علمتني كيف أطفو على ظهري.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "متحمس",
+          "متوتر",
+          "غاضب",
+          "يشعر بالملل"
+        ],
+        "question": "كيف شعر الشخص في البداية؟",
+        "explanation": "القصة تقول في البداية كنت متوتراً من الماء العميق.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "يغوص عميقاً",
+          "يسبح عبر المسبح",
+          "يقفز عالياً",
+          "لا شيء"
+        ],
+        "question": "ماذا استطاع أن يفعل في النهاية؟",
+        "explanation": "القصة تقول في نهاية الدرس استطعت السباحة عبر المسبح.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:07:34.324997+00:00",
+    "id": 51,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_51_the_swimming_lesson.mp3",
+    "icon": "⚽",
+    "word_mappings": {
+      "i": "أنا",
+      "at": "في / عند",
+      "me": "ـني / لي",
+      "my": "ـي",
+      "of": "من / لِـ",
+      "on": "على",
+      "to": "إلى / لِـ",
+      "and": "و",
+      "end": "نهاية",
+      "had": "كان لديه",
+      "how": "كيف",
+      "she": "هي",
+      "the": "الـ",
+      "was": "كان",
+      "arms": "أذرع",
+      "back": "ظهر / خلف",
+      "deep": "عميق",
+      "kind": "لطيف",
+      "last": "الماضي / آخر",
+      "legs": "أرجل",
+      "move": "يتحرّك",
+      "pool": "مسبح",
+      "swim": "يسبح",
+      "then": "ثمّ",
+      "very": "جداً",
+      "could": "استطاع",
+      "first": "أوّل",
+      "float": "يطفو",
+      "water": "ماء",
+      "across": "عبر",
+      "helped": "ساعد",
+      "lesson": "درس",
+      "scared": "خائف",
+      "showed": "أرى / عرض",
+      "summer": "صيف",
+      "learned": "تعلّم",
+      "teacher": "معلّم / معلّمة",
+      "swimming": "السباحة"
+    },
+    "reading_level": 208
+  },
+  {
+    "title_english": "The Pizza Party",
+    "title_arabic": "حفلة البيتزا",
+    "content_english": [
+      "My friends and I had a pizza party.",
+      "We ordered three big pizzas.",
+      "I chose the pizza with cheese and mushrooms.",
+      "We also got some cold drinks.",
+      "Everyone liked the food and had fun.",
+      "We cleaned up when the party was over."
+    ],
+    "content_arabic": [
+      "نظمت أنا وأصدقائي حفلة بيتزا.",
+      "طلبنا ثلاث بيتزا كبيرة مع إضافات مختلفة.",
+      "اخترت البيتزا مع الفطر والجبن.",
+      "اشترينا أيضاً بعض المشروبات الباردة والوجبات الخفيفة.",
+      "استمتع الجميع بالطعام وقضوا وقتاً ممتعاً.",
+      "نظفنا معاً عندما انتهت الحفلة."
+    ],
+    "phase": 2,
+    "topic": "food",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "اثنتان",
+          "ثلاث",
+          "أربع",
+          "خمس"
+        ],
+        "question": "كم بيتزا طلبوا؟",
+        "explanation": "القصة تقول طلبنا ثلاث بيتزات كبيرة بإضافات مختلفة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "بيبروني",
+          "فطر وجبن",
+          "خضروات",
+          "لحم"
+        ],
+        "question": "أي بيتزا اختار الشخص؟",
+        "explanation": "القصة تقول اخترت البيتزا بالفطر والجبن.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "غادروا فوراً",
+          "نظفوا كل شيء",
+          "طلبوا المزيد",
+          "شاهدوا التلفاز"
+        ],
+        "question": "ماذا فعلوا عندما انتهت الحفلة؟",
+        "explanation": "القصة تقول نظفنا كل شيء عندما انتهت الحفلة.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 227,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_227_the_pizza_party.mp3",
+    "icon": "🍽️",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "my": "ـي",
+      "up": "فوق / أعلى",
+      "we": "نحن",
+      "and": "و",
+      "big": "كبير",
+      "fun": "مُمتع",
+      "got": "حصل على",
+      "had": "كان لديه",
+      "the": "الـ",
+      "was": "كان",
+      "also": "أيضاً",
+      "cold": "بارد",
+      "food": "طعام",
+      "over": "انتهى / فوق",
+      "some": "بعض",
+      "when": "عندما",
+      "with": "مع",
+      "chose": "اختار",
+      "liked": "أحبّ",
+      "party": "حفلة",
+      "pizza": "بيتزا",
+      "three": "ثلاثة",
+      "cheese": "جبن",
+      "drinks": "مشروبات",
+      "pizzas": "بيتزا (جمع)",
+      "cleaned": "نظّف",
+      "friends": "أصدقاء",
+      "ordered": "طلب",
+      "everyone": "الجميع",
+      "mushrooms": "فطر"
+    },
+    "reading_level": 148
+  },
+  {
+    "title_english": "The New Friend",
+    "title_arabic": "الصديق الجديد",
+    "content_english": [
+      "A new student came to our class last Monday.",
+      "Her name was Maria and she was from Spain.",
+      "She looked nervous on her first day.",
+      "I asked her to eat lunch with me.",
+      "We talked about our favorite books and movies.",
+      "Now we are good friends."
+    ],
+    "content_arabic": [
+      "انضم طالب جديد إلى صفنا يوم الاثنين الماضي.",
+      "اسمها كان ماريا وأتت من إسبانيا.",
+      "بدت متوترة في يومها الأول.",
+      "دعوتها للجلوس معي في الغداء.",
+      "تحدثنا عن كتبنا وأفلامنا المفضلة.",
+      "الآن نحن أصدقاء جيدين وندرس معاً."
+    ],
+    "phase": 2,
+    "topic": "friendship",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "فرنسا",
+          "إسبانيا",
+          "إيطاليا",
+          "البرتغال"
+        ],
+        "question": "من أين كانت ماريا؟",
+        "explanation": "القصة تقول اسمها ماريا وكانت من إسبانيا.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "متحمسة",
+          "متوترة",
+          "سعيدة",
+          "غاضبة"
+        ],
+        "question": "كيف شعرت ماريا في يومها الأول؟",
+        "explanation": "القصة تقول بدت متوترة في يومها الأول.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "يلعبان رياضة",
+          "يدرسان معاً",
+          "يطبخان",
+          "يتسوقان"
+        ],
+        "question": "ماذا يفعلان معاً الآن؟",
+        "explanation": "القصة تقول الآن نحن صديقتان جيدتان وندرس معاً.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 223,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_223_the_new_friend.mp3",
+    "icon": "👫",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "me": "ـني / لي",
+      "on": "على",
+      "to": "إلى / لِـ",
+      "we": "نحن",
+      "and": "و",
+      "are": "يكون / تكون",
+      "day": "يوم",
+      "eat": "يأكل",
+      "her": "ـها / لها",
+      "new": "جديد",
+      "now": "الآن",
+      "our": "ـنا",
+      "she": "هي",
+      "the": "الـ",
+      "was": "كان",
+      "came": "جاء",
+      "from": "من",
+      "good": "جيّد",
+      "last": "الماضي / آخر",
+      "name": "اسم",
+      "with": "مع",
+      "about": "عن / حول",
+      "asked": "سأل",
+      "books": "كتب",
+      "class": "صفّ / فصل",
+      "first": "أوّل",
+      "lunch": "غداء",
+      "maria": "ماريا",
+      "spain": "إسبانيا",
+      "looked": "نظر / بدا",
+      "monday": "الاثنين",
+      "movies": "أفلام",
+      "talked": "تحدّث",
+      "friends": "أصدقاء",
+      "nervous": "متوتّر",
+      "student": "طالب",
+      "favorite": "مفضّل"
+    },
+    "reading_level": 172
+  },
+  {
+    "title_english": "The Adopted Puppy",
+    "title_arabic": "الجرو المتبنى",
+    "content_english": [
+      "We got a puppy from the animal shelter last week.",
+      "He was scared and did not eat at first.",
+      "Slowly, he started to trust us.",
+      "We taught him to sit and stay.",
+      "Now he follows me everywhere.",
+      "Having a pet makes us very happy."
+    ],
+    "content_arabic": [
+      "تبنينا جرواً من ملجأ الحيوانات الأسبوع الماضي.",
+      "كان خائفاً ولم يأكل في البداية.",
+      "ببطء، بدأ يثق بعائلتنا.",
+      "علمناه أوامر أساسية مثل اجلس وابق.",
+      "الآن يتبعني أينما ذهبت.",
+      "إن وجود حيوان أليف جلب لنا فرحاً كبيراً."
+    ],
+    "phase": 2,
+    "topic": "pets",
+    "estimated_duration": 5,
+    "comprehension_questions": [
+      {
+        "options": [
+          "متجر حيوانات",
+          "ملجأ حيوانات",
+          "صديق",
+          "مربي"
+        ],
+        "question": "من أين حصلوا على الجرو؟",
+        "explanation": "القصة تقول تبنينا جرواً من ملجأ الحيوانات الأسبوع الماضي.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "حيل",
+          "أوامر أساسية",
+          "الصيد",
+          "السباحة"
+        ],
+        "question": "ماذا علموا الجرو؟",
+        "explanation": "القصة تقول علمناه أوامر أساسية مثل اجلس وابق.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "يهرب",
+          "يتبعني في كل مكان",
+          "يختبئ",
+          "ينام طوال اليوم"
+        ],
+        "question": "كيف يتصرف الجرو الآن؟",
+        "explanation": "القصة تقول الآن يتبعني في كل مكان أذهب إليه.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:10:14.216312+00:00",
+    "id": 66,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_66_the_adopted_puppy.mp3",
+    "icon": "🐾",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "at": "في / عند",
+      "he": "هو",
+      "me": "ـني / لي",
+      "to": "إلى / لِـ",
+      "us": "ـنا",
+      "we": "نحن",
+      "and": "و",
+      "did": "فعل",
+      "eat": "يأكل",
+      "got": "حصل على",
+      "him": "ـه / له",
+      "not": "لا / ليس",
+      "now": "الآن",
+      "pet": "حيوان أليف",
+      "sit": "يجلس",
+      "the": "الـ",
+      "was": "كان",
+      "from": "من",
+      "last": "الماضي / آخر",
+      "stay": "يبقى",
+      "very": "جداً",
+      "week": "أسبوع",
+      "first": "أوّل",
+      "happy": "سعيد",
+      "makes": "يجعل",
+      "puppy": "جرو",
+      "trust": "يثق",
+      "animal": "حيوان",
+      "having": "امتلاك",
+      "scared": "خائف",
+      "slowly": "ببطء",
+      "taught": "علّم",
+      "follows": "يتبع",
+      "shelter": "ملجأ",
+      "started": "بدأ",
+      "everywhere": "في كلّ مكان"
+    },
+    "reading_level": 238
+  },
+  {
+    "title_english": "Shopping for Clothes",
+    "title_arabic": "التسوق للملابس",
+    "content_english": [
+      "I needed new clothes for school.",
+      "My mother took me to the shopping center.",
+      "We looked at many different shops.",
+      "I tried on some shirts and pants.",
+      "I chose a blue jacket that I liked.",
+      "My mother paid for the clothes and we went home."
+    ],
+    "content_arabic": [
+      "كنت بحاجة إلى ملابس جديدة للمدرسة.",
+      "أخذتني أمي إلى مركز التسوق.",
+      "نظرنا إلى العديد من المتاجر المختلفة.",
+      "جربت عدة قمصان وبنطلونات.",
+      "اخترت سترة زرقاء أحببتها حقاً.",
+      "دفعت أمي ثمن الملابس وذهبنا إلى المنزل."
+    ],
+    "phase": 2,
+    "topic": "shopping",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "للمتعة",
+          "يحتاج ملابس جديدة للمدرسة",
+          "هدية عيد ميلاد",
+          "تسوق العطلة"
+        ],
+        "question": "لماذا ذهبوا للتسوق؟",
+        "explanation": "القصة تقول كنت أحتاج ملابس جديدة للمدرسة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "قميص أحمر",
+          "جاكيت أزرق",
+          "بنطلون أخضر",
+          "حذاء أسود"
+        ],
+        "question": "ماذا اختار الشخص؟",
+        "explanation": "القصة تقول اخترت جاكيت أزرق أعجبني.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "الشخص",
+          "الأم",
+          "الأب",
+          "الجدة"
+        ],
+        "question": "من دفع ثمن الملابس؟",
+        "explanation": "القصة تقول أمي دفعت ثمن الملابس وذهبنا للبيت.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 224,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_224_shopping_for_clothes.mp3",
+    "icon": "🛒",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "at": "في / عند",
+      "me": "ـني / لي",
+      "my": "ـي",
+      "on": "على",
+      "to": "إلى / لِـ",
+      "we": "نحن",
+      "and": "و",
+      "for": "لِـ",
+      "new": "جديد",
+      "the": "الـ",
+      "blue": "أزرق",
+      "home": "بيت / منزل",
+      "many": "كثير",
+      "paid": "دفع",
+      "some": "بعض",
+      "that": "ذلك / التي",
+      "took": "أخذ",
+      "went": "ذهب",
+      "chose": "اختار",
+      "liked": "أحبّ",
+      "pants": "بنطال",
+      "shops": "محلّات",
+      "tried": "حاول",
+      "center": "مركز",
+      "jacket": "سترة",
+      "looked": "نظر / بدا",
+      "mother": "أمّ",
+      "needed": "احتاج",
+      "school": "مدرسة",
+      "shirts": "قمصان",
+      "clothes": "ملابس",
+      "shopping": "تسوّق",
+      "different": "مختلف"
+    },
+    "reading_level": 182
+  },
+  {
+    "title_english": "The Train Journey",
+    "title_arabic": "رحلة القطار",
+    "content_english": [
+      "I took a train to visit my cousin in another city.",
+      "The train was fast and comfortable.",
+      "I sat by the window and looked outside.",
+      "The trip took three hours.",
+      "I ate a sandwich that I brought from home.",
+      "My cousin met me at the train station."
+    ],
+    "content_arabic": [
+      "استقللت قطاراً لزيارة ابن عمي في مدينة أخرى.",
+      "كان القطار سريعاً ومريحاً.",
+      "جلست بجانب النافذة واستمتعت بالمنظر.",
+      "استغرقت الرحلة ثلاث ساعات.",
+      "أكلت سندويشاً حزمته من المنزل.",
+      "قابلني ابن عمي في محطة القطار."
+    ],
+    "phase": 2,
+    "topic": "travel",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "بالسيارة",
+          "بالقطار",
+          "بالحافلة",
+          "بالطائرة"
+        ],
+        "question": "كيف سافر الشخص؟",
+        "explanation": "القصة تقول ركبت قطاراً لزيارة ابن عمي في مدينة أخرى.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "ساعتان",
+          "ثلاث ساعات",
+          "أربع ساعات",
+          "خمس ساعات"
+        ],
+        "question": "كم استغرقت الرحلة؟",
+        "explanation": "القصة تقول الرحلة استغرقت ثلاث ساعات.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "شطيرة",
+          "بيتزا",
+          "فاكهة",
+          "رقائق"
+        ],
+        "question": "ماذا أكلوا في القطار؟",
+        "explanation": "القصة تقول أكلت شطيرة أحضرتها من البيت.",
+        "correct_answer": 0
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 238,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_238_the_train_journey.mp3",
+    "icon": "✈️",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "at": "في / عند",
+      "by": "بجانب / بواسطة",
+      "in": "في",
+      "me": "ـني / لي",
+      "my": "ـي",
+      "to": "إلى / لِـ",
+      "and": "و",
+      "ate": "أكل",
+      "met": "التقى",
+      "sat": "جلس",
+      "the": "الـ",
+      "was": "كان",
+      "city": "مدينة",
+      "fast": "سريع",
+      "from": "من",
+      "home": "بيت / منزل",
+      "that": "ذلك / التي",
+      "took": "أخذ",
+      "trip": "رحلة",
+      "hours": "ساعات",
+      "three": "ثلاثة",
+      "train": "قطار",
+      "visit": "يزور",
+      "cousin": "ابن عمّ / ابن خال",
+      "looked": "نظر / بدا",
+      "window": "نافذة",
+      "another": "آخر",
+      "brought": "أحضر",
+      "outside": "في الخارج",
+      "station": "محطّة",
+      "sandwich": "شطيرة",
+      "comfortable": "مريح"
+    },
+    "reading_level": 218
+  },
+  {
+    "title_english": "The Grandmother Recipe",
+    "title_arabic": "وصفة الجدة",
+    "content_english": [
+      "My grandmother showed me how to make bread.",
+      "We put flour and water in a big bowl.",
+      "We mixed it with our hands.",
+      "We waited two hours for it to grow bigger.",
+      "Then we put it in the oven.",
+      "The bread smelled so good when it was ready."
+    ],
+    "content_arabic": [
+      "علمتني جدتي وصفة الخبز السرية.",
+      "خلطنا الدقيق والماء والخميرة في وعاء كبير.",
+      "أرتني كيفية عجن العجينة بشكل صحيح.",
+      "تركناها ترتفع في مكان دافئ لساعتين.",
+      "ملأت رائحة الخبز الطازج المنزل بأكمله.",
+      "اتفق الجميع أنه كان أشهى خبز على الإطلاق."
+    ],
+    "phase": 2,
+    "topic": "family",
+    "estimated_duration": 5,
+    "comprehension_questions": [
+      {
+        "options": [
+          "الأم",
+          "الجدة",
+          "الأب",
+          "المعلم"
+        ],
+        "question": "من علّم الوصفة؟",
+        "explanation": "القصة تقول جدتي علمتني وصفة الخبز السرية.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "ساعة واحدة",
+          "ساعتان",
+          "ثلاث ساعات",
+          "أربع ساعات"
+        ],
+        "question": "كم من الوقت ارتفعت العجينة؟",
+        "explanation": "القصة تقول تركناها ترتفع في مكان دافئ لمدة ساعتين.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "لم يعجبهم",
+          "كان الألذ",
+          "كان عادياً",
+          "كان صلباً جداً"
+        ],
+        "question": "كيف شعر الجميع تجاه الخبز؟",
+        "explanation": "القصة تقول الجميع اتفق أنه كان ألذ خبز.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:10:14.216312+00:00",
+    "id": 63,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_63_the_grandmother_recipe.mp3",
+    "icon": "👨‍👩‍👧",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "in": "في",
+      "it": "هو / هي",
+      "me": "ـني / لي",
+      "my": "ـي",
+      "so": "جداً / لذلك",
+      "to": "إلى / لِـ",
+      "we": "نحن",
+      "and": "و",
+      "big": "كبير",
+      "for": "لِـ",
+      "how": "كيف",
+      "our": "ـنا",
+      "put": "يضع / وضع",
+      "the": "الـ",
+      "two": "اثنان",
+      "was": "كان",
+      "bowl": "وعاء",
+      "good": "جيّد",
+      "grow": "ينمو",
+      "make": "يصنع",
+      "oven": "فرن",
+      "then": "ثمّ",
+      "when": "عندما",
+      "with": "مع",
+      "bread": "خبز",
+      "flour": "طحين",
+      "hands": "أيدي",
+      "hours": "ساعات",
+      "mixed": "خلط",
+      "ready": "جاهز",
+      "water": "ماء",
+      "bigger": "أكبر",
+      "showed": "أرى / عرض",
+      "waited": "انتظر",
+      "smelled": "شمّ رائحته",
+      "grandmother": "جدّة"
+    },
+    "reading_level": 230
+  },
+  {
+    "title_english": "The Rainy Adventure",
+    "title_arabic": "مغامرة يوم ممطر",
+    "content_english": [
+      "It was raining hard when we left home.",
+      "We wore our raincoats and boots.",
+      "We jumped in every puddle we found.",
+      "The rain made nice patterns on the ground.",
+      "We saw a rainbow after the rain stopped.",
+      "Getting wet was fun."
+    ],
+    "content_arabic": [
+      "كانت تمطر بغزارة عندما غادرنا المنزل.",
+      "ارتدينا معاطف المطر الملونة والأحذية.",
+      "قفزنا في كل بركة وجدناها.",
+      "صنع المطر أنماطاً جميلة على الأرض.",
+      "رأينا قوس قزح بعد أن انتهت العاصفة.",
+      "كان البلل ممتعاً في الواقع."
+    ],
+    "phase": 2,
+    "topic": "weather",
+    "estimated_duration": 5,
+    "comprehension_questions": [
+      {
+        "options": [
+          "قوس قزح",
+          "طائر",
+          "سيارة",
+          "شجرة"
+        ],
+        "question": "ماذا رأوا بعد العاصفة؟",
+        "explanation": "القصة تقول رأينا قوس قزح بعد انتهاء العاصفة.",
+        "correct_answer": 0
+      },
+      {
+        "options": [
+          "بدلات",
+          "معاطف مطر وأحذية",
+          "ملابس سباحة",
+          "ملابس نوم"
+        ],
+        "question": "ماذا لبسوا؟",
+        "explanation": "القصة تقول لبسنا معاطف المطر الملونة والأحذية.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "كان فظيعاً",
+          "كان ممتعاً",
+          "كان مملاً",
+          "كان مخيفاً"
+        ],
+        "question": "كيف شعروا تجاه البلل؟",
+        "explanation": "القصة تقول أن البلل كان ممتعاً فعلاً.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:07:06.110897+00:00",
+    "id": 46,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_46_the_rainy_adventure.mp3",
+    "icon": "🌤️",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "in": "في",
+      "it": "هو / هي",
+      "on": "على",
+      "we": "نحن",
+      "and": "و",
+      "fun": "مُمتع",
+      "our": "ـنا",
+      "saw": "رأى",
+      "the": "الـ",
+      "was": "كان",
+      "wet": "مبلّل",
+      "hard": "بشدّة",
+      "home": "بيت / منزل",
+      "left": "غادر",
+      "made": "صنع",
+      "nice": "لطيف / جميل",
+      "rain": "مطر",
+      "when": "عندما",
+      "wore": "لبس / ارتدى",
+      "after": "بعد",
+      "boots": "أحذية طويلة",
+      "every": "كلّ",
+      "found": "وجد",
+      "ground": "أرض",
+      "jumped": "قفز",
+      "puddle": "بركة ماء",
+      "getting": "يصبح",
+      "rainbow": "قوس قزح",
+      "raining": "تمطر",
+      "stopped": "توقّف",
+      "patterns": "أنماط",
+      "raincoats": "معاطف مطر"
+    },
+    "reading_level": 168
+  },
+  {
+    "title_english": "The Email Mistake",
+    "title_arabic": "خطأ البريد الإلكتروني",
+    "content_english": [
+      "I wanted to send an email to my teacher.",
+      "I wrote about my homework.",
+      "But I sent it to the wrong person.",
+      "My classmate got my email instead.",
+      "She sent it to the teacher for me.",
+      "Now I always check before I send emails."
+    ],
+    "content_arabic": [
+      "أردت إرسال بريد إلكتروني إلى معلمي.",
+      "كتبت عن أسئلة واجباتي المنزلية.",
+      "لكنني أرسلته عن طريق الخطأ إلى الشخص الخطأ.",
+      "استلمته زميلتي في الصف بدلاً من ذلك.",
+      "كانت مرتبكة لكنها أعادت توجيهه إلى المعلم.",
+      "الآن أتحقق دائماً من المستلم قبل إرسال رسائل البريد الإلكتروني."
+    ],
+    "phase": 2,
+    "topic": "technology",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "زميل صف",
+          "المعلم",
+          "صديق",
+          "أحد الوالدين"
+        ],
+        "question": "لمن كان البريد الإلكتروني موجهاً؟",
+        "explanation": "القصة تقول أردت إرسال بريد إلكتروني لمعلمي.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "المعلم",
+          "زميل صف",
+          "المدير",
+          "لا أحد"
+        ],
+        "question": "من استلم البريد بالخطأ؟",
+        "explanation": "القصة تقول زميلي استلمه بدلاً من ذلك.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "الكتابة أسرع",
+          "التحقق بعناية قبل الإرسال",
+          "تجنب البريد الإلكتروني",
+          "استخدام الهاتف"
+        ],
+        "question": "ماذا تعلم الشخص؟",
+        "explanation": "القصة تقول الآن أتحقق دائماً بعناية قبل إرسال البريد.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 232,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_232_the_email_mistake.mp3",
+    "icon": "💻",
+    "word_mappings": {
+      "i": "أنا",
+      "an": "(أداة نكرة)",
+      "it": "هو / هي",
+      "me": "ـني / لي",
+      "my": "ـي",
+      "to": "إلى / لِـ",
+      "but": "لكن",
+      "for": "لِـ",
+      "got": "حصل على",
+      "now": "الآن",
+      "she": "هي",
+      "the": "الـ",
+      "send": "يُرسل",
+      "sent": "أرسل",
+      "about": "عن / حول",
+      "check": "يتحقّق",
+      "email": "بريد إلكتروني",
+      "wrong": "خاطئ",
+      "wrote": "كتب",
+      "always": "دائماً",
+      "before": "قبل",
+      "emails": "رسائل إلكترونية",
+      "person": "شخص",
+      "wanted": "أراد",
+      "instead": "بدلاً من ذلك",
+      "teacher": "معلّم / معلّمة",
+      "homework": "واجب منزلي",
+      "classmate": "زميل في الصفّ"
+    },
+    "reading_level": 188
+  },
+  {
+    "title_english": "The Birthday Gift",
+    "title_arabic": "هدية عيد الميلاد",
+    "content_english": [
+      "My best friend's birthday was next week.",
+      "I wanted to buy her a nice gift.",
+      "I saved my money for a month.",
+      "I bought her a book she wanted.",
+      "I put it in colorful paper.",
+      "She loved the gift and hugged me."
+    ],
+    "content_arabic": [
+      "كان عيد ميلاد صديقتي المفضلة الأسبوع القادم.",
+      "أردت أن أشتري لها هدية خاصة.",
+      "ادخرت المال من مصروفي لمدة شهر.",
+      "اشتريت لها كتاباً من مؤلفها المفضل.",
+      "لففته في ورق ملون مع شريط.",
+      "أحبت الهدية وعانقتني بقوة."
+    ],
+    "phase": 2,
+    "topic": "friendship",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "هدية عيد ميلاد",
+          "غرض مدرسي",
+          "طعام",
+          "ملابس"
+        ],
+        "question": "ماذا كان الشخص يشتري؟",
+        "explanation": "القصة تقول عيد ميلاد صديقتي المفضلة الأسبوع القادم وأردت شراء هدية خاصة لها.",
+        "correct_answer": 0
+      },
+      {
+        "options": [
+          "أسبوع واحد",
+          "شهر واحد",
+          "شهران",
+          "سنة واحدة"
+        ],
+        "question": "كم من الوقت ادخروا المال؟",
+        "explanation": "القصة تقول ادخرت مالاً من مصروفي لمدة شهر.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "لعبة",
+          "كتاب",
+          "ملابس",
+          "مجوهرات"
+        ],
+        "question": "أي هدية اشتروا؟",
+        "explanation": "القصة تقول اشتريت لها كتاباً لمؤلفها المفضل.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 235,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_235_the_birthday_gift.mp3",
+    "icon": "👫",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "in": "في",
+      "it": "هو / هي",
+      "me": "ـني / لي",
+      "my": "ـي",
+      "to": "إلى / لِـ",
+      "and": "و",
+      "buy": "يشتري",
+      "for": "لِـ",
+      "her": "ـها / لها",
+      "put": "يضع / وضع",
+      "she": "هي",
+      "the": "الـ",
+      "was": "كان",
+      "best": "أفضل",
+      "book": "كتاب",
+      "gift": "هدية",
+      "next": "التالي / القادم",
+      "nice": "لطيف / جميل",
+      "week": "أسبوع",
+      "loved": "أحبّ",
+      "money": "مال",
+      "month": "شهر",
+      "paper": "ورق",
+      "saved": "وفّر / ادّخر",
+      "bought": "اشترى",
+      "hugged": "عانق",
+      "wanted": "أراد",
+      "friends": "أصدقاء",
+      "birthday": "عيد ميلاد",
+      "colorful": "ملوّن"
+    },
+    "reading_level": 175
+  },
+  {
+    "title_english": "Yesterday at the Beach",
+    "title_arabic": "أمس في الشاطئ",
+    "content_english": [
+      "Yesterday I went to the beach.",
+      "The sand was warm under my feet.",
+      "I built a big sandcastle.",
+      "The waves crashed loudly.",
+      "I collected beautiful seashells.",
+      "It was a perfect sunny day."
+    ],
+    "content_arabic": [
+      "أمس ذهبت إلى الشاطئ.",
+      "كانت الرمال دافئة تحت قدمي.",
+      "بنيت قلعة رملية كبيرة.",
+      "كانت الأمواج تتكسر بصوت عالٍ.",
+      "جمعت أصدافاً جميلة.",
+      "كان يوماً مشمساً مثالياً."
+    ],
+    "phase": 2,
+    "topic": "recreation",
+    "estimated_duration": 5,
+    "comprehension_questions": [
+      {
+        "options": [
+          "Cold",
+          "Wet",
+          "Warm",
+          "Hard"
+        ],
+        "question": "How did the sand feel?",
+        "explanation": "The story says The sand was warm under my feet.",
+        "correct_answer": 2
+      },
+      {
+        "options": [
+          "A house",
+          "A sandcastle",
+          "A boat",
+          "A wall"
+        ],
+        "question": "What did the person build?",
+        "explanation": "The story says I built a big sandcastle.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "Rocks",
+          "Seashells",
+          "Fish",
+          "Sand"
+        ],
+        "question": "What did they collect?",
+        "explanation": "The story says I collected beautiful seashells.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:07:06.110897+00:00",
+    "id": 42,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_42_yesterday_at_the_beach.mp3",
+    "icon": "🎡",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "it": "هو / هي",
+      "my": "ـي",
+      "to": "إلى / لِـ",
+      "big": "كبير",
+      "day": "يوم",
+      "the": "الـ",
+      "was": "كان",
+      "feet": "قدمَيْن",
+      "sand": "رمل",
+      "warm": "دافئ",
+      "went": "ذهب",
+      "beach": "شاطئ",
+      "built": "بنى",
+      "sunny": "مشمس",
+      "under": "تحت",
+      "waves": "أمواج",
+      "loudly": "بصوت عالٍ",
+      "crashed": "تحطّم / اصطدم",
+      "perfect": "مثالي",
+      "beautiful": "جميل",
+      "collected": "جمع",
+      "seashells": "أصداف بحرية",
+      "yesterday": "أمس",
+      "sandcastle": "قلعة رمليّة"
+    },
+    "reading_level": 135
+  },
+  {
+    "title_english": "The Dentist Visit",
+    "title_arabic": "زيارة طبيب الأسنان",
+    "content_english": [
+      "I went to the dentist last week.",
+      "I was a little scared at first.",
+      "The dentist looked at my teeth.",
+      "She found one small hole in a tooth.",
+      "She fixed it and it did not hurt.",
+      "She told me to brush my teeth every day."
+    ],
+    "content_arabic": [
+      "اضطررت لزيارة طبيب الأسنان للفحص الدوري.",
+      "كنت متوتراً لأنني لم أذهب هناك لمدة عام.",
+      "نظف أخصائي صحة الأسنان أسناني بدقة.",
+      "وجد الطبيب تجويفاً صغيراً واحداً يحتاج حشو.",
+      "كانت العملية سريعة ولم تؤلم كثيراً.",
+      "ذكرتني بتنظيف أسناني بالفرشاة والخيط يومياً."
+    ],
+    "phase": 2,
+    "topic": "health",
+    "estimated_duration": 5,
+    "comprehension_questions": [
+      {
+        "options": [
+          "طوارئ",
+          "فحص دوري",
+          "ألم أسنان",
+          "تنظيف فقط"
+        ],
+        "question": "لماذا زار الشخص طبيب الأسنان؟",
+        "explanation": "القصة تقول كان علي زيارة طبيب الأسنان للفحص الدوري.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "لا شيء خاطئ",
+          "تسوس واحد",
+          "تسوسات كثيرة",
+          "سن مكسور"
+        ],
+        "question": "ماذا وجد طبيب الأسنان؟",
+        "explanation": "القصة تقول وجد طبيب الأسنان تسوساً صغيراً واحداً يحتاج حشوة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "تناول سكر أقل",
+          "تفريش الأسنان واستخدام الخيط يومياً",
+          "العودة قريباً",
+          "شرب ماء أكثر"
+        ],
+        "question": "بماذا ذكّرهم طبيب الأسنان؟",
+        "explanation": "القصة تقول ذكرتني بتفريش الأسنان واستخدام الخيط يومياً.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:10:46.779013+00:00",
+    "id": 71,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_71_the_dentist_visit.mp3",
+    "icon": "❤️",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "at": "في / عند",
+      "in": "في",
+      "it": "هو / هي",
+      "me": "ـني / لي",
+      "my": "ـي",
+      "to": "إلى / لِـ",
+      "and": "و",
+      "day": "يوم",
+      "did": "فعل",
+      "not": "لا / ليس",
+      "one": "واحد",
+      "she": "هي",
+      "the": "الـ",
+      "was": "كان",
+      "hole": "حفرة / ثقب",
+      "hurt": "يؤلم",
+      "last": "الماضي / آخر",
+      "told": "أخبر",
+      "week": "أسبوع",
+      "went": "ذهب",
+      "brush": "ينظّف بالفرشاة",
+      "every": "كلّ",
+      "first": "أوّل",
+      "fixed": "أصلح",
+      "found": "وجد",
+      "small": "صغير",
+      "teeth": "أسنان",
+      "tooth": "سنّ",
+      "little": "صغير / قليل",
+      "looked": "نظر / بدا",
+      "scared": "خائف",
+      "dentist": "طبيب أسنان"
+    },
+    "reading_level": 245
+  },
+  {
+    "title_english": "The Pet Store Adventure",
+    "title_arabic": "مغامرة متجر الحيوانات الأليفة",
+    "content_english": [
+      "We went to the pet store to buy food for our hamster.",
+      "There were many animals in the store.",
+      "I saw colorful fish in big tanks.",
+      "Some puppies were playing together.",
+      "The parrots could say some words.",
+      "I got to hold a soft rabbit."
+    ],
+    "content_arabic": [
+      "زرنا متجر الحيوانات الأليفة لشراء طعام للهامستر.",
+      "كان هناك حيوانات مختلفة كثيرة لرؤيتها.",
+      "سبحت أسماك ملونة برشاقة في أحواض كبيرة.",
+      "لعبت الجراء معاً في منطقة مغلقة خاصة.",
+      "شاهدت الببغاوات تكرر كلمات تعلمتها.",
+      "سمح لي صاحب المتجر بحمل أرنب لطيف."
+    ],
+    "phase": 2,
+    "topic": "animals",
+    "estimated_duration": 5,
+    "comprehension_questions": [
+      {
+        "options": [
+          "حيوان أليف جديد",
+          "طعام الهامستر",
+          "حوض سمك",
+          "قفص طيور"
+        ],
+        "question": "ماذا ذهبوا لشراء؟",
+        "explanation": "القصة تقول زرنا متجر الحيوانات لشراء طعام للهامستر.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "نامت",
+          "لعبت معاً",
+          "أكلت طعاماً",
+          "نبحت بصوت عالٍ"
+        ],
+        "question": "ماذا فعلت الجراء؟",
+        "explanation": "القصة تقول الجراء لعبت معاً في منطقة مخصصة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "جرو",
+          "أرنب",
+          "ببغاء",
+          "سمكة"
+        ],
+        "question": "ماذا سمح صاحب المتجر لهم بحمله؟",
+        "explanation": "القصة تقول صاحب المتجر سمح لي بحمل أرنب لطيف.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:08:09.696148+00:00",
+    "id": 54,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_54_the_pet_store_adventure.mp3",
+    "icon": "🦁",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "in": "في",
+      "to": "إلى / لِـ",
+      "we": "نحن",
+      "big": "كبير",
+      "buy": "يشتري",
+      "for": "لِـ",
+      "got": "حصل على",
+      "our": "ـنا",
+      "pet": "حيوان أليف",
+      "saw": "رأى",
+      "say": "يقول",
+      "the": "الـ",
+      "fish": "سمك",
+      "food": "طعام",
+      "hold": "يمسك",
+      "many": "كثير",
+      "soft": "ناعم",
+      "some": "بعض",
+      "went": "ذهب",
+      "were": "كانوا",
+      "could": "استطاع",
+      "store": "متجر",
+      "tanks": "أحواض",
+      "there": "هناك",
+      "words": "كلمات",
+      "rabbit": "أرنب",
+      "animals": "حيوانات",
+      "hamster": "هامستر",
+      "parrots": "ببغاوات",
+      "playing": "يلعب",
+      "puppies": "جِراء",
+      "colorful": "ملوّن",
+      "together": "معاً"
+    },
+    "reading_level": 215
+  },
+  {
+    "title_english": "The Magic Show",
+    "title_arabic": "عرض السحر",
+    "content_english": [
+      "A magician came to our school yesterday.",
+      "He wore a black coat and a tall hat.",
+      "He made a rabbit come out of his hat.",
+      "Then he changed a red cloth into a white bird.",
+      "Everyone was surprised by his tricks.",
+      "We all wanted to know how he did it."
+    ],
+    "content_arabic": [
+      "أدى ساحر في تجمع مدرستنا أمس.",
+      "ارتدى عباءة سوداء وقبعة طويلة.",
+      "أولاً، أظهر أرنباً من قبعته.",
+      "ثم حول وشاحاً أحمر إلى حمامة بيضاء.",
+      "لهث الجمهور عندما نشر صندوقاً إلى نصفين.",
+      "تساءلنا جميعاً كيف جعل الحيل تعمل."
+    ],
+    "phase": 2,
+    "topic": "entertainment",
+    "estimated_duration": 5,
+    "comprehension_questions": [
+      {
+        "options": [
+          "حمامة",
+          "أرنب",
+          "قطة",
+          "زهرة"
+        ],
+        "question": "ماذا أظهر الساحر من قبعته؟",
+        "explanation": "القصة تقول أنه أظهر أرنباً من قبعته.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "أرنب",
+          "حمامة بيضاء",
+          "زهرة",
+          "لا شيء"
+        ],
+        "question": "إلى ماذا حول الوشاح الأحمر؟",
+        "explanation": "القصة تقول حول وشاحاً أحمر إلى حمامة بيضاء.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "ضحكوا",
+          "لهثوا بدهشة",
+          "صفقوا",
+          "غادروا"
+        ],
+        "question": "كيف تفاعل الجمهور مع خدعة المنشار؟",
+        "explanation": "القصة تقول الجمهور لهث بدهشة عندما نشر الصندوق.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-09-16T22:10:14.216312+00:00",
+    "id": 62,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_62_the_magic_show.mp3",
+    "icon": "🎬",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "by": "بجانب / بواسطة",
+      "he": "هو",
+      "it": "هو / هي",
+      "of": "من / لِـ",
+      "to": "إلى / لِـ",
+      "we": "نحن",
+      "all": "كلّ / جميع",
+      "and": "و",
+      "did": "فعل",
+      "hat": "قبّعة",
+      "his": "لَهُ",
+      "how": "كيف",
+      "our": "ـنا",
+      "out": "خارج",
+      "red": "أحمر",
+      "the": "الـ",
+      "was": "كان",
+      "bird": "طائر",
+      "came": "جاء",
+      "coat": "معطف",
+      "come": "يأتي",
+      "into": "إلى داخل",
+      "know": "يعرف",
+      "made": "صنع",
+      "tall": "طويل",
+      "then": "ثمّ",
+      "wore": "لبس / ارتدى",
+      "black": "أسود",
+      "cloth": "قماش",
+      "white": "أبيض",
+      "rabbit": "أرنب",
+      "school": "مدرسة",
+      "tricks": "حيل",
+      "wanted": "أراد",
+      "changed": "غيّر",
+      "everyone": "الجميع",
+      "magician": "ساحر",
+      "surprised": "مندهش",
+      "yesterday": "أمس"
+    },
+    "reading_level": 225
+  },
+  {
+    "title_english": "Learning to Paint",
+    "title_arabic": "تعلم الرسم",
+    "content_english": [
+      "I started taking painting classes this month.",
+      "Our teacher showed us how to mix colors.",
+      "I painted a picture of the sunset.",
+      "The orange and purple colors looked nice together.",
+      "My parents put my painting on the wall.",
+      "I want to paint more pictures in the future."
+    ],
+    "content_arabic": [
+      "بدأت أخذ دروس الرسم هذا الشهر.",
+      "أرانا معلمنا كيفية خلط الألوان المختلفة.",
+      "رسمت صورة لغروب الشمس فوق المحيط.",
+      "بدت الألوان البرتقالية والأرجوانية جميلة معاً.",
+      "علق والداي لوحتي على الحائط.",
+      "أريد أن أرسم المزيد من المناظر الطبيعية في المستقبل."
+    ],
+    "phase": 2,
+    "topic": "art",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "كيف يرسم",
+          "كيف يمزج الألوان",
+          "كيف يرسم الوجوه",
+          "كيف ينظف الفرش"
+        ],
+        "question": "ماذا أراهم المعلم؟",
+        "explanation": "القصة تقول معلمنا أرانا كيف نمزج الألوان.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "شجرة",
+          "الغروب",
+          "بيت",
+          "شخص"
+        ],
+        "question": "ماذا رسم الشخص؟",
+        "explanation": "القصة تقول رسمت صورة للغروب.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "في التخزين",
+          "على الحائط",
+          "في درج",
+          "أعطوها لأحد"
+        ],
+        "question": "أين وضع الوالدان اللوحة؟",
+        "explanation": "القصة تقول والداي وضعا لوحتي على الحائط.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 226,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_226_learning_to_paint.mp3",
+    "icon": "🎨",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "in": "في",
+      "my": "ـي",
+      "of": "من / لِـ",
+      "on": "على",
+      "to": "إلى / لِـ",
+      "us": "ـنا",
+      "and": "و",
+      "how": "كيف",
+      "mix": "يخلط",
+      "our": "ـنا",
+      "put": "يضع / وضع",
+      "the": "الـ",
+      "more": "أكثر",
+      "nice": "لطيف / جميل",
+      "this": "هذا",
+      "wall": "جدار",
+      "want": "يريد",
+      "month": "شهر",
+      "paint": "يرسم",
+      "colors": "ألوان",
+      "future": "مستقبل",
+      "looked": "نظر / بدا",
+      "orange": "برتقالي",
+      "purple": "أرجواني",
+      "showed": "أرى / عرض",
+      "sunset": "غروب الشمس",
+      "taking": "أخذ / التقاط",
+      "classes": "حصص / دروس",
+      "painted": "رسم",
+      "parents": "والدان",
+      "picture": "صورة",
+      "started": "بدأ",
+      "teacher": "معلّم / معلّمة",
+      "painting": "رسم / لوحة",
+      "pictures": "صور",
+      "together": "معاً"
+    },
+    "reading_level": 192
+  },
+  {
+    "title_english": "The Movie Night",
+    "title_arabic": "ليلة الفيلم",
+    "content_english": [
+      "My family watches a movie every Friday night.",
+      "We take turns choosing the movie.",
+      "Last week we watched a film about animals.",
+      "We made popcorn and turned off the lights.",
+      "My little sister laughed at the funny parts.",
+      "Movie night is my favorite family time."
+    ],
+    "content_arabic": [
+      "تشاهد عائلتي فيلماً معاً كل ليلة جمعة.",
+      "نتناوب في اختيار الفيلم الذي سنشاهده.",
+      "الأسبوع الماضي شاهدنا فيلم رسوم متحركة عن الحيوانات.",
+      "صنعنا الفشار وأطفأنا الأنوار.",
+      "ضحكت أختي الصغيرة على كل الأجزاء المضحكة.",
+      "ليلة الفيلم هي تقليدي العائلي المفضل."
+    ],
+    "phase": 2,
+    "topic": "entertainment",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "كل اثنين",
+          "كل جمعة ليلاً",
+          "كل عطلة أسبوع",
+          "كل يوم"
+        ],
+        "question": "متى تشاهد العائلة الأفلام؟",
+        "explanation": "القصة تقول عائلتي تشاهد فيلماً معاً كل جمعة ليلاً.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "فيلم عن الفضاء",
+          "فيلم عن الحيوانات",
+          "فيلم عن السيارات",
+          "فيلم عن الرياضة"
+        ],
+        "question": "أي فيلم شاهدوا الأسبوع الماضي؟",
+        "explanation": "القصة تقول الأسبوع الماضي شاهدنا فيلماً عن الحيوانات.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "بسكويت",
+          "فشار",
+          "بيتزا",
+          "شطائر"
+        ],
+        "question": "ماذا صنعوا للفيلم؟",
+        "explanation": "القصة تقول صنعنا فشاراً وأطفأنا الأضواء.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 233,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_233_the_movie_night.mp3",
+    "icon": "🎬",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "at": "في / عند",
+      "is": "يكون",
+      "my": "ـي",
+      "we": "نحن",
+      "and": "و",
+      "off": "يُطفئ / بعيداً عن",
+      "the": "الـ",
+      "film": "فيلم",
+      "last": "الماضي / آخر",
+      "made": "صنع",
+      "take": "يأخذ",
+      "time": "وقت / مرّة",
+      "week": "أسبوع",
+      "about": "عن / حول",
+      "every": "كلّ",
+      "funny": "مُضحك",
+      "movie": "فيلم",
+      "night": "ليلة",
+      "parts": "أجزاء",
+      "turns": "أدوار",
+      "family": "عائلة",
+      "friday": "الجمعة",
+      "lights": "أضواء",
+      "little": "صغير / قليل",
+      "sister": "أخت",
+      "turned": "أطفأ / استدار",
+      "animals": "حيوانات",
+      "laughed": "ضحك",
+      "popcorn": "فشار",
+      "watched": "شاهد",
+      "watches": "يشاهد",
+      "choosing": "اختيار",
+      "favorite": "مفضّل"
+    },
+    "reading_level": 152
+  },
+  {
+    "title_english": "Helping at Home",
+    "title_arabic": "المساعدة في المنزل",
+    "content_english": [
+      "Every Saturday I help clean the house.",
+      "I clean the floors and the tables.",
+      "My brother washes the dishes.",
+      "My sister waters the plants.",
+      "We all work together.",
+      "The house looks nice when we finish."
+    ],
+    "content_arabic": [
+      "كل يوم سبت أساعد والدي في تنظيف المنزل.",
+      "أكنس الأرضيات وأمسح الغبار عن الأثاث.",
+      "يغسل أخي الأطباق بعد الوجبات.",
+      "تعتني أختي بالنباتات والزهور.",
+      "نعمل معاً كفريق.",
+      "يبدو المنزل أفضل بكثير عندما ننتهي."
+    ],
+    "phase": 2,
+    "topic": "home life",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "الاثنين",
+          "السبت",
+          "الأحد",
+          "الجمعة"
+        ],
+        "question": "متى تنظف العائلة البيت؟",
+        "explanation": "القصة تقول كل سبت أساعد والدي في تنظيف البيت.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "يكنس",
+          "يغسل الصحون",
+          "ينفض الأثاث",
+          "يسقي النباتات"
+        ],
+        "question": "ماذا يفعل الأخ؟",
+        "explanation": "القصة تقول أخي يغسل الصحون بعد الوجبات.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "الأخ",
+          "الأخت",
+          "الوالدان",
+          "لا أحد"
+        ],
+        "question": "من يعتني بالنباتات؟",
+        "explanation": "القصة تقول أختي تعتني بالنباتات والزهور.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 231,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_231_helping_at_home.mp3",
+    "icon": "🏠",
+    "word_mappings": {
+      "i": "أنا",
+      "my": "ـي",
+      "we": "نحن",
+      "all": "كلّ / جميع",
+      "and": "و",
+      "the": "الـ",
+      "help": "يساعد",
+      "nice": "لطيف / جميل",
+      "when": "عندما",
+      "work": "يعمل",
+      "clean": "نظيف / ينظّف",
+      "every": "كلّ",
+      "house": "منزل",
+      "looks": "يبدو",
+      "dishes": "أطباق",
+      "finish": "ينهي",
+      "floors": "أرضيات",
+      "plants": "نباتات",
+      "sister": "أخت",
+      "tables": "طاولات",
+      "washes": "يغسل",
+      "waters": "يسقي",
+      "brother": "أخ",
+      "saturday": "السبت",
+      "together": "معاً"
+    },
+    "reading_level": 145
+  },
+  {
+    "title_english": "The School Festival",
+    "title_arabic": "مهرجان المدرسة",
+    "content_english": [
+      "Our school had a festival last month.",
+      "There were many games to play.",
+      "I helped sell tickets.",
+      "My classmates did a play on stage.",
+      "We sold food and drinks.",
+      "The festival was fun for everyone."
+    ],
+    "content_arabic": [
+      "نظمت مدرستنا مهرجاناً الشهر الماضي.",
+      "كان هناك العديد من الألعاب والأنشطة.",
+      "ساعدت في بيع تذاكر السحب.",
+      "قدم زملائي مسرحية على المسرح.",
+      "بعنا الطعام والمشروبات لجمع المال.",
+      "كان المهرجان ناجحاً واستمتع الجميع."
+    ],
+    "phase": 2,
+    "topic": "school",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "طعام",
+          "تذاكر",
+          "كتب",
+          "ألعاب"
+        ],
+        "question": "ماذا ساعد الشخص في بيع؟",
+        "explanation": "القصة تقول ساعدت في بيع تذاكر للسحب على الجوائز.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "غنوا",
+          "قدموا مسرحية",
+          "رقصوا",
+          "رسموا"
+        ],
+        "question": "ماذا فعل زملاء الصف؟",
+        "explanation": "القصة تقول زملائي قدموا مسرحية على المسرح.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "للمتعة",
+          "للحصول على مال",
+          "للتوزيع",
+          "للتدريب"
+        ],
+        "question": "لماذا باعوا الطعام والمشروبات؟",
+        "explanation": "القصة تقول بعنا طعاماً ومشروبات للحصول على مال.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 239,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_239_the_school_festival.mp3",
+    "icon": "🏫",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "my": "ـي",
+      "on": "على",
+      "to": "إلى / لِـ",
+      "we": "نحن",
+      "and": "و",
+      "did": "فعل",
+      "for": "لِـ",
+      "fun": "مُمتع",
+      "had": "كان لديه",
+      "our": "ـنا",
+      "the": "الـ",
+      "was": "كان",
+      "food": "طعام",
+      "last": "الماضي / آخر",
+      "many": "كثير",
+      "play": "يلعب",
+      "sell": "يبيع",
+      "sold": "باع",
+      "were": "كانوا",
+      "games": "ألعاب",
+      "month": "شهر",
+      "stage": "مسرح / خشبة",
+      "there": "هناك",
+      "drinks": "مشروبات",
+      "helped": "ساعد",
+      "school": "مدرسة",
+      "tickets": "تذاكر",
+      "everyone": "الجميع",
+      "festival": "مهرجان",
+      "classmates": "زملاء في الصفّ"
+    },
+    "reading_level": 222
+  },
+  {
+    "title_english": "The Library Card",
+    "title_arabic": "بطاقة المكتبة",
+    "content_english": [
+      "I got my first library card last week.",
+      "The librarian told me the rules.",
+      "I can borrow five books at a time.",
+      "I must return them in two weeks.",
+      "I borrowed three books yesterday.",
+      "I like reading at the library."
+    ],
+    "content_arabic": [
+      "حصلت على بطاقة المكتبة الأولى الأسبوع الماضي.",
+      "شرح أمين المكتبة القواعد لي.",
+      "يمكنني استعارة ما يصل إلى خمسة كتب في المرة الواحدة.",
+      "يجب أن أعيدها في غضون أسبوعين.",
+      "استعرت ثلاثة كتب مغامرات أمس.",
+      "القراءة في المكتبة هادئة ومريحة."
+    ],
+    "phase": 2,
+    "topic": "reading",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "ثلاثة",
+          "خمسة",
+          "سبعة",
+          "عشرة"
+        ],
+        "question": "كم كتاباً يمكن استعارته في المرة الواحدة؟",
+        "explanation": "القصة تقول يمكنني استعارة حتى خمسة كتب في المرة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "أسبوع واحد",
+          "أسبوعان",
+          "ثلاثة أسابيع",
+          "شهر واحد"
+        ],
+        "question": "كم من الوقت يمكن الاحتفاظ بالكتب؟",
+        "explanation": "القصة تقول يجب إعادتها خلال أسبوعين.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "كتب غموض",
+          "كتب مغامرات",
+          "كتب علوم",
+          "كتب تاريخ"
+        ],
+        "question": "أي نوع من الكتب استعاروا؟",
+        "explanation": "القصة تقول استعرت ثلاثة كتب مغامرات أمس.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 228,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_228_the_library_card.mp3",
+    "icon": "📖",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "at": "في / عند",
+      "in": "في",
+      "me": "ـني / لي",
+      "my": "ـي",
+      "can": "يستطيع",
+      "got": "حصل على",
+      "the": "الـ",
+      "two": "اثنان",
+      "card": "بطاقة",
+      "five": "خمسة",
+      "last": "الماضي / آخر",
+      "like": "يُحبّ",
+      "must": "يجب",
+      "them": "ـهم",
+      "time": "وقت / مرّة",
+      "told": "أخبر",
+      "week": "أسبوع",
+      "books": "كتب",
+      "first": "أوّل",
+      "rules": "قواعد",
+      "three": "ثلاثة",
+      "weeks": "أسابيع",
+      "borrow": "يستعير",
+      "return": "يُعيد",
+      "library": "مكتبة",
+      "reading": "القراءة",
+      "borrowed": "استعار",
+      "librarian": "أمين مكتبة",
+      "yesterday": "أمس"
+    },
+    "reading_level": 162
+  },
+  {
+    "title_english": "The Music Concert",
+    "title_arabic": "الحفل الموسيقي",
+    "content_english": [
+      "I went to my first music concert.",
+      "The band played for two hours.",
+      "Everyone sang the songs together.",
+      "The lights and sounds were exciting.",
+      "I bought a t-shirt.",
+      "It was a great night."
+    ],
+    "content_arabic": [
+      "حضرت أول حفل موسيقي مباشر لي.",
+      "عزفت الفرقة موسيقى الروك لمدة ساعتين.",
+      "غنى الجمهور مع جميع الأغاني.",
+      "كانت الأضواء والأصوات مثيرة جداً.",
+      "اشتريت قميص الحفل كتذكار.",
+      "كانت تجربة لا تُنسى بالنسبة لي."
+    ],
+    "phase": 2,
+    "topic": "music",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "جاز",
+          "روك",
+          "كلاسيكي",
+          "بوب"
+        ],
+        "question": "أي نوع من الموسيقى عزفت الفرقة؟",
+        "explanation": "القصة تقول الفرقة عزفت موسيقى روك لمدة ساعتين.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "ساعة واحدة",
+          "ساعتان",
+          "ثلاث ساعات",
+          "أربع ساعات"
+        ],
+        "question": "كم من الوقت عزفت الفرقة؟",
+        "explanation": "القصة تقول الفرقة عزفت موسيقى روك لمدة ساعتين.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "ملصق",
+          "قميص الحفلة",
+          "سي دي",
+          "قبعة"
+        ],
+        "question": "ماذا اشترى الشخص؟",
+        "explanation": "القصة تقول اشتريت قميص الحفلة.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 230,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_230_the_music_concert.mp3",
+    "icon": "🎵",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "it": "هو / هي",
+      "my": "ـي",
+      "to": "إلى / لِـ",
+      "and": "و",
+      "for": "لِـ",
+      "the": "الـ",
+      "two": "اثنان",
+      "was": "كان",
+      "band": "فرقة موسيقية",
+      "sang": "غنّى",
+      "went": "ذهب",
+      "were": "كانوا",
+      "first": "أوّل",
+      "great": "رائع",
+      "hours": "ساعات",
+      "music": "موسيقى",
+      "night": "ليلة",
+      "songs": "أغاني",
+      "bought": "اشترى",
+      "lights": "أضواء",
+      "played": "لعب / عزف",
+      "sounds": "أصوات",
+      "concert": "حفلة موسيقية",
+      "t-shirt": "قميص",
+      "everyone": "الجميع",
+      "exciting": "مثير",
+      "together": "معاً"
+    },
+    "reading_level": 155
+  },
+  {
+    "title_english": "The Weekend Hike",
+    "title_arabic": "المشي في عطلة نهاية الأسبوع",
+    "content_english": [
+      "My family went hiking last Saturday.",
+      "We packed sandwiches and water.",
+      "The path was hard but the views were nice.",
+      "We saw many birds and flowers.",
+      "We ate our lunch at the top.",
+      "Everyone was tired but happy when we got home."
+    ],
+    "content_arabic": [
+      "ذهبت عائلتي للمشي في الجبال يوم السبت الماضي.",
+      "حزمنا السندويشات وزجاجات المياه.",
+      "كان المسار صعباً لكن المناظر كانت مذهلة.",
+      "رأينا العديد من الطيور الملونة والزهور البرية.",
+      "توقفنا في القمة لتناول غدائنا.",
+      "كان الجميع متعبين لكن سعداء عندما عدنا إلى المنزل."
+    ],
+    "phase": 2,
+    "topic": "nature",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "الجمعة",
+          "السبت",
+          "الأحد",
+          "الاثنين"
+        ],
+        "question": "متى ذهبوا للمشي؟",
+        "explanation": "القصة تقول عائلتي ذهبت للمشي في الجبال يوم السبت الماضي.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "ملابس",
+          "شطائر وماء",
+          "كتب",
+          "ألعاب"
+        ],
+        "question": "ماذا حزموا؟",
+        "explanation": "القصة تقول حزمنا شطائر وزجاجات ماء.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "غاضبون",
+          "متعبون لكن سعداء",
+          "محبطون",
+          "خائفون"
+        ],
+        "question": "كيف شعر الجميع عندما عادوا للبيت؟",
+        "explanation": "القصة تقول الجميع كان متعباً لكن سعيداً عندما عدنا للبيت.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 229,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_229_the_weekend_hike.mp3",
+    "icon": "🌿",
+    "word_mappings": {
+      "at": "في / عند",
+      "my": "ـي",
+      "we": "نحن",
+      "and": "و",
+      "ate": "أكل",
+      "but": "لكن",
+      "got": "حصل على",
+      "our": "ـنا",
+      "saw": "رأى",
+      "the": "الـ",
+      "top": "قمّة",
+      "was": "كان",
+      "hard": "صعب",
+      "home": "بيت / منزل",
+      "last": "الماضي / آخر",
+      "many": "كثير",
+      "nice": "لطيف / جميل",
+      "path": "مسار / طريق",
+      "went": "ذهب",
+      "were": "كانوا",
+      "when": "عندما",
+      "birds": "طيور",
+      "happy": "سعيد",
+      "lunch": "غداء",
+      "tired": "متعب",
+      "views": "مناظر",
+      "water": "ماء",
+      "family": "عائلة",
+      "hiking": "المشي لمسافات",
+      "packed": "حزم",
+      "flowers": "أزهار",
+      "everyone": "الجميع",
+      "saturday": "السبت",
+      "sandwiches": "شطائر"
+    },
+    "reading_level": 198
+  },
+  {
+    "title_english": "The Lost Phone",
+    "title_arabic": "الهاتف المفقود",
+    "content_english": [
+      "I lost my phone at school yesterday.",
+      "I looked everywhere but could not find it.",
+      "My friend helped me search the cafeteria.",
+      "Finally we found it under a table.",
+      "Someone had given it to the office.",
+      "I was very happy and thanked everyone."
+    ],
+    "content_arabic": [
+      "فقدت هاتفي في المدرسة أمس.",
+      "بحثت في كل مكان لكن لم أجده.",
+      "ساعدني صديقي في البحث في الكافتيريا.",
+      "أخيراً وجدناه تحت طاولة.",
+      "كان شخص ما قد سلمه إلى المكتب.",
+      "كنت مرتاحاً جداً وشكرت الجميع."
+    ],
+    "phase": 2,
+    "topic": "school",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "في البيت",
+          "في المدرسة",
+          "في الحديقة",
+          "في المركز التجاري"
+        ],
+        "question": "أين ضاع الهاتف؟",
+        "explanation": "القصة تقول أضعت هاتفي في المدرسة أمس.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "في الفصل",
+          "تحت طاولة",
+          "في حقيبة",
+          "على كرسي"
+        ],
+        "question": "أين وجدوا الهاتف؟",
+        "explanation": "القصة تقول أخيراً وجدناه تحت طاولة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "البيت",
+          "إلى المكتب",
+          "إلى المعلم",
+          "إلى سلة المهملات"
+        ],
+        "question": "إلى أين أخذ أحدهم الهاتف؟",
+        "explanation": "القصة تقول أحدهم أعطاه للمكتب.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 234,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_234_the_lost_phone.mp3",
+    "icon": "🏫",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "at": "في / عند",
+      "it": "هو / هي",
+      "me": "ـني / لي",
+      "my": "ـي",
+      "to": "إلى / لِـ",
+      "we": "نحن",
+      "and": "و",
+      "but": "لكن",
+      "had": "كان لديه",
+      "not": "لا / ليس",
+      "the": "الـ",
+      "was": "كان",
+      "find": "يجد",
+      "lost": "فقد",
+      "very": "جداً",
+      "could": "استطاع",
+      "found": "وجد",
+      "given": "أُعطي",
+      "happy": "سعيد",
+      "phone": "هاتف",
+      "table": "طاولة",
+      "under": "تحت",
+      "friend": "صديق",
+      "helped": "ساعد",
+      "looked": "نظر / بدا",
+      "office": "مكتب",
+      "school": "مدرسة",
+      "search": "يبحث",
+      "finally": "أخيراً",
+      "someone": "شخص ما",
+      "thanked": "شكر",
+      "everyone": "الجميع",
+      "cafeteria": "كافيتيريا",
+      "yesterday": "أمس",
+      "everywhere": "في كلّ مكان"
+    },
+    "reading_level": 178
+  },
+  {
+    "title_english": "The Rainy Day",
+    "title_arabic": "اليوم الممطر",
+    "content_english": [
+      "It rained all day yesterday.",
+      "I stayed inside and read my favorite books.",
+      "My mother made hot chocolate for me.",
+      "I watched the rain on the window.",
+      "In the afternoon the sun came out.",
+      "A beautiful rainbow appeared in the sky."
+    ],
+    "content_arabic": [
+      "أمطرت بغزارة طوال اليوم أمس.",
+      "بقيت في الداخل وقرأت كتبي المفضلة.",
+      "صنعت أمي شوكولاتة ساخنة لي.",
+      "شاهدت قطرات المطر على النافذة.",
+      "في فترة ما بعد الظهر خرجت الشمس.",
+      "ظهر قوس قزح جميل في السماء."
+    ],
+    "phase": 2,
+    "topic": "weather",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "خرج للخارج",
+          "قرأ كتباً",
+          "شاهد التلفاز",
+          "نام"
+        ],
+        "question": "ماذا فعل الشخص في اليوم الماطر؟",
+        "explanation": "القصة تقول بقيت في الداخل وقرأت كتبي المفضلة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "شاي",
+          "شوكولاتة ساخنة",
+          "قهوة",
+          "عصير"
+        ],
+        "question": "ماذا صنعت الأم؟",
+        "explanation": "القصة تقول أمي صنعت لي شوكولاتة ساخنة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "طائر",
+          "قوس قزح",
+          "غيمة",
+          "نجوم"
+        ],
+        "question": "ماذا ظهر عندما خرجت الشمس؟",
+        "explanation": "القصة تقول ظهر قوس قزح جميل في السماء.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 236,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_236_the_rainy_day.mp3",
+    "icon": "🌤️",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "in": "في",
+      "it": "هو / هي",
+      "me": "ـني / لي",
+      "my": "ـي",
+      "on": "على",
+      "all": "كلّ / جميع",
+      "and": "و",
+      "day": "يوم",
+      "for": "لِـ",
+      "hot": "حارّ",
+      "out": "خارج",
+      "sky": "سماء",
+      "sun": "شمس",
+      "the": "الـ",
+      "came": "جاء",
+      "made": "صنع",
+      "rain": "مطر",
+      "read": "قرأ",
+      "books": "كتب",
+      "inside": "في الداخل",
+      "mother": "أمّ",
+      "rained": "أمطرت",
+      "stayed": "بقي",
+      "window": "نافذة",
+      "rainbow": "قوس قزح",
+      "watched": "شاهد",
+      "appeared": "ظهر",
+      "favorite": "مفضّل",
+      "afternoon": "بعد الظهر",
+      "beautiful": "جميل",
+      "chocolate": "شوكولاتة",
+      "yesterday": "أمس"
+    },
+    "reading_level": 142
+  },
+  {
+    "title_english": "The New Hobby",
+    "title_arabic": "الهواية الجديدة",
+    "content_english": [
+      "I started a new hobby last month.",
+      "I chose taking pictures.",
+      "My uncle gave me his old camera.",
+      "I took photos of flowers and trees.",
+      "I showed my pictures to my family.",
+      "They said I was getting better."
+    ],
+    "content_arabic": [
+      "قررت أن أبدأ هواية جديدة الشهر الماضي.",
+      "اخترت التصوير الفوتوغرافي لأنني أحب التقاط الصور.",
+      "أعطاني عمي كاميرته القديمة.",
+      "تدربت على التقاط صور للزهور والأشجار.",
+      "أريت صوري لعائلتي.",
+      "قالوا إنني أتحسن كل يوم."
+    ],
+    "phase": 2,
+    "topic": "hobbies",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "الرسم",
+          "التقاط الصور",
+          "الغناء",
+          "الرقص"
+        ],
+        "question": "أي هواية بدأ الشخص؟",
+        "explanation": "القصة تقول اخترت التقاط الصور لأنني أحب الصور.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "الأم",
+          "العم",
+          "الأب",
+          "صديق"
+        ],
+        "question": "من أعطاهم الكاميرا؟",
+        "explanation": "القصة تقول عمي أعطاني كاميرته القديمة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "أشخاص",
+          "زهور وأشجار",
+          "مباني",
+          "سيارات"
+        ],
+        "question": "ماذا تدربوا على تصويره؟",
+        "explanation": "القصة تقول تدربت على تصوير الزهور والأشجار.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 237,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_237_the_new_hobby.mp3",
+    "icon": "🎯",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "me": "ـني / لي",
+      "my": "ـي",
+      "of": "من / لِـ",
+      "to": "إلى / لِـ",
+      "and": "و",
+      "his": "لَهُ",
+      "new": "جديد",
+      "old": "قديم",
+      "was": "كان",
+      "gave": "أعطى",
+      "last": "الماضي / آخر",
+      "said": "قال",
+      "they": "هم",
+      "took": "أخذ",
+      "chose": "اختار",
+      "hobby": "هواية",
+      "month": "شهر",
+      "trees": "أشجار",
+      "uncle": "عمّ / خال",
+      "better": "أفضل",
+      "camera": "كاميرا",
+      "family": "عائلة",
+      "photos": "صور",
+      "showed": "أرى / عرض",
+      "taking": "أخذ / التقاط",
+      "flowers": "أزهار",
+      "getting": "يصبح",
+      "started": "بدأ",
+      "pictures": "صور"
+    },
+    "reading_level": 195
+  },
+  {
+    "title_english": "The Bus Ride",
+    "title_arabic": "رحلة الحافلة",
+    "content_english": [
+      "Yesterday I took the bus to visit my grandmother.",
+      "The bus was full of people.",
+      "I found a seat near the window.",
+      "I watched the streets and buildings.",
+      "The trip took about thirty minutes.",
+      "My grandmother was waiting for me at the bus stop."
+    ],
+    "content_arabic": [
+      "أمس ركبت الحافلة لزيارة جدتي.",
+      "كانت الحافلة مزدحمة بالعديد من الركاب.",
+      "وجدت مقعداً بالقرب من النافذة.",
+      "شاهدت الشوارع والمباني تمر.",
+      "استغرقت الرحلة حوالي ثلاثين دقيقة.",
+      "كانت جدتي تنتظرني عند محطة الحافلة."
+    ],
+    "phase": 2,
+    "topic": "transportation",
+    "estimated_duration": 1,
+    "comprehension_questions": [
+      {
+        "options": [
+          "صديق",
+          "الجدة",
+          "ابن العم",
+          "العم"
+        ],
+        "question": "من كان الشخص يزور؟",
+        "explanation": "القصة تقول أمس ركبت الحافلة لزيارة جدتي.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "قرب الباب",
+          "قرب النافذة",
+          "في الخلف",
+          "واقفاً"
+        ],
+        "question": "أين جلس الشخص؟",
+        "explanation": "القصة تقول وجدت مقعداً قرب النافذة.",
+        "correct_answer": 1
+      },
+      {
+        "options": [
+          "خمس عشرة دقيقة",
+          "ثلاثون دقيقة",
+          "ساعة واحدة",
+          "ساعتان"
+        ],
+        "question": "كم استغرقت الرحلة؟",
+        "explanation": "القصة تقول الرحلة استغرقت حوالي ثلاثين دقيقة.",
+        "correct_answer": 1
+      }
+    ],
+    "created_at": "2025-10-18T20:39:25.837601+00:00",
+    "id": 225,
+    "audio_url": "https://ssphzzazhwgblbjgwmqc.supabase.co/storage/v1/object/public/story-audio/story_225_the_bus_ride.mp3",
+    "icon": "🚗",
+    "word_mappings": {
+      "a": "(أداة نكرة)",
+      "i": "أنا",
+      "at": "في / عند",
+      "me": "ـني / لي",
+      "my": "ـي",
+      "of": "من / لِـ",
+      "to": "إلى / لِـ",
+      "and": "و",
+      "bus": "حافلة",
+      "for": "لِـ",
+      "the": "الـ",
+      "was": "كان",
+      "full": "ممتلئ",
+      "near": "بالقرب من",
+      "seat": "مقعد",
+      "stop": "موقف / توقّف",
+      "took": "أخذ",
+      "trip": "رحلة",
+      "about": "عن / حول",
+      "found": "وجد",
+      "visit": "يزور",
+      "people": "ناس",
+      "thirty": "ثلاثون",
+      "window": "نافذة",
+      "minutes": "دقائق",
+      "streets": "شوارع",
+      "waiting": "ينتظر",
+      "watched": "شاهد",
+      "buildings": "مباني",
+      "yesterday": "أمس",
+      "grandmother": "جدّة"
+    },
+    "reading_level": 185
+  }
+]

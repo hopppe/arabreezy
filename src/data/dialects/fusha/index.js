@@ -7,4 +7,12 @@ export default {
   words: {},
   lessons: [],
   conversations: [],
+  shadowing: [],
+  primer: [],
+  roots: {},
+  stories: [],
+  listening: [],
+  idioms: [],
+  pronunciation: [],
+  grammar: [],
 };

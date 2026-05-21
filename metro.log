@@ -1,0 +1,43 @@
+env: load .env.local .env
+env: export EXPO_PUBLIC_SUPABASE_URL EXPO_PUBLIC_SUPABASE_ANON_KEY EXPO_PUBLIC_USE_SUPABASE_CONTENT EXPO_PUBLIC_AI_BACKEND_URL ANAFLUENT_EXPO_PUBLIC_SUPABASE_URL ANAFLUENT_EXPO_PUBLIC_SUPABASE_ANON_KEY ANAFLUENT_SUPABASE_SERVICE_ROLE_KEY SUPABASE_URL SUPABASE_SECRET_KEY
+Starting project at /Users/ethanhoppe/Documents/Cursor_Code/arabreezy
+Starting Metro Bundler
+Waiting on http://localhost:8082
+Logs for your project will appear below.
+iOS ./index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+ WARN  Attempted to import the module "/Users/ethanhoppe/Documents/Cursor_Code/arabreezy/node_modules/react-native-webrtc/node_modules/event-target-shim/index" which is not listed in the "exports" of "/Users/ethanhoppe/Documents/Cursor_Code/arabreezy/node_modules/react-native-webrtc/node_modules/event-target-shim" under the requested subpath "./index". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "/Users/ethanhoppe/Documents/Cursor_Code/arabreezy/node_modules/react-native-webrtc/node_modules/event-target-shim/index" which is not listed in the "exports" of "/Users/ethanhoppe/Documents/Cursor_Code/arabreezy/node_modules/react-native-webrtc/node_modules/event-target-shim" under the requested subpath "./index". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+iOS Bundled 1117ms index.js (1787 modules)
+iOS ./index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+ WARN  Attempted to import the module "/Users/ethanhoppe/Documents/Cursor_Code/arabreezy/node_modules/react-native-webrtc/node_modules/event-target-shim/index" which is not listed in the "exports" of "/Users/ethanhoppe/Documents/Cursor_Code/arabreezy/node_modules/react-native-webrtc/node_modules/event-target-shim" under the requested subpath "./index". Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+iOS Bundled 871ms index.js (1801 modules)
+ ERROR  [ReferenceError: Property 'ProgressBar' doesn't exist]
+iOS ./index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+iOS Bundled 50ms index.js (1 module)
+iOS ./index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+iOS Bundled 262ms index.js (1 module)
+iOS ./index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+iOS Bundled 36ms index.js (1 module)
+iOS ./index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+iOS Bundled 74ms index.js (1 module)
+iOS ./index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+iOS Bundled 45ms index.js (1 module)
+ WARN  [progress] remote reset failed: TypeError: Network request failed
+iOS ./index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+iOS Bundled 74ms index.js (1 module)
+iOS ./index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+iOS Bundled 39ms index.js (1 module)
+ LOG  rn-webrtc:pc:DEBUG 0 ctor +0ms
+ LOG  rn-webrtc:pc:DEBUG 0 addTrack +22s
+ LOG  rn-webrtc:pc:DEBUG 0 createOffer +6ms
+ LOG  rn-webrtc:pc:DEBUG 0 createOffer OK +2ms
+ LOG  rn-webrtc:pc:DEBUG 0 setLocalDescription +0ms
+ LOG  rn-webrtc:pc:DEBUG 0 setLocalDescription OK +7ms
+ LOG  rn-webrtc:pc:DEBUG 0 setRemoteDescription +3s
+ LOG  rn-webrtc:pc:DEBUG 0 ontrack +380ms
+ LOG  rn-webrtc:pc:DEBUG 0 setRemoteDescription OK +7ms
+ LOG  rn-webrtc:pc:DEBUG 0 close +33s
+ WARN  [progress] activity_log insert failed: TypeError: Network request failed
+ WARN  [progress] remote push failed: TypeError: Network request failed
+iOS ./index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+iOS Bundled 87ms index.js (1 module)
