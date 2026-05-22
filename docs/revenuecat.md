@@ -26,9 +26,12 @@ The secret REST API key (`sk_NehMkvCmLDznINMGNOrnmVcJYzlWK`) is what the RC MCP 
 |---|---|---|---|---|
 | `proddd22a42108` | Test Store | `monthly_30` | $30.00 / mo | Active — attached to package `$rc_monthly` |
 | `prod780e3eac94` | Test Store | `monthly` | $9.99 / mo | **Detached** (orphaned, ignore) |
-| `proda224e5154b` | App Store | `arabreezy_pro_monthly` | (set in App Store Connect) | Active — attached to package `$rc_monthly` |
+| `prodfdc9d20ad1` | App Store | `monthly` | (set in App Store Connect) | Active — attached to package `$rc_monthly` |
+| `proda224e5154b` | App Store | `arabreezy_pro_monthly` | — | **Detached** (orphan from earlier identifier guess, ignore) |
 
 The package has both Test Store + App Store products. RC's SDK picks the right one based on which key the app is configured with — `test_` → Test Store product, `appl_` → App Store product.
+
+App Store Connect's product identifier is `monthly` (matched in RC by `prodfdc9d20ad1`). Pricing comes from App Store Connect once configured; RC reflects whatever Apple has set there.
 
 ## Packages & Offerings
 
@@ -51,8 +54,12 @@ Set to **$30.00/mo USD** on the Test Store product. App Store product price come
 
 ## Swapping to App Store keys
 
-When App Store Connect has the `arabreezy_pro_monthly` subscription set up:
+Prereqs (do BOTH before flipping):
+1. App Store Connect subscription product `monthly` exists and is at least "Ready to Submit" state.
+2. App Store Connect API key uploaded in RC dashboard: App `Arabreezy iOS` → App Store Connect API Key. Without this, RC can't validate receipts when StoreKit reports a purchase, so the `pro` entitlement won't be granted even though money changes hands.
+   - Generate at App Store Connect → Users and Access → Integrations → App Store Connect API → + Generate API Key. Role: App Manager. Save the `.p8` file (only shown once), plus Key ID and Issuer ID. Upload all three to RC.
 
+Then flip:
 1. Edit `.env`:
    ```
    EXPO_PUBLIC_REVENUECAT_IOS_KEY=appl_pVSDEUgVLrYbMyTSJJwzdyXExjt
@@ -61,6 +68,8 @@ When App Store Connect has the `arabreezy_pro_monthly` subscription set up:
 3. Rebuild + reinstall via EAS / Xcode
 
 Don't swap before App Store Connect has the product — the SDK will return zero packages (no StoreKit SKProduct match), and the app will fall back to `FALLBACK_PACKAGES` in `SubscriptionContext.js` ($30 monthly hardcode) instead of the live RC offering.
+
+On a sim without a `.storekit` config file, the SDK can't fetch SKProducts even with the App Store Connect product configured — paywall will fall back to FALLBACK_PACKAGES. Test real purchases on a physical device through TestFlight with a sandbox Apple ID.
 
 ## Webhook / server-to-server
 
