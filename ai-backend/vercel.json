@@ -1,6 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api" }
-  ]
+  "experimentalServices": {
+    "web": {
+      "framework": "express",
+      "entrypoint": "server.js",
+      "routePrefix": "/"
+    }
+  }
 }
