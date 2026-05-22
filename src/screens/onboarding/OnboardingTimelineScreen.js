@@ -4,7 +4,12 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Text, Button } from '../../components/ui';
 import { theme } from '../../theme';
 import { useTranslation } from '../../context/LanguageContext';
+import { useUserProgress } from '../../context/UserProgressContext';
 import { OnboardingProgressBar } from './OnboardingProgressBar';
+
+// TestFlight-only: skip the paywall step entirely. Restore by setting this
+// to false (and re-pointing the CTA to navigation.navigate('OnboardingPaywall')).
+const BYPASS_ONBOARDING_PAYWALL = true;
 
 // Duolingo-style trust beat: spell out the trial timeline so users feel they
 // won't be surprised by a charge. SOSA: 55% of 3-day trial cancellations
@@ -50,6 +55,15 @@ function TimelineRow({ markerLabel, title, body, active, accent }) {
 
 export default function OnboardingTimelineScreen({ navigation }) {
   const { t } = useTranslation();
+  const { completeOnboarding } = useUserProgress();
+
+  const onContinue = async () => {
+    if (BYPASS_ONBOARDING_PAYWALL) {
+      await completeOnboarding();
+      return;
+    }
+    navigation.navigate('OnboardingPaywall');
+  };
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: theme.colors.background }}>
@@ -86,9 +100,9 @@ export default function OnboardingTimelineScreen({ navigation }) {
 
         <Button
           title={t('onboarding.timelineCta')}
-          onPress={() => navigation.navigate('OnboardingPaywall')}
+          onPress={onContinue}
           variant="accent"
-          accessibilityHint="Continues to subscription options"
+          accessibilityHint={BYPASS_ONBOARDING_PAYWALL ? 'Finishes onboarding' : 'Continues to subscription options'}
         />
       </View>
     </SafeAreaView>

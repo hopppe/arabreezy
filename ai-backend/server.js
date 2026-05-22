@@ -57,6 +57,12 @@ app.use((req, res) => {
 
 app.use(errorHandler);
 
-app.listen(config.port, () => {
-  console.log(`[arabreezy-ai] listening on :${config.port}`);
-});
+// On Vercel the app is wrapped by a serverless function (see api/index.js) so
+// we skip the long-running listener. Locally / on a VM, bind the port.
+if (!process.env.VERCEL) {
+  app.listen(config.port, () => {
+    console.log(`[arabreezy-ai] listening on :${config.port}`);
+  });
+}
+
+export default app;

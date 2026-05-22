@@ -31,6 +31,11 @@ import {
 
 const SubscriptionContext = createContext(null);
 
+// TestFlight-only: short-circuit the entire RevenueCat flow so every user is
+// treated as Pro. Flip this back to false once storefront products + a real
+// RevenueCat key are wired and you want to actually sell the subscription.
+const LAUNCH_TESTING_BYPASS_PAYWALL = true;
+
 // Pricing fallbacks used in dev when no RevenueCat offering is loaded
 // (e.g. no API key, or testing the paywall UI before App Store products
 // exist). Numbers are illustrative — the actual prices the user is
@@ -121,9 +126,9 @@ export function SubscriptionProvider({ children }) {
   const { user } = useAuth();
   const userId = user?.id ?? null;
 
-  const [ready, setReady] = useState(false);
+  const [ready, setReady] = useState(LAUNCH_TESTING_BYPASS_PAYWALL);
   const [available, setAvailable] = useState(false);
-  const [isPro, setIsPro] = useState(false);
+  const [isPro, setIsPro] = useState(LAUNCH_TESTING_BYPASS_PAYWALL);
   const [customerInfo, setCustomerInfo] = useState(null);
   const [packages, setPackages] = useState(FALLBACK_PACKAGES);
   const [usingFallback, setUsingFallback] = useState(true);
@@ -134,6 +139,7 @@ export function SubscriptionProvider({ children }) {
 
   // Configure SDK once, then react to auth-user changes.
   useEffect(() => {
+    if (LAUNCH_TESTING_BYPASS_PAYWALL) return undefined;
     let cancelled = false;
     (async () => {
       const sdkAvailable = isPurchasesAvailable();

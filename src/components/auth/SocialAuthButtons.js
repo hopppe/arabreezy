@@ -19,8 +19,11 @@ export function SocialAuthButtons() {
   const [appleBusy, setAppleBusy] = useState(false);
   const [googleBusy, setGoogleBusy] = useState(false);
 
-  const showApple = Platform.OS === 'ios' && appleAvailable;
-  const showGoogle = isGoogleConfigured;
+  // TestFlight-only: email/password only while OAuth providers are wired up.
+  // Flip these back to the real checks once Apple + Google are configured.
+  const SHOW_SOCIAL_AUTH = false;
+  const showApple = SHOW_SOCIAL_AUTH && Platform.OS === 'ios' && appleAvailable;
+  const showGoogle = SHOW_SOCIAL_AUTH && isGoogleConfigured;
 
   if (!showApple && !showGoogle) return null;
 
