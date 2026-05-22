@@ -32,6 +32,7 @@ function wordFromRow(row) {
     phase: row.phase,
     notes: row.notes ?? undefined,
     audio: row.audio ?? undefined,
+    audioUrl: row.audio ?? undefined,
     imageUrl: row.image_url ?? undefined,
     dialect: row.dialect,
     rootRef: row.root_ref ?? undefined,

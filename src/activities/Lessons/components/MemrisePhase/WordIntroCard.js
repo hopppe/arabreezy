@@ -1,11 +1,35 @@
-import React from 'react';
-import { View, ScrollView, StyleSheet, Image } from 'react-native';
+import React, { useEffect, useRef, useState } from 'react';
+import { View, ScrollView, StyleSheet, Image, Pressable } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { Text, Button, Card } from '../../../../components/ui';
 import { ArabicText } from '../../../../components/ArabicText';
 import { theme } from '../../../../theme';
+import { playWordAudio } from '../../../../services/audio';
 
 export default function WordIntroCard({ word, pairProgress, onContinue }) {
+  const [playing, setPlaying] = useState(false);
+  const lastSpokenIdRef = useRef(null);
+
+  const speakWord = async () => {
+    if (!word) return;
+    setPlaying(true);
+    try {
+      await playWordAudio(word);
+    } catch (_) {
+      // non-fatal — audio is best-effort
+    } finally {
+      setPlaying(false);
+    }
+  };
+
+  // Auto-play once per word when the card mounts / when the focal word changes.
+  useEffect(() => {
+    if (!word?.id || lastSpokenIdRef.current === word.id) return;
+    lastSpokenIdRef.current = word.id;
+    speakWord();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [word?.id]);
+
   return (
     <View style={styles.container}>
       <ScrollView
@@ -34,6 +58,24 @@ export default function WordIntroCard({ word, pairProgress, onContinue }) {
           <ArabicText size="display" accessibilityLabel={word.transliteration} readAs="label" style={styles.script}>
             {word.script}
           </ArabicText>
+          <Pressable
+            onPress={speakWord}
+            disabled={playing}
+            hitSlop={12}
+            accessibilityRole="button"
+            accessibilityLabel={`Play pronunciation of ${word.transliteration}`}
+            accessibilityHint="Plays the Saudi-Arabic pronunciation of this word"
+            style={({ pressed }) => [
+              styles.speakerBtn,
+              { opacity: playing ? 0.5 : pressed ? 0.7 : 1 },
+            ]}
+          >
+            <Ionicons
+              name={playing ? 'volume-high' : 'volume-medium-outline'}
+              size={22}
+              color={theme.colors.accent}
+            />
+          </Pressable>
           <Text variant="title" weight="bold" style={styles.translit}>
             {word.transliteration}
           </Text>
@@ -101,8 +143,17 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     writingDirection: 'rtl',
   },
+  speakerBtn: {
+    marginTop: 14,
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: theme.colors.gray100,
+  },
   translit: {
-    marginTop: 12,
+    marginTop: 14,
     color: theme.colors.textMuted,
     textAlign: 'center',
   },

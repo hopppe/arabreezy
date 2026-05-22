@@ -26,11 +26,31 @@ function preloadImage(uri) {
     .catch((e) => console.warn('[preload] image failed', uri, e?.message));
 }
 
-function preloadAudio(text, dialect) {
-  if (!text) return Promise.resolve();
-  // speak() returns null when ai-backend isn't configured — safe no-op.
-  return speak(text, { dialect }).catch((e) =>
-    console.warn('[preload] audio failed', text, e?.message),
+// Pre-generated audio: just warm the HTTP cache with a HEAD-ish GET so the
+// first <createAudioPlayer> on the URL plays from the OS network cache.
+const audioUrlCache = new Set();
+function preloadAudioUrl(url) {
+  if (!url || audioUrlCache.has(url)) return Promise.resolve();
+  audioUrlCache.add(url);
+  return fetch(url, { method: 'GET' })
+    .then((res) => {
+      // Drain the body so the response is cached, but discard the data.
+      if (res.body && typeof res.body.cancel === 'function') {
+        try { res.body.cancel(); } catch (_) {}
+      }
+    })
+    .catch((e) => console.warn('[preload] audio url failed', url, e?.message));
+}
+
+function preloadAudio(word, dialect) {
+  if (!word) return Promise.resolve();
+  // Prefer the pre-generated Supabase URL when present — avoids OpenAI cost.
+  const url = word.audioUrl || word.audio || null;
+  if (url && /^https?:\/\//.test(url)) return preloadAudioUrl(url);
+  if (!word.script) return Promise.resolve();
+  // Fallback: TTS via /api/tts, cached to disk by services/audio.js.
+  return speak(word.script, { dialect }).catch((e) =>
+    console.warn('[preload] audio failed', word.script, e?.message),
   );
 }
 
@@ -54,20 +74,22 @@ export async function preloadLessonAssets(words, { dialect = 'saudi', lookahead 
 
   await Promise.allSettled([
     ...initial.map((w) => preloadImage(w?.imageUrl)),
-    ...initial.map((w) => preloadAudio(w?.script, dialect)),
+    ...initial.map((w) => preloadAudio(w, dialect)),
   ]);
 
   // Best-effort: continue preloading the tail in the background. No await.
   if (tail.length) {
     void Promise.allSettled([
       ...tail.map((w) => preloadImage(w?.imageUrl)),
-      ...tail.map((w) => preloadAudio(w?.script, dialect)),
+      ...tail.map((w) => preloadAudio(w, dialect)),
     ]);
   }
 }
 
-/** Test helper — wipes the in-memory image-preload set. Has no effect on the
- *  RN native image cache or the FileSystem TTS cache. */
+/** Test helper — wipes the in-memory image/audio-preload sets. Has no effect
+ *  on the RN native image cache, the FileSystem TTS cache, or the OS HTTP
+ *  cache. */
 export function _resetPreloadCacheForTests() {
   imageCache.clear();
+  audioUrlCache.clear();
 }

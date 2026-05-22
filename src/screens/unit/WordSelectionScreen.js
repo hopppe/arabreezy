@@ -8,6 +8,11 @@
 
 import React, { useEffect, useMemo, useState } from 'react';
 import { View, ScrollView, TouchableOpacity, Image } from 'react-native';
+import Animated, {
+  FadeIn,
+  SlideOutRight,
+  LinearTransition,
+} from 'react-native-reanimated';
 import { ScreenContainer, Text, Card, Button } from '../../components/ui';
 import { ArabicText } from '../../components/ArabicText';
 import { theme } from '../../theme';
@@ -87,45 +92,51 @@ export default function WordSelectionScreen({ navigation }) {
         style={{ flex: 1, marginTop: theme.spacing.lg }}
       >
         {shown.map((w) => (
-          <TouchableOpacity
+          <Animated.View
             key={w.id}
-            activeOpacity={0.85}
-            onPress={() => onTapKnown(w.id)}
-            accessible
-            accessibilityRole="button"
-            accessibilityLabel={`${w.english}${w.transliteration ? `, pronounced ${w.transliteration}` : ''}`}
-            accessibilityHint="Tap if you already know this word — we'll swap it for a new one"
+            entering={FadeIn.duration(280)}
+            exiting={SlideOutRight.duration(220)}
+            layout={LinearTransition.springify().damping(18).stiffness(160)}
           >
-            <Card style={{ marginBottom: theme.spacing.md, flexDirection: 'row', alignItems: 'center' }}>
-              {w.imageUrl ? (
-                <Image
-                  source={{ uri: w.imageUrl }}
-                  style={{ width: 56, height: 56, borderRadius: theme.radius.sm, marginRight: theme.spacing.md, backgroundColor: theme.colors.gray100 }}
-                  resizeMode="contain"
+            <TouchableOpacity
+              activeOpacity={0.85}
+              onPress={() => onTapKnown(w.id)}
+              accessible
+              accessibilityRole="button"
+              accessibilityLabel={`${w.english}${w.transliteration ? `, pronounced ${w.transliteration}` : ''}`}
+              accessibilityHint="Tap if you already know this word — we'll swap it for a new one"
+            >
+              <Card style={{ marginBottom: theme.spacing.md, flexDirection: 'row', alignItems: 'center' }}>
+                {w.imageUrl ? (
+                  <Image
+                    source={{ uri: w.imageUrl }}
+                    style={{ width: 56, height: 56, borderRadius: theme.radius.sm, marginRight: theme.spacing.md, backgroundColor: theme.colors.gray100 }}
+                    resizeMode="contain"
+                    accessibilityElementsHidden
+                    importantForAccessibility="no"
+                  />
+                ) : null}
+                <View style={{ flex: 1 }}>
+                  <ArabicText size="lg">{w.script}</ArabicText>
+                  {w.transliteration ? (
+                    <Text variant="small" style={{ color: theme.colors.textMuted, marginTop: 2 }}>
+                      {w.transliteration}
+                    </Text>
+                  ) : null}
+                  <Text variant="body" style={{ marginTop: 2 }}>
+                    {w.english}
+                  </Text>
+                </View>
+                <Text
                   accessibilityElementsHidden
                   importantForAccessibility="no"
-                />
-              ) : null}
-              <View style={{ flex: 1 }}>
-                <ArabicText size="lg">{w.script}</ArabicText>
-                {w.transliteration ? (
-                  <Text variant="small" style={{ color: theme.colors.textMuted, marginTop: 2 }}>
-                    {w.transliteration}
-                  </Text>
-                ) : null}
-                <Text variant="body" style={{ marginTop: 2 }}>
-                  {w.english}
+                  style={{ color: theme.colors.accent, fontSize: 20, marginLeft: theme.spacing.sm }}
+                >
+                  ✓
                 </Text>
-              </View>
-              <Text
-                accessibilityElementsHidden
-                importantForAccessibility="no"
-                style={{ color: theme.colors.accent, fontSize: 20, marginLeft: theme.spacing.sm }}
-              >
-                ✓
-              </Text>
-            </Card>
-          </TouchableOpacity>
+              </Card>
+            </TouchableOpacity>
+          </Animated.View>
         ))}
       </ScrollView>
 

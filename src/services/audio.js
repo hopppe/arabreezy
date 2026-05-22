@@ -90,6 +90,20 @@ export async function speakAndPlay(text, opts) {
   return uri;
 }
 
+// Play audio for a word object. Prefers the pre-generated Supabase URL
+// (word.audioUrl / word.audio) so lessons get zero-latency, offline-ready
+// playback once the asset is on the device's HTTP cache. Falls back to the
+// live /api/tts proxy + on-device cache when no URL is present.
+export async function playWordAudio(word, opts = {}) {
+  if (!word) return null;
+  const url = word.audioUrl || word.audio || null;
+  if (url && /^https?:\/\//.test(url)) {
+    await play(url);
+    return url;
+  }
+  return speakAndPlay(word.script, { dialect: word.dialect, ...opts });
+}
+
 export function isAudioConfigured() {
   return isAiBackendConfigured;
 }
