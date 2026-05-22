@@ -32,9 +32,9 @@ import {
 const SubscriptionContext = createContext(null);
 
 // TestFlight-only: short-circuit the entire RevenueCat flow so every user is
-// treated as Pro. Flip this back to false once storefront products + a real
-// RevenueCat key are wired and you want to actually sell the subscription.
-const LAUNCH_TESTING_BYPASS_PAYWALL = true;
+// treated as Pro. Set true again if you need to bypass the paywall during
+// TestFlight or before storefront products exist. False = real SDK runs.
+const LAUNCH_TESTING_BYPASS_PAYWALL = false;
 
 // Pricing fallbacks used in dev when no RevenueCat offering is loaded
 // (e.g. no API key, or testing the paywall UI before App Store products
@@ -42,40 +42,16 @@ const LAUNCH_TESTING_BYPASS_PAYWALL = true;
 // charged always come from the store, never from these constants.
 export const FALLBACK_PACKAGES = [
   {
-    identifier: 'fallback_annual',
-    productId: 'arabreezy_pro_annual',
-    period: 'year',
-    priceString: '$59.99',
-    pricePerMonthString: '$5.00',
-    priceNumber: 59.99,
-    trialDays: 7,
-    label: 'Annual',
-    tagline: 'Best value · save 50%',
-    sublabel: '7-day free trial, then $59.99/year',
-  },
-  {
     identifier: 'fallback_monthly',
     productId: 'arabreezy_pro_monthly',
     period: 'month',
-    priceString: '$9.99',
-    pricePerMonthString: '$9.99',
-    priceNumber: 9.99,
+    priceString: '$30',
+    pricePerMonthString: '$30',
+    priceNumber: 30,
     trialDays: 0,
     label: 'Monthly',
     tagline: null,
     sublabel: 'Billed monthly, cancel anytime',
-  },
-  {
-    identifier: 'fallback_lifetime',
-    productId: 'arabreezy_pro_lifetime',
-    period: 'lifetime',
-    priceString: '$99.99',
-    pricePerMonthString: null,
-    priceNumber: 99.99,
-    trialDays: 0,
-    label: 'Lifetime',
-    tagline: 'Pay once · keep forever',
-    sublabel: 'One-time purchase, no renewals',
   },
 ];
 

@@ -9,7 +9,7 @@ import { OnboardingProgressBar } from './OnboardingProgressBar';
 
 // TestFlight-only: skip the paywall step entirely. Restore by setting this
 // to false (and re-pointing the CTA to navigation.navigate('OnboardingPaywall')).
-const BYPASS_ONBOARDING_PAYWALL = true;
+const BYPASS_ONBOARDING_PAYWALL = false;
 
 // Duolingo-style trust beat: spell out the trial timeline so users feel they
 // won't be surprised by a charge. SOSA: 55% of 3-day trial cancellations
